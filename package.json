@@ -5,6 +5,7 @@
   "dependencies": {
     "docpad": "~6.78.1",
     "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-livereload": "~2.6.1",
     "swig": "~1.4.2"
   },
   "main": "node_modules/.bin/docpad-server",
