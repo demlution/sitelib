@@ -1,0 +1,35 @@
+---
+title: "PC网站创意库"
+layout: "library"
+isPage: "true"
+---
+
+<script type="text/template" id="case-list-tpl">
+<ul class="item-list">
+<% _.each(caseList, function (tpl) { %>
+  <li class="case-id-<%= tpl.get('id') %>">
+      <a href="<%= tpl.get('link') %>"><img src="<%= tpl.get('image') %>"></a>
+      <span><%= tpl.get('name') %></span>
+  </li>
+<% }); %>
+</ul>
+</script>
+
+<script type="text/template" id="color-list-tpl">
+    <ul class="color-list">
+        <% _.each(colorList, function (color) { %>
+        <li>
+            <a>
+                <span style="background:<"></span>
+                <%= color.get('name') %>
+            </a>
+        </li>
+        <% }); %>
+    </ul>
+</script>
+<div id="item-wrap">
+    <h1>模板创意库</h1>
+</div>
+
+<div id="color-wrap">
+</dvi>
