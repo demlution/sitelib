@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/*Copyright (c) 2012, demlution. All rights reserved.
+*   version: 1.0.0
+*   2012.07.15
+**/
+/*
+ * 将具有默认margin和padding的标记置零
+ * 所有标记的margin和padding都在使用时具体定义
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0px; padding:0px; border:0px; font-size:100%; vertical-align:baseline; background:transparent }
+
+/*
+ * html\body标记样式定义
+ * 全局的字体颜色、背景色和文本对齐设置
+ */
+html{color:#444444;background:#fff;font: 12px/1.5 tahoma, \5fae\8f6f\96c5\9ed1, \5b8b\4f53, Arial, Helvetica, sans-serif;}
+body{color:#444444;background:#fff;text-align:left;}
+/*
+ * 定义图片边框
+ * 当图片作为链接内容被填充时，会有默认边框出现，重定义掉
+ * 初始化图片文字对齐
+ */
+img{border:0 none;vertical-align: middle;}
+
+/*
+ * 清除ul列表标记的样式
+ * ul列表更多的用在不需要列表前置符号的样式里
+ */
+ul, li{list-style-type: none;}
+
+/*
+ * 定义默认的链接样式
+ * 仅仅是作为默认样式提供，可以在各自的实例中覆盖掉
+ */
+a{color:#444444;text-decoration: none;}
+
+a:hover{text-decoration: underline;color:#ff8c05}
+
+/* 隐藏元素 */
+
+	/*
+	 * 隐藏元素
+	 * visibility可以隐藏元素，但是还是会在布局中占位
+	 */
+	.invisible{visibility:hidden;}
+
+	/*
+	 * 从页面布局上隐藏元素
+	 * hidden从布局上隐藏元素
+	 */
+	.hidden{display: none;}
+
+/*
+ * 定义浮动样式
+ */
+.ll, .left { float:left }
+.rr, .right { float:right }
+
+/*
+ * 定义清除浮动样式
+ */
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix {
+	display:inline-block;
+}
+	/* Hides from IE-mac \*/* html .clearfix {
+		height:1%;
+	}
+.clearfix {
+	display:block;
+}
+	/* End hide from IE-mac */
+/*
+ * 定义圆角边框
+ */
+.f-s, .f-e {
+    background: none repeat scroll 0 0 #e2e2e2;
+    clear: both;
+    height: 1px;
+    margin: 0 1px;
+    overflow: hidden;
+}
+.f-m {
+    border-color: #e2e2e2;
+    border-style: solid;
+    border-width: 0 1px;
+}
+
+.f-1,.f-2,.f-3 {overflow:hidden;display:block;height:1px;background: #fff;}
+.f-1 { margin: 0 3px; background: #ebebeb; }
+.f-2 { margin: 0 2px; border-right: 2px solid #ebebeb; border-left: 2px solid #ebebeb; }
+.f-3 { margin: 0 1px; border-right: 1px solid #ebebeb; border-left: 1px solid #ebebeb; }
+
+/* 基础布局组 */
+/* @group basic layout */
+.content,.tip-cot,.header,.nav_c,.fot-hep,.fot-cop {margin-left:auto;margin-right:auto;width:1000px;}
+
+/* 左右结构布局 -*/
+.main{ float:left; width:100%; min-height:1px;}
+.main-wrap{ margin-left:220px; display:block; zoom:1; }
+.sidebar{ margin-left:-1000px; width:202px; float:left; display:block; zoom:1;}
+
+.col_main { width:740px; float:left;}
+.col_sub { width:250px; float:right;margin-left:10px;}
+
+/* The following is defined color class.
+--------------------------------------------------------------------------------------------------*/
+.black, .black a { color:#000 }
+.black3, .black3 a { color:#333 }
+.black6, .black6 a { color:#666 }
+.black9, .black9 a { color:#999 }
+.green, .green a { color:#174100 }
+.green1, .green1 a { color:#2f7300 }
+.green2, .green2 a { color:#008000 }
+.blue, .blue a { color:#0066CC }
+.blue1, .blue1 a { color:#002777 }
+.blue2, .blue2 a { color:#255266 }
+.blue3, .blue3 a { color:#046ebd }
+.blue4, .blue4 a { color:#0033ff }
+.orange, .orange a { color:#f60 }
+.red, .red a { color:#F00; }
+.red1, .red1 a { color:#C00; }
+.red2, .red2 a { color:#900; }
+.pink1,.pink1 a { color:#d3015a; }
+.pink2,.pink2 a { color:#fe577f; }
+.org:link, .org:visited, .org:active {color:#f60;text-decoration:none;}
+.org:hover {color:#f60;text-decoration:underline;}
+
+/* The following is defined form class.
+--------------------------------------------------------------------------------------------------*/
+input.txt { border:1px #ccc solid;padding:0 0 0 5px;height:24px;line-height:24px;}
+input.txt20 { border:1px #ccc solid;padding:0 0 0 5px;height:20px;line-height:20px;}
+select.txt {border:1px #ccc solid;padding:1px 0;}
+textarea.txt {vertical-align:top; border:1px #ccc solid;}
+/* The following is a shorthand property.
+--------------------------------------------------------------------------------------------------*/
+.mt5 { margin-top:5px }
+.mt8{ margin-top:8px;}
+.mt10 { margin-top:10px }
+.mt15 { margin-top:15px }
+.mt20 { margin-top:20px }
+.mb5 { margin-bottom:5px }
+.mb8{ margin-bottom:8px;}
+.mb10 { margin-bottom:10px }
+.mb15 { margin-bottom:15px }
+.mb20 { margin-bottom:20px }
+.mr5 { margin-right:5px;}
+.mr8 { margin-right:8px;}
+.mr10 { margin-right:10px;}
+.mr15 { margin-right:15px;}
+.mr20 { margin-right:20px;}
+.ml5 { margin-left:5px;}
+.ml8 { margin-left:8px;}
+.ml10 { margin-left:10px;}
+.ml15 { margin-left:15px;}
+.ml20 { margin-left:20px;}
+.t_c { text-align:center }
+.t_l { text-align:left }
+.t_r { text-align:right }
+.block{ display:block; overflow:hidden; zoom:1;}
+.sont { font-family:\5b8b\4f53;}
+/*
+ * 公用样式组
+ * @group basic repeat */
+/* 图片载入
+--------------------------------------------------------------------------------------------------*/
+.tip,.nav-li li,.search-nav li,.bus-news .hd,.best-com .hd,.new-dem .hd,.new-pro .hd,.new-ser .hd,.fri-link .hd,.footer{ background-image:url(../images/dm-shadow.gif);}
+.bus-t-news li{ background-image:url(../images/point.gif);}
+
+
+/* tips
+--------------------------------------------------------------------------------------------------*/
+.tip { height:32px;line-height:30px; background-repeat:repeat-x; background-position:0 0;}
+.tip-cot {}
+.tc-left { float:left;}
+.tc-right { float:right;}
+
+
+
+
+/* header
+--------------------------------------------------------------------------------------------------*/
+.header { height:102px; position:relative;}
+.logo { width:295px;height:90px; background:url(../images/logo.gif) no-repeat 0 0; display:block; text-indent:-99999px; position:absolute;top:5px;left:10px;}
+
+
+.search {background:url(../images/s-bg.gif) no-repeat 0 bottom; position:absolute; width:635px;height:30px;right:20px;top:50px;}
+.search-pos { position:relative;height:30px;}
+.search-nav {height:28px;line-height:28px; position:absolute;top:-28px;left:5px;}
+.search-nav li {padding:0 10px;background-position:-2px -100px; background-repeat:no-repeat; float:left; cursor:pointer;}
+.search-nav li.last { background:none;}
+.search-nav li.current { font-weight:bold;color:#467bc1;}
+.search-bar {height:27px;padding:3px 0 0 7px;}
+.sec-ipt { width:495px; border:0;height:22px;line-height:22px;}
+.sec-btn { background:none; border:0; width:110px; cursor:pointer; }
+.sec_cue{width: 352px; cursor:text;height: 22px;line-height: 22px;padding: 0 4px;font-size: 12px;position: absolute;left: 6px;top: 4px;color: #999;}
+
+.goin { background:url(../images/in-bg.gif) no-repeat 0 0;height:39px;}
+.goin a { color:#fff; font-size:14px; font-weight:bold; line-height:39px; display:block; text-align:center;}
+.goin .go { float:left; width:138px;}
+.goin .in { float:right; width:110px;}
+
+/* nav
+--------------------------------------------------------------------------------------------------*/
+.nav {height:36px; overflow:hidden;}
+.nav_c { background:#467bc1;height:36px;}
+.nav-li { float:left;padding-left:20px;}
+.nav-li li {padding:0 20px; float:left;line-height:34px; color:#fff; background-position:0 -62px; background-repeat:no-repeat;}
+.nav-li li.last { background:none;}
+.nav-li li a { color:#fff; font-weight:bold;display:block;line-height:34px; font-size:14px;}
+.nav-quicklink { float:right;line-height:36px;}
+.nav-quicklink li {padding:0 10px; float:right;}
+.nav-quicklink li a { font-size:12px; color:#fff;}
+
+
+/******　分页样式　******/
+.rs_pages{ padding:5px; text-align:right;}
+.rs_pages a, .rs_pages span{ border:#dedede solid 1px; padding:2px 7px; margin:0 2px; background:#fff; zoom:1; display:inline-block;}
+.rs_pages .page_current{ border:0; font-weight:bold; color:#fe5f7f;}
+.rs_pages .page_break{ border:0;}
+.rs_pages em{ font-style:normal;}
+.rs_pages .inp{ border:#dedede solid 1px; width:40px; padding:3px; height:15px;}
+.rs_pages .page_previous i.pages{ background-position:0 5px; margin:0 3px; zoom:1;}
+.rs_pages .page_next i.pages{ background-position:-13px 5px; margin-left:5px; zoom:1;}
+.rs_pages .page_previous i.pages_{ background-position:0 -10px; margin:0 3px; zoom:1;}
+.rs_pages .page_next i.pages_{ background-position:-13px -10px; margin-left:5px; zoom:1;}
+.rs_pages .but{ background-position:-23px 0; width:44px; height:21px; text-align:center; line-height:21px; font-weight:bold; color:#fff; border:0; cursor:pointer; zoom:1;}
+/* pagination css from Bootstrap */
+.pagination {height: 36px;margin: 18px 0;}
+.pagination ul {display: inline-block;*display: inline;
+/* IE7 inline-block hack */
+*zoom: 1;margin-left: 0;margin-bottom: 0;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);}
+.pagination li {display: inline;}
+.pagination a {float: left;padding: 0 14px;line-height: 34px;text-decoration: none;border: 1px solid #ddd;border-left-width: 0;}
+.pagination a:hover,.pagination .active a {background-color: #f5f5f5;}
+.pagination .active a {color: #999999;cursor: default;}
+.pagination .disabled span,.pagination .disabled a,.pagination .disabled a:hover {color: #999999;background-color: transparent;cursor: default;}
+.pagination li:first-child a {border-left-width: 1px;-webkit-border-radius: 3px 0 0 3px;-moz-border-radius: 3px 0 0 3px;border-radius: 3px 0 0 3px;}
+.pagination li:last-child a {-webkit-border-radius: 0 3px 3px 0;-moz-border-radius: 0 3px 3px 0;border-radius: 0 3px 3px 0;}
+.pagination-centered {text-align: center;}
+.pagination-right {text-align: right;}
+
+
+/* footer
+--------------------------------------------------------------------------------------------------*/
+.footer {margin-top:25px;background-position:0 -129px; background-repeat:repeat-x; line-height:22px;}
+.fot-hep { height:160px; background:url(../images/logo_black.gif) no-repeat 10px 30px;}
+.fh-all {padding:20px 0 0 300px;}
+.fh-all li { float:left; width:110px;padding:0 0 0 50px;}
+.fh-all li.fh-cotact {width:330px}
+.fh-all li dt { font-weight:bold;color:#444;}
+.fot-cop { text-align:center;padding:15px 0 10px 0; border-top:1px #f0f0f0 solid;line-height:22px;}
+
+.fot-safe {margin: 0 auto;padding: 10px 0;width: 980px; text-align:center;}
+.fot-safe a {background:url(../images/fotsafe.gif) no-repeat 0 0;display: inline-block;margin: 0 10px;vertical-align: middle;}
+.fot-safe .hh_footer_img1 {background-position: 0 -9px;height: 31px;width: 26px;}
+.fot-safe .hh_footer_img2 {background-position:-44px -8px;height: 31px;width: 36px;}
+.fot-safe .hh_footer_img3 {background-position:-95px -5px;height: 31px;width: 70px;}
+.fot-safe .hh_footer_img4 {background-position:-180px -7px;height: 31px;width: 32px;}
+.fot-safe .hh_footer_img5 {background-position:-230px -7px;height: 31px;width: 30px;}
+.fot-safe .hh_footer_img6 {background-position:-278px -6px;height: 31px;width: 28px;}
+.fot-safe .hh_footer_img7 {background-position:-324px -7px;height: 31px;width: 78px;}
+.fot-safe .hh_footer_img8 {background-position:-415px -8px;height: 31px;width: 30px;}
+.fot-safe .hh_footer_img9 {background-position:-464px -9px;height: 31px;width: 32px;}
+/*no-record*/
+.no-recnote { padding:10px 25px;background:url(../images/clew-icon.png) no-repeat 6px 15px;vertical-align:middle;}
