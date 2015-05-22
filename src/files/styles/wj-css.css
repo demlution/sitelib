@@ -52,20 +52,44 @@
 .case2 .case_w  .y{width:121px;height:61px;top:0px;position:absolute;z-index:3;display:none;left:60px; text-align:center; color:#fff;}
 .case2 .case_w  .y:hover { text-decoration:none;}
 
-.img-items{}
-.img-items .item{width:202px; background:#fff; border: 1px solid #ddd; overflow:hidden; margin-bottom:20px;}
+
+/* 创意库 */
+.tipcolor { height:6px; background:#007acf;}
+.tipcolor .tipc1 { background:#ff7800; height:6px; width:25%; float:left;}
+.tipcolor .tipc2 { background:#787878; height:6px; width:25%; float:left;}
+.tipcolor .tipc3 { background:#007acf; height:6px; width:25%; float:left;}
+.tipcolor .tipc4 { background:#37970d; height:6px; width:25%; float:left;}
+
+.cy-header{width:100%;min-width:1004px;height:90px; background:#fff; border-bottom:5px solid #e3e7e9;}
+.cy-hcot {width: 1200px;margin: 0 auto;position: relative;height: 90px;}
+.cy-hcot h1 .cy-logo {font-size: 32px;line-height: 90px;position:absolute;}
+
+.cy-hcot .cy-nav{position: absolute;bottom: 10px;right: 0;}
+.cy-hcot .cy-nav li { float:left;padding:0 5px; font-size:16px;_width:130px; }
+.cy-hcot .cy-nav li a {color:#444; display:block; line-height:35px;padding:0 0px 10px 15px; font-size:16px;}
+.cy-hcot .cy-nav li a span { display:block;padding:0 17px 0 0; height:40px; cursor:pointer;}
+.cy-hcot .cy-nav li a:hover {background:url(../images/navbl.gif) no-repeat 0 2px; color:#007acf; text-decoration:none;}
+.cy-hcot .cy-nav li a:hover span { background:url(../images/navbr.gif) no-repeat right 2px;}
+.cy-hcot .cy-nav li.on a,.cy-hcot .cy-nav li.on a:hover {background:url(../images/pnavbl.gif) no-repeat 0 2px; color:#fff; text-decoration:none;}
+.cy-hcot .cy-nav li.on a span,.cy-hcot .cy-nav li.on a:hover span { background:url(../images/pnavbr.gif) no-repeat right 2px;}
+
+
+.searchwrap {padding:10px 0;}
+.searchbox { background:#f3f3f3;margin-top:0;}
+.searchwrap .searchli {padding:5px 0;border-bottom: 1px #ddd solid;padding:5px 0 5px 80px;line-height: 28px;}
+.searchwrap b { float:left;margin-left:-60px; display:inline;}
+.searchwrap li {  float:left;display: inline-block;padding:0 10px;}
+.searchwrap a span {padding:2px 2px; line-height:1px;height:4px; overflow:hidden; width:4px; display:block; float:left;margin:10px 5px 0 0;}
+.searchwrap li.active a{font-weight:bold; color:#FF7800}
+
+.wrapbg {background: #fafafa;}
+.img-items{padding:20px 0;}
+.img-items .item{width:202px; background:#fff; border: 1px solid #ddd; overflow:hidden; margin-bottom:20px;text-align: center;}
 .img-items .item .item-img{display:block; margin-bottom:15px;}
 .img-items .item .item-content{}
 .img-items .item .item-content .item-name{margin: 15px 20px; height: 42px; overflow: hidden;}
-.img-items .item .item-content .item-price{margin: 10px 20px; height: 22px; line-height: 22px; color: #f00;}
-.img-items .item .item-content .item-price .item-cart{width:19px; height:22px; background:url(../images/icon02.png) no-repeat left center;}
-.img-items .item .meta{margin: 0 8px; height: 30px; line-height: 30px; font-size: 12px; border-top: 1px solid #efefef;}
-.img-items .item .meta .style{float:left;}
-.img-items .item .meta .style .style-tag {padding: 0 0 0 20px; background: url(../images/style-icon1.png) no-repeat 0 50%; display:inline-block;}
-.img-items .item .meta .start {width: 70px; border-left: 1px solid #ddd; text-align: center; float:right;}
-.img-items .item .meta .start .start-num {padding-left: 20px;background: url(../images/splb_03.png) no-repeat 0 50%; display:inline-block;}
 .img-items .item:hover .item-img img{opacity:.5;}
-
+.img-items .item .item-name {text-align:center;}
 
 .subMenu { height:38px; background:#f6f6f6; border-bottom:2px #fea500 solid; text-align:center;}
 .subMenu a { font-size:18px; font-weight:bold; padding:0 20px; line-height:38px; display:inline-block;}
@@ -171,11 +195,7 @@
 .wj-mbcat li{ padding:0 0 0 17px;background:url(../images/icon_next.gif) no-repeat 0 center; height:24px;line-height:24px;}
 .wj-mbcat li.active a { font-weight:bold; color:#ff7800}
 
-.color-list { background:#f3f3f3;padding:10px 0 10px 80px;margin-top:0;}
-.color-list b { float:left;margin-left:-60px; display:inline;}
-.color-list li { width:60px; float:left;}
-.color-list a span {padding:2px 2px; line-height:1px;height:4px; overflow:hidden; width:4px; display:block; float:left;margin:5px 5px 0 0;}
-.color-list li.active a{font-weight:bold; color:#FF7800}
+
 
 /* 类型样式 */
 .klass-list { background:#f3f3f3;padding:10px 0 0 80px;margin-top:10px;}

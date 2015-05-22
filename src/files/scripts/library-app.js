@@ -102,7 +102,7 @@ App.views.CaseListView = Backbone.View.extend({
 			$(that.$el).append($(listHtml));
 			$(that.$el).masonry({
 				itemSelector: '.item',
-				columnWidth: 210,
+				columnWidth: 240,
 				gutterWidth: 20,
 	            isAnimated: true,
 			});
@@ -114,5 +114,5 @@ App.views.CaseListView = Backbone.View.extend({
 
 var colorView = new App.views.ColorView();
 var appView = new App.views.CaseListView();
-colorView.render();
+// colorView.render();
 appView.render();

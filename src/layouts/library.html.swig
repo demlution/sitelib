@@ -11,16 +11,25 @@
     {{ getBlock("styles").add(["/styles/dm-base.css"]).add(["/styles/wj-css.css"]).add(["/styles/style.css"]).toHTML() }}
 </head>
 <body>
-    <div class="wp-welcome">
-        <div class="wp-welcome-content">
-            <div class="wp-hello">嗨，欢迎来到担路云官网！</div>
-            <div class="wp-top-phone_login">全国咨询热线：400-855-5051<a href="http://www.demlution.com/account/login/" class="wp-top-login">登陆</a>&nbsp;/&nbsp;
-                <span class="animation-color"><a class="font_color" href="http://www.demlution.com/account/signup/">免费注册</a></span>&nbsp;/&nbsp;
-                <a href="http://www.danlu.net/agent/">
-                    <img src="images/ZC.gif">申请代理商</a>
-            </div>
+<div class="tipcolor"><div class="tipc"><div class="tipc1"></div><div class="tipc2"></div><div class="tipc3"></div><div class="tipc4"></div></div></div>
+<div class="cy-header">
+    <div class="cy-hcot">
+        <h1>
+            <a href="/" class="cy-logo">创意库</a>
+        </h1>
+        <div class="cy-nav">
+            <ul>
+            <li><a href="http://www.danlu.net/case/1/" class="on"><span>普通类</span></a></li>
+            <li><a href="http://www.danlu.net/case/2/"><span>精品类</span></a></li>
+            <li><a href="http://www.danlu.net/case/3/"><span>商城类</span></a></li>
+            <li><a href="http://www.danlu.net/case/4/"><span>平台类</span></a></li>
+            <li><a href="http://www.danlu.net/case/5/"><span>论坛类</span></a></li>
+            <li><a href="http://www.danlu.net/case/10/"><span>定制型</span></a></li>
+            </ul>
         </div>
     </div>
+</div>
+
 	{{ document.content|safe }}
 	{{ getBlock("scripts").add(["/vendor/jquery.js", "/vendor/masonry.pkgd.js", "/vendor/underscore.js", "/vendor/backbone.js", "/scripts/library-app.js", "/scripts/scripts.js"]).toHTML() }}
 </body>
