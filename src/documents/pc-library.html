@@ -20,9 +20,10 @@ isPage: "true"
 
 <script type="text/template" id="color-list-tpl">
     <ul>
+        <li><a href="#/t/<%= options.klass %>/<%= options.category %>/0">全部</a></li>
         <% _.each(colorList, function (color) { %>
         <li>
-            <a>
+            <a href="#/t/<%= options.klass %>/<%= options.category %>/<%= color.get('id') %>">
                 <span style="background:<%= color.get('code') %>">&nbsp;</span>
                 <%= color.get('name') %>
             </a>
@@ -34,9 +35,9 @@ isPage: "true"
 
 <script type="text/template" id="category-list-tpl">
     <ul>
-        <li><a>全部</a></li>
+        <li><a href="#/t/<%= options.klass %>/0/<%= options.color %>">全部</a></li>
         <% _.each(categoryList, function (category) { %>
-        <li><a><%= category.get('name') %></a></li>
+        <li><a href="#/t/<%= options.klass %>/<%= category.get('id') %>/<%= options.color %>"><%= category.get('name') %></a></li>
         <% }); %>
     </ul>
 </script>
@@ -55,6 +56,8 @@ isPage: "true"
       </div>
     </div>
   </div>
-  <div class="img-items" id="item-wrap"></div>
+  <div class="img-items" id="item-wrap">
+    <h1>List</h1>
+  </div>
   </div>
 </div>

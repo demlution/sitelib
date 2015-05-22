@@ -1,7 +1,17 @@
 App = {
 	models:{},
 	collections:{},
-	views:{}
+	views:{},
+	options: {
+		klass:0,
+		category:0,
+		color:0,
+		limit:20,
+		offset:0
+	},
+	dog: {
+		masonry: false
+	}
 }
 
 
@@ -26,7 +36,20 @@ App.models.Klass = Backbone.Model.extend({
 
 App.collections.CaseCollection = Backbone.Collection.extend({
 	// model: App.models.Case,
-	url: API_ROOT + 'templatecase',
+	initialize: function(models, options) {
+		this.options = options;
+		_.extend(App.options, options);
+	},
+	url: function() {
+		var api_url = "templatecase?";
+		if (this.options) {
+			_.each(this.options, function(val, key) {
+				api_url += key + "=" + val + "&";
+			})
+			return API_ROOT + api_url;	
+		}
+		return API_ROOT + 'templatecase';	
+	},
 	model: App.models.TemplateCase,
 	parse: function(response) {
 		return response.objects;
@@ -103,7 +126,7 @@ App.views.ColorView = Backbone.View.extend({
 		this.colorCollection.fetch({success: function(colorList) {
 			var colorList = that.colorCollection.models;
 			var template = _.template($('#color-list-tpl').html());
-			var colorHtml = template({colorList: colorList, _:_});
+			var colorHtml = template({colorList: colorList, options: App.options, _:_});
 			$(that.$el).append($(colorHtml));
 		}});
 		return this;
@@ -127,7 +150,7 @@ App.views.CategoryView = Backbone.View.extend({
 		this.categoryCollection.fetch({success: function(categoryList) {
 			var categoryList = that.categoryCollection.models;
 			var template = _.template($('#category-list-tpl').html());
-			var categoryHtml = template({categoryList: categoryList, _:_});
+			var categoryHtml = template({categoryList: categoryList, options: App.options, _:_});
 			$(that.$el).append($(categoryHtml));
 		}});
 		return this;
@@ -148,6 +171,7 @@ App.views.CaseListView = Backbone.View.extend({
 	},
 
 	render: function() {
+		console.log("start render")
 		this.loadCase();
 		return this;
 	},
@@ -156,13 +180,15 @@ App.views.CaseListView = Backbone.View.extend({
 		var that = this;
 		this.isLoading = true;
 		this.caseCollection.fetch({success: function(caseList) {
-			console.log(caseList);
 			var caseList = that.caseCollection.models;
 			var template = _.template($('#case-list-tpl').html());
-			var listHtml = template({caseList: caseList, _:_})
-
-			$(that.$el).append($(listHtml));
-			$(that.$el).masonry({
+			var listHtml = template({caseList: caseList, options: App.options, _:_});
+			if (App.dog.masonry) {
+				$(that.$el).masonry('destroy');
+			} else {
+				App.dog.masonry = true;
+			}
+			$(that.$el).html($(listHtml)).masonry({
 				itemSelector: '.item',
 				columnWidth: 240,
 				gutterWidth: 20,
@@ -176,8 +202,59 @@ App.views.CaseListView = Backbone.View.extend({
 
 var colorView = new App.views.ColorView();
 var categoryView = new App.views.CategoryView();
-
 var appView = new App.views.CaseListView();
+
 colorView.render();
 categoryView.render();
 appView.render();
+
+var Workspace = Backbone.Router.extend({
+
+	initialize: function() {
+		console.log('start router');
+		this.route("/");
+	},
+
+	routes: {
+		"": "list",
+		"t/:klass": "list",
+		"t/:klass/:category": "list",
+		"t/:klass/:category/:color":                 "list",    // #help
+		"search/:query/p:page": "search"   // #search/kiwis/p7
+	},
+
+	index: function() {
+
+		appView.render();
+	},
+
+	list: function(klass, category, color) {
+		var options = {}
+		if (klass!=0)
+			options.klass = klass
+		if (category!=0)
+			options.category = category
+		if (color!=0)
+			options.color = color
+
+		appView.caseCollection = new App.collections.CaseCollection([], options);
+		var caseList = appView.caseCollection.fetch({success: function(caseList) {
+			appView.render();
+
+		}});
+		console.log('start list');
+	},
+
+	search: function(query, page) {
+	console.log('startsearch');
+	}
+
+});
+
+
+$(function() {
+	router = new Workspace();
+	Backbone.history.start();
+})
+
+
