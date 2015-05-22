@@ -94,13 +94,18 @@ App.views.CaseListView = Backbone.View.extend({
 		var that = this;
 		this.isLoading = true;
 		this.caseCollection.fetch({success: function(caseList) {
-			$(that.$el).append($('<h1>List</h1>'));
+			console.log(caseList);
 			var caseList = that.caseCollection.models;
-
 			var template = _.template($('#case-list-tpl').html());
 			var listHtml = template({caseList: caseList, _:_})
 
 			$(that.$el).append($(listHtml));
+			$(that.$el).masonry({
+				itemSelector: '.item',
+				columnWidth: 210,
+				gutterWidth: 20,
+	            isAnimated: true,
+			});
 			that.is_loading = false;
 		}})
 	}

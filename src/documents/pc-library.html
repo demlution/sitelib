@@ -4,16 +4,17 @@ layout: "library"
 isPage: "true"
 ---
 
+
+
 <script type="text/template" id="case-list-tpl">
-<ul class="item-list">
 <% _.each(caseList, function (tpl) { %>
-  <li class="case-id-<%= tpl.get('id') %>">
+  <div class="item case-id-<%= tpl.get('id') %>">
       <a href="<%= tpl.get('link') %>"><img src="<%= tpl.get('image') %>"></a>
       <span><%= tpl.get('name') %></span>
-  </li>
+  </div>
 <% }); %>
-</ul>
 </script>
+
 
 <script type="text/template" id="color-list-tpl">
     <ul class="color-list">
@@ -27,9 +28,11 @@ isPage: "true"
         <% }); %>
     </ul>
 </script>
-<div id="item-wrap">
-    <h1>模板创意库</h1>
+
+
+<div class="img-items" id="item-wrap">
 </div>
 
 <div id="color-wrap">
+
 </dvi>

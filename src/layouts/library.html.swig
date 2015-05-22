@@ -8,6 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="renderer" content="webkit">
 	{{ getBlock("styles").add(["/styles/cloud.css"]).toHTML() }}
+    {{ getBlock("styles").add(["/styles/dm-base.css"]).add(["/styles/wj-css.css"]).add(["/styles/style.css"]).toHTML() }}
 </head>
 <body>
     <div class="wp-welcome">
@@ -21,8 +22,7 @@
         </div>
     </div>
 	{{ document.content|safe }}
-
-	{{ getBlock("scripts").add(["/vendor/jquery.js", "/vendor/underscore.js", "/vendor/backbone.js", "/scripts/library-app.js"]).toHTML() }}
+	{{ getBlock("scripts").add(["/vendor/jquery.js", "/vendor/masonry.pkgd.js", "/vendor/underscore.js", "/vendor/backbone.js", "/scripts/library-app.js", "/scripts/scripts.js"]).toHTML() }}
 </body>
 
 </html>

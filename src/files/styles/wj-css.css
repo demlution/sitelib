@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* 网建首页
 --------------------------------------------------------------------------------------------------*/
 .wj-body { background:url(../images/wj-mbg.gif) repeat-x center 0 #fff;}
@@ -44,7 +43,7 @@
 .laybox .bd ol .c5 { background:#aedb43;}
 
 .case2{margin-top:20px;position:relative;}
-.case2 .case_f{position:absolute;top:0px;left:0px;}
+.case2 .case_f{}
 .case2 .case_body{width:240px;height:215px;background:url(../images/bg_case_f.png) center bottom no-repeat;position:relative;}
 .case2 .case_w{display:block;width:200px;height:145px;padding:20px;background:url(../images/bg_case.png) no-repeat;position:absolute;bottom:14px;left:0px;}
 .case2 .case_w .fire{background:#000;opacity:0.5;filter:alpha(opacity=50);position:absolute;top:20px;left:20px;width:200px;height:148px;z-index:2;display:none;}
@@ -52,6 +51,21 @@
 .case2 .case_w .case_img img { }
 .case2 .case_w  .y{width:121px;height:61px;top:0px;position:absolute;z-index:3;display:none;left:60px; text-align:center; color:#fff;}
 .case2 .case_w  .y:hover { text-decoration:none;}
+
+.img-items{}
+.img-items .item{width:202px; background:#fff; border: 1px solid #ddd; overflow:hidden; margin-bottom:20px;}
+.img-items .item .item-img{display:block; margin-bottom:15px;}
+.img-items .item .item-content{}
+.img-items .item .item-content .item-name{margin: 15px 20px; height: 42px; overflow: hidden;}
+.img-items .item .item-content .item-price{margin: 10px 20px; height: 22px; line-height: 22px; color: #f00;}
+.img-items .item .item-content .item-price .item-cart{width:19px; height:22px; background:url(../images/icon02.png) no-repeat left center;}
+.img-items .item .meta{margin: 0 8px; height: 30px; line-height: 30px; font-size: 12px; border-top: 1px solid #efefef;}
+.img-items .item .meta .style{float:left;}
+.img-items .item .meta .style .style-tag {padding: 0 0 0 20px; background: url(../images/style-icon1.png) no-repeat 0 50%; display:inline-block;}
+.img-items .item .meta .start {width: 70px; border-left: 1px solid #ddd; text-align: center; float:right;}
+.img-items .item .meta .start .start-num {padding-left: 20px;background: url(../images/splb_03.png) no-repeat 0 50%; display:inline-block;}
+.img-items .item:hover .item-img img{opacity:.5;}
+
 
 .subMenu { height:38px; background:#f6f6f6; border-bottom:2px #fea500 solid; text-align:center;}
 .subMenu a { font-size:18px; font-weight:bold; padding:0 20px; line-height:38px; display:inline-block;}

@@ -234,6 +234,6 @@
                 <!--online_windows end-->
             </div>
         </div>
-        {{ getBlock("scripts").add(["/vendor/jquery.js","/scripts/script.js", "/scripts/ss-header.js"]).toHTML() }}
+        {{ getBlock("scripts").add(["/vendor/jquery.js","/vendor/jquery.masonry.min.js","/scripts/scripts.js", "/scripts/ss-header.js"]).toHTML() }}
     </body>
 </html>
