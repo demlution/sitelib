@@ -26,13 +26,13 @@ isPage: "true"
         <li <% if (0 == options.color) { %>
           class="active"
             <% } %>
-            ><a href="#/t/<%= options.klass %>/<%= options.category %>/0">全部</a></li>
+            ><a href="#/t/k<%= options.klass %>/c<%= options.category %>/o0">全部</a></li>
         <% _.each(colorList, function (color) { %>
         <li <% if (color.get('id') == options.color) { %>
           class="active"
             <% } %>
           >
-            <a href="#/t/<%= options.klass %>/<%= options.category %>/<%= color.get('id') %>">
+            <a href="#/t/k<%= options.klass %>/c<%= options.category %>/o<%= color.get('id') %>">
                 <span style="background:<%= color.get('code') %>">&nbsp;</span>
                 <%= color.get('name') %>
             </a>
@@ -48,12 +48,12 @@ isPage: "true"
         <li <% if (0 == options.category) { %>
           class="active"
             <% } %>
-            ><a href="#/t/<%= options.klass %>/0/<%= options.color %>">全部</a></li>
+            ><a href="#/t/k<%= options.klass %>/c0/o<%= options.color %>">全部</a></li>
         <% _.each(categoryList, function (category) { %>
         <li<% if (category.get('id') == options.category) { %>
           class="active"
             <% } %>
-          ><a href="#/t/<%= options.klass %>/<%= category.get('id') %>/<%= options.color %>"><%= category.get('name') %></a></li>
+          ><a href="#/t/k<%= options.klass %>/c<%= category.get('id') %>/o<%= options.color %>"><%= category.get('name') %></a></li>
         <% }); %>
     </ul>
 </script>
@@ -67,12 +67,12 @@ isPage: "true"
         <li <% if (parent == options.klass) { %>
           class="active"
             <% } %>
-            ><a href="#/t/<%= parent %>/<%= options.category %>/<%= options.color %>">全部</a></li>
+            ><a href="#/t/k<%= parent %>/c<%= options.category %>/o<%= options.color %>">全部</a></li>
         <% _.each(klassList, function (klass) { %>
         <li<% if (klass.id && (klass.id == options.klass)) { %>
           class="active"
             <% } %>
-          ><a href="#/t/<%= klass.id %>/<%= options.category %>/<%= options.color %>"><%= klass.name %></a></li>
+          ><a href="#/t/k<%= klass.id %>/c<%= options.category %>/o<%= options.color %>"><%= klass.name %></a></li>
         <% }); %>
     </ul>
 <% } %>

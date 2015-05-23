@@ -100,7 +100,7 @@ App.views.KlassView = Backbone.View.extend({
         $('.cy-nav ul li').each(function(index, elem) {
 
         	var href = $(elem).find('a').attr('href');
-        	var cId = parseInt(href.split('/').reverse()[0]);
+        	var cId = parseInt(href.split('/').reverse()[0].slice(1));
         	if (cId == that.parent) {
         		$(elem).addClass('on');
         	}
@@ -113,8 +113,11 @@ App.views.KlassView = Backbone.View.extend({
 		this.collection.fetch({cache:true, success: function(klassList) {
 			var klassList = that.collection.models;
 			var template = _.template($('#klass-list-tpl').html());
-			var currentKlass = that.collection.get({id:App.options.klass})
-			if (currentKlass.get('parent')) {
+			var currentKlass = that.collection.get({id:App.options.klass});
+			if (currentKlass == undefined) {
+				klassList = [];
+				that.parent = null;
+			}else if (currentKlass.get('parent')) {
 				klassList = that.collection.get({id: currentKlass.get('parent')}).get('children');
 				that.parent = currentKlass.get('parent');
 			} else {
@@ -193,7 +196,6 @@ App.views.CaseListView = Backbone.View.extend({
 		this.collection = new App.collections.CaseCollection();
 		this.caseTemplate = $('#case-list-tpl').html();
 		//this.listenTo(this.collection, "change reset add remove all", this.layout);
-		console.log(this.filters);
 	},
 
 	render: function() {
@@ -230,21 +232,23 @@ App.views.CaseListView = Backbone.View.extend({
 		var pageHtml = pageTemplate({meta:that.collection.meta, getPageUrl:that.getPageUrl, pager:pager});
 		$('#pagination-wrap').html(pageHtml);
 		setTimeout(function(){
-			console.log('start masonry layout');
 			$(that.$el).masonry();
 		}, 500)
 
-		console.log('start view render');
-
 		that.is_loading = false;
-		//}})
 	},
+
 	getPageUrl: function(page) {
-		var pageUrl;
-		if (window.location.hash.split('/').reverse()[1] != "p") {
-			pageUrl = window.location.hash  + '/p/' + page;
-		} else {
-			pageUrl = window.location.hash.split('/').slice(0, -2).join('/') + '/p/' + page ;
+		var pageUr,
+		hash = window.location.hash;
+
+		if (hash == ""){
+			pageUrl = '#/t/k0/p/' + page;
+
+		} else if (hash.split('/').reverse()[1] != "p") {
+			pageUrl =   + '/p/' + page;
+		} else  {
+			pageUrl = hash.split('/').slice(0, -2).join('/') + '/p/' + page;
 		}
 		return pageUrl;
 	}
@@ -262,17 +266,14 @@ var appView = new App.views.CaseListView();
 var Workspace = Backbone.Router.extend({
 
 	initialize: function() {
-		console.log('start router');
 		this.route("/");
 	},
 
 	routes: {
 		"": "list",
 		"t/search/:query": "search",
-		"t/:klass": "list",
-		"t/:klass/:category": "list",
-		"t/:klass/:category/:color": "list",   
-		"t/:klass/:category/:color/p/:page": "list",   
+ 
+		"t(/k:klass)(/c:category)(/o:color)(/p/:page)": "list",   
 	},
 
 	index: function() {
@@ -280,14 +281,10 @@ var Workspace = Backbone.Router.extend({
 	},
 
 	list: function(klass, category, color, page, code) {
-		console.log(klass, category, color, page, code);
 		var options = {}
-		if (klass)
-			options.klass = parseInt(klass);
-		if (category)
-			options.category = parseInt(category);
-		if (color)
-			options.color = parseInt(color);
+		options.klass = parseInt(klass||0);
+		options.category = parseInt(category||0);
+		options.color = parseInt(color||0);
 		if (code)
 			options.code = code;
 		if (page)
@@ -314,7 +311,6 @@ var Workspace = Backbone.Router.extend({
 			klassView.render();
 		}});
 		appView.collection.on('reset', function() {
-			console.log('start collection layout change');
 			$('#item-wrap').masonry();
 		});
 	},
