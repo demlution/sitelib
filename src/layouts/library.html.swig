@@ -18,7 +18,9 @@
             <a href="/" class="cy-logo">创意库</a>
         </h1>
         <div class="s-left">
-        <form action="#"><input class="s-txt" type="text" name="query" value="" placeholder="模板编号" /><input type="hidden" name="model_name" value="product"><input class="s-btn" type="submit" value=' '/></form>
+        <form id="search-form" action="#">
+            <input class="s-txt" type="text" name="query" value="" placeholder="模板编号" />
+            <input class="s-btn" type="submit" value=''/></form>
         </div>
         <div class="cy-nav">
             <ul>

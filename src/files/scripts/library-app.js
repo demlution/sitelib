@@ -243,26 +243,28 @@ var Workspace = Backbone.Router.extend({
 
 	routes: {
 		"": "list",
+		"t/search/:query": "search",
 		"t/:klass": "list",
 		"t/:klass/:category": "list",
 		"t/:klass/:category/:color": "list",   
 		"t/:klass/:category/:color/p/:page": "list",   
-		"search/:query/p:page": "search"   // #search/kiwis/p7
 	},
 
 	index: function() {
 		appView.render();
 	},
 
-	list: function(klass, category, color, page) {
+	list: function(klass, category, color, page, code) {
+		console.log(klass, category, color, page, code);
 		var options = {}
-		if (klass && klass!='0')
+		if (klass)
 			options.klass = parseInt(klass);
-		if (category && category!='0')
+		if (category)
 			options.category = parseInt(category);
-		if (color &&color!='0')
+		if (color)
 			options.color = parseInt(color);
-
+		if (code)
+			options.code = code;
 		if (page)
 			options.offset = page * 20;
 		else
@@ -270,7 +272,12 @@ var Workspace = Backbone.Router.extend({
 
 		_.extend(App.options, options);
 		appView.collection = new App.collections.CaseCollection([], options);
-		appView.collection.filters = options;
+		var filters = {};
+		_.each(options, function(val, key) {
+			if (val != 0)
+				filters[key] = val;
+		})
+		appView.collection.filters = filters;
 		var caseList = appView.collection.fetch({success: function(caseList) {
 			appView.render();
 			colorView.render();
@@ -284,16 +291,12 @@ var Workspace = Backbone.Router.extend({
 		console.log('start list');
 	},
 
-	search: function(query, page) {
-	console.log('startsearch');
+	search: function(query) {
+		this.list(0, 0, 0, 0, query);
 	}
-
 });
-
 
 $(function() {
 	router = new Workspace();
 	Backbone.history.start();
 })
-
-
