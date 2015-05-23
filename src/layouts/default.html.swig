@@ -50,6 +50,15 @@
                         </div>
                     </div>
                     <div class="wj-wel">
+                        <a title="担路首页" href="http://www.demlution.com/" target="_blank">担路首页</a>
+                        <span class="topRegLink">|</span>
+                        <a href="/agent/"><span>担路平台</span></a>
+                        <span class="topRegLink">|</span>
+                        <a href="/article/"><span>担路介绍</span></a>
+                        <span class="topRegLink">|</span>
+                        <a href="http://www.demlution.com/about/help/"><span>担路帮助</span></a>
+                    </div>
+                    <div class="hotline">
                         <span>服务热线：
                             <font class="num">400-855-5051</font>
                         </span>
@@ -57,20 +66,7 @@
                         <a href="http://www.demlution.com/account/login/" target="_blank">登录</a>
                         <span class="topRegLink">|</span>
                         <a title="免费网站注册" href="http://www.demlution.com/account/signup/" target="_blank">注册</a>
-                    </div>
-                    <div class="hotline">
-                        <a title="担路首页" href="http://www.demlution.com/" target="_blank">担路首页</a>
-                        <span class="topRegLink">|</span>
                         <a hidefocus="true" title="关注担路网官方微博，了解最新动态" target="_blank" href="http://weibo.com/demlution">担路微博</a>
-                        <span class="topRegLink">|</span>
-                        <a href="/agent/"><span>加盟代理</span></a>
-                        <span class="topRegLink">|</span>
-                        <a href="/article/"><span>新闻中心</span></a>
-                        <span class="topRegLink">|</span>
-                        <a href="http://www.demlution.com/about/help/"><span>帮助</span></a>
-                        <span class="topRegLink">|</span>
-                        <a hidefocus="true" title="添加到收藏夹" rel="nofollow" class="topRegLink topLink" onClick="javascript:AddFavorite()"
-                        href="javascript:;">收藏本站</a>
                     </div>
                 </div>
             </div>
@@ -82,9 +78,10 @@
                 <div class="f-phone">热线电话：
                     <em>400-855-5051</em>
                 </div>
-            </div {% block wrap_block %}
+            </div> 
+            {% block wrap_block %}
             {{ document.content|safe }}
-            </div>{% endblock %}</div>
+            {% endblock %}
         <div class="wj-fotbg">
             <div class="fot-hep">
                 <div class="fh-all">

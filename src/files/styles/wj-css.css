@@ -53,6 +53,10 @@
 .case2 .case_w  .y:hover { text-decoration:none;}
 
 
+.box {width:1000px;margin:0 auto;}
+.box1 .bd li{width: 300px;float: left;}
+
+
 /* 创意库 */
 .tipcolor { height:6px; background:#007acf;}
 .tipcolor .tipc1 { background:#ff7800; height:6px; width:25%; float:left;}
