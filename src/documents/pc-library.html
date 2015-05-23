@@ -22,7 +22,10 @@ isPage: "true"
 
 <script type="text/template" id="color-list-tpl">
     <ul>
-        <li><a href="#/t/<%= options.klass %>/<%= options.category %>/0">全部</a></li>
+        <li <% if (0 == options.color) { %>
+          class="active"
+            <% } %>
+            ><a href="#/t/<%= options.klass %>/<%= options.category %>/0">全部</a></li>
         <% _.each(colorList, function (color) { %>
         <li <% if (color.get('id') == options.color) { %>
           class="active"
@@ -40,7 +43,10 @@ isPage: "true"
 
 <script type="text/template" id="category-list-tpl">
     <ul>
-        <li><a href="#/t/<%= options.klass %>/0/<%= options.color %>">全部</a></li>
+        <li <% if (0 == options.category) { %>
+          class="active"
+            <% } %>
+            ><a href="#/t/<%= options.klass %>/0/<%= options.color %>">全部</a></li>
         <% _.each(categoryList, function (category) { %>
         <li<% if (category.get('id') == options.category) { %>
           class="active"
