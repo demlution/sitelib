@@ -165,13 +165,13 @@ App.views.CaseListView = Backbone.View.extend({
 
 	initialize: function() {
 		this.isLoading = false;
-		this.caseCollection = new App.collections.CaseCollection();
+		this.collection = new App.collections.CaseCollection();
 		this.caseTemplate = $('#case-list-tpl').html();
+		//this.listenTo(this.collection, "change reset add remove all", this.layout);
 		console.log(this.filters);
 	},
 
 	render: function() {
-		console.log("start render")
 		this.loadCase();
 		return this;
 	},
@@ -180,29 +180,38 @@ App.views.CaseListView = Backbone.View.extend({
 		var that = this;
 		this.isLoading = true;
 		//this.caseCollection.fetch({success: function(caseList) {
-			var caseList = that.caseCollection.models;
-			var template = _.template(that.caseTemplate);
-			var listHtml = template({caseList: caseList, options: App.options, _:_});
-			if (App.dog.masonry) {
-				$(that.$el).masonry('destroy');
-			} else {
-				App.dog.masonry = true;
-			}
-			$(that.$el).html($(listHtml)).masonry({
-				itemSelector: '.item',
-				columnWidth: 215,
-				gutterWidth: 20,
-	            isAnimated: true,
-			});
+		var caseList = that.collection.models;
+		var template = _.template(that.caseTemplate);
+		var listHtml = template({caseList: caseList, options: App.options, _:_});
+		if (App.dog.masonry) {
+			$(that.$el).masonry('destroy');
+		} else {
+			App.dog.masonry = true;
+		}
+		$(that.$el).html($(listHtml)).masonry({
+			itemSelector: '.item',
+			columnWidth: 215,
+			gutterWidth: 20,
+            isAnimated: true,
+		})
 
-			var pageTemplate = _.template(App.paginationTemplate);
-			var meta = that.caseCollection.meta;
-			var pager = {};
-			pager.start = meta.offset / meta.limit > 4 ? (meta.offset / meta.limit - 4) : 1;
-			pager.end = meta.total_count / meta.limit - meta.offset / meta.limit > 4 ? (meta.offset / meta.limit + 4) : (meta.total_count / meta.limit);
-			var pageHtml = pageTemplate({meta:that.caseCollection.meta, getPageUrl:that.getPageUrl, pager:pager});
-			$('#pagination-wrap').html(pageHtml);
-			that.is_loading = false;
+		var pageTemplate = _.template(App.paginationTemplate);
+		var meta = that.collection.meta;
+		var pager = {};
+		pager.first = 1;
+		pager.last = meta.total_count / meta.limit;
+		pager.start = meta.offset / meta.limit > 4 ? (meta.offset / meta.limit - 4) : 1;
+		pager.end = meta.total_count / meta.limit - meta.offset / meta.limit > 4 ? (meta.offset / meta.limit + 4) : (meta.total_count / meta.limit);
+		var pageHtml = pageTemplate({meta:that.collection.meta, getPageUrl:that.getPageUrl, pager:pager});
+		$('#pagination-wrap').html(pageHtml);
+		setTimeout(function(){
+			console.log('start masonry layout');
+			$(that.$el).masonry();
+		}, 500)
+
+		console.log('start view render');
+
+		that.is_loading = false;
 		//}})
 	},
 	getPageUrl: function(page) {
@@ -242,7 +251,6 @@ var Workspace = Backbone.Router.extend({
 	},
 
 	index: function() {
-
 		appView.render();
 	},
 
@@ -261,13 +269,18 @@ var Workspace = Backbone.Router.extend({
 			options.offset = 0;
 
 		_.extend(App.options, options);
-		appView.caseCollection = new App.collections.CaseCollection([], options);
-		appView.caseCollection.filters = options;
-		var caseList = appView.caseCollection.fetch({success: function(caseList) {
+		appView.collection = new App.collections.CaseCollection([], options);
+		appView.collection.filters = options;
+		var caseList = appView.collection.fetch({success: function(caseList) {
 			appView.render();
 			colorView.render();
 			categoryView.render();
 		}});
+		appView.collection.on('reset', function() {
+			console.log('start collection layout change');
+			$('#item-wrap').masonry();
+		})
+		
 		console.log('start list');
 	},
 
