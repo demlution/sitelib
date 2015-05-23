@@ -294,7 +294,7 @@ var Workspace = Backbone.Router.extend({
 
 		_.extend(App.options, options);
 		appView.collection = new App.collections.CaseCollection([], options);
-		var filters = {limit:100};
+		var filters = {limit:400};
 		_.each(options, function(val, key) {
 			if (val != 0)
 				if (key == 'klass')
