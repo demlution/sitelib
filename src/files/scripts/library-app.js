@@ -190,7 +190,7 @@ App.views.CaseListView = Backbone.View.extend({
 			}
 			$(that.$el).html($(listHtml)).masonry({
 				itemSelector: '.item',
-				columnWidth: 240,
+				columnWidth: 215,
 				gutterWidth: 20,
 	            isAnimated: true,
 			});
