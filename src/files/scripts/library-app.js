@@ -239,14 +239,14 @@ App.views.CaseListView = Backbone.View.extend({
 	},
 
 	getPageUrl: function(page) {
-		var pageUr,
+		var pageUrl,
 		hash = window.location.hash;
 
 		if (hash == ""){
 			pageUrl = '#/t/k0/p/' + page;
 
 		} else if (hash.split('/').reverse()[1] != "p") {
-			pageUrl =   + '/p/' + page;
+			pageUrl =   hash + '/p/' + page;
 		} else  {
 			pageUrl = hash.split('/').slice(0, -2).join('/') + '/p/' + page;
 		}
