@@ -73,7 +73,7 @@ App.collections.CategoryCollection = Backbone.Collection.extend({
 
 App.collections.KlassCollection = Backbone.Collection.extend({
 	// model: App.models.Case,
-	url: API_ROOT + 'templateklass',
+	url: API_ROOT + 'templateclass',
 	model: App.models.Klass,
 	parse: function(response) {
 		return response.objects;
@@ -89,16 +89,41 @@ App.views.KlassView = Backbone.View.extend({
 
 	initialize: function() {
 		this.isLoading = false;
-		this.klassCollection = new App.collections.KlassCollection();
+		this.collection = new App.collections.KlassCollection();
+		this.parent = 1;
+	},
+
+	highlight: function() {
+		var that = this;
+		var hash = window.location.hash;
+        $('.cy-nav ul li').removeClass('on');
+        $('.cy-nav ul li').each(function(index, elem) {
+
+        	var href = $(elem).find('a').attr('href');
+        	var cId = parseInt(href.split('/').reverse()[0]);
+        	if (cId == that.parent) {
+        		$(elem).addClass('on');
+        	}
+        })
+        return this;
 	},
 
 	render: function() {
 		var that = this;
-		this.klassCollection.fetch({cache:true, success: function(klassList) {
-			var klassList = that.categoryCollection.models;
+		this.collection.fetch({cache:true, success: function(klassList) {
+			var klassList = that.collection.models;
 			var template = _.template($('#klass-list-tpl').html());
-			var klassHtml = template({klassList: klassList, _:_});
-			$(that.$el).append($(klassHtml));
+			var currentKlass = that.collection.get({id:App.options.klass})
+			if (currentKlass.get('parent')) {
+				klassList = that.collection.get({id: currentKlass.get('parent')}).get('children');
+				that.parent = currentKlass.get('parent');
+			} else {
+				klassList = currentKlass.get('children')
+				that.parent = currentKlass.get('id');
+			}
+			var klassHtml = template({klassList: klassList, _:_, options:App.options, parent: that.parent});
+			$(that.$el).html($(klassHtml));
+			that.highlight();
 		}});
 		return this;
 	}
@@ -225,7 +250,7 @@ App.views.CaseListView = Backbone.View.extend({
 	}
 })
 
-
+var klassView = new App.views.KlassView();
 var colorView = new App.views.ColorView();
 var categoryView = new App.views.CategoryView();
 var appView = new App.views.CaseListView();
@@ -275,20 +300,23 @@ var Workspace = Backbone.Router.extend({
 		var filters = {};
 		_.each(options, function(val, key) {
 			if (val != 0)
-				filters[key] = val;
+				if (key == 'klass')
+					filters['cls'] = val;
+				else
+					filters[key] = val;
 		})
 		appView.collection.filters = filters;
 		var caseList = appView.collection.fetch({success: function(caseList) {
+
 			appView.render();
 			colorView.render();
 			categoryView.render();
+			klassView.render();
 		}});
 		appView.collection.on('reset', function() {
 			console.log('start collection layout change');
 			$('#item-wrap').masonry();
-		})
-		
-		console.log('start list');
+		});
 	},
 
 	search: function(query) {
