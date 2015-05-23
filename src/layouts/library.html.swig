@@ -15,7 +15,7 @@
 <div class="cy-header">
     <div class="cy-hcot">
         <h1>
-            <a href="/" class="cy-logo">创意库</a>
+            <a href="/pc-library.html" class="cy-logo">创意库</a>
         </h1>
         <div class="s-left">
         <form id="search-form" action="#">
