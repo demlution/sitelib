@@ -22,7 +22,10 @@ isPage: "true"
     <ul>
         <li><a href="#/t/<%= options.klass %>/<%= options.category %>/0">全部</a></li>
         <% _.each(colorList, function (color) { %>
-        <li>
+        <li <% if (color.get('id') == options.color) { %>
+          class="active"
+            <% } %>
+          >
             <a href="#/t/<%= options.klass %>/<%= options.category %>/<%= color.get('id') %>">
                 <span style="background:<%= color.get('code') %>">&nbsp;</span>
                 <%= color.get('name') %>
@@ -37,7 +40,10 @@ isPage: "true"
     <ul>
         <li><a href="#/t/<%= options.klass %>/0/<%= options.color %>">全部</a></li>
         <% _.each(categoryList, function (category) { %>
-        <li><a href="#/t/<%= options.klass %>/<%= category.get('id') %>/<%= options.color %>"><%= category.get('name') %></a></li>
+        <li<% if (category.get('id') == options.category) { %>
+          class="active"
+            <% } %>
+          ><a href="#/t/<%= options.klass %>/<%= category.get('id') %>/<%= options.color %>"><%= category.get('name') %></a></li>
         <% }); %>
     </ul>
 </script>
@@ -58,6 +64,9 @@ isPage: "true"
   </div>
   <div class="img-items" id="item-wrap">
     <h1>List</h1>
+  </div>
+  <div id="pagination-wrap">
+    
   </div>
   </div>
 </div>

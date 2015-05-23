@@ -19,19 +19,19 @@
         </h1>
         <div class="cy-nav">
             <ul>
-            <li><a href="http://www.danlu.net/case/1/" class="on"><span>普通类</span></a></li>
-            <li><a href="http://www.danlu.net/case/2/"><span>精品类</span></a></li>
-            <li><a href="http://www.danlu.net/case/3/"><span>商城类</span></a></li>
-            <li><a href="http://www.danlu.net/case/4/"><span>平台类</span></a></li>
-            <li><a href="http://www.danlu.net/case/5/"><span>论坛类</span></a></li>
-            <li><a href="http://www.danlu.net/case/10/"><span>定制型</span></a></li>
+            <li><a href="#/t/1" class="on"><span>普通类</span></a></li>
+            <li><a href="#/t/2"><span>精品类</span></a></li>
+            <li><a href="#/t/3"><span>商城类</span></a></li>
+            <li><a href="#/t/4"><span>平台类</span></a></li>
+            <li><a href="#/t/5"><span>论坛类</span></a></li>
+            <li><a href="#/t/10"><span>定制型</span></a></li>
             </ul>
         </div>
     </div>
 </div>
 
 	{{ document.content|safe }}
-	{{ getBlock("scripts").add(["/vendor/jquery.js", "/vendor/masonry.pkgd.js", "/vendor/underscore.js", "/vendor/backbone.js", "/scripts/library-app.js", "/scripts/scripts.js"]).toHTML() }}
+	{{ getBlock("scripts").add(["/vendor/jquery.js", "/vendor/masonry.pkgd.js", "/vendor/underscore.js", "/vendor/backbone.js", "/vendor/backbone.fetch-cache.js", "/vendor/backbone-tastypie.js", "/scripts/library-app.js", "/scripts/scripts.js"]).toHTML() }}
 </body>
 
 </html>
