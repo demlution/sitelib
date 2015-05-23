@@ -24,9 +24,11 @@
                                 <li>
                                     <a href="/index.html"><span>网站首页</span></a>
                                 </li>
+                                <!--
                                 <li>
                                     <a href="/pc.html"><span>PC网站</span></a>
                                 </li>
+                                -->
                                 <!-- <li><a href="/case/2/"><span>代理专区</span></a></li>-->
                                 <li>
                                     <a href="/mobile.html"><span>手机网站</span></a>
@@ -37,9 +39,12 @@
                                 <li>
                                     <a href="/marketing.html"><span>网络推广</span></a>
                                 </li>
+                                <!--
+
                                 <li>
                                     <a href="/400tel.html"><span>400电话</span></a>
                                 </li>
+                                -->
                                 <li>
                                     <a href="http://static.demlution.com/" target="_blank" style="background:url(/site_media/static/websites/imgs/navbl.gif) no-repeat 0 2px; color:#007acf; text-decoration:none;"><span style="color:#FF7800;background:url(/site_media/static/websites/imgs/navbr.gif) no-repeat right 2px">担路云官网</span></a>
                                 </li>

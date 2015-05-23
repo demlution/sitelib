@@ -6,7 +6,7 @@ App = {
 		klass:0,
 		category:0,
 		color:0,
-		limit:20,
+		limit:100,
 		offset:0
 	},
 	dog: {
@@ -22,7 +22,7 @@ App.paginationTemplate = '\
                 <% for (var i=pager.start; i < pager.end; i++) { %> \
                     <li<% if (meta.offset / meta.limit == i) { %> class="active"<% } %>><a href="<%= getPageUrl(i) %>" class="page-<%= meta.total_count %>" data-offset="<%= meta.limit * i  %>"><%= i %></a></li> \
                 <% } %> \
-                <li<% if (meta.next == null) { %> class="disabled"<% } %>><a href="#" class="next-<%= meta.total_count %>">»</a></li> \
+                <li<% if (meta.next == null) { %> class="disabled"<% } %>><a href="<%= getPageUrl(Math.ceil(meta.total_count/meta.limit)-1) %>" class="next-<%= meta.total_count %>">»</a></li> \
             </ul> \
         </div> \
     ';
@@ -188,12 +188,12 @@ App.views.CaseListView = Backbone.View.extend({
 
 	filters: {
 		offset: 0,
-		limit: 20
+		limit: 100
 	},
 
 	initialize: function() {
 		this.isLoading = false;
-		this.collection = new App.collections.CaseCollection();
+		this.collection = new App.collections.CaseCollection({limit:100});
 		this.caseTemplate = $('#case-list-tpl').html();
 		//this.listenTo(this.collection, "change reset add remove all", this.layout);
 	},
@@ -288,13 +288,13 @@ var Workspace = Backbone.Router.extend({
 		if (code)
 			options.code = code;
 		if (page)
-			options.offset = page * 20;
+			options.offset = page * 100;
 		else
 			options.offset = 0;
 
 		_.extend(App.options, options);
 		appView.collection = new App.collections.CaseCollection([], options);
-		var filters = {};
+		var filters = {limit:100};
 		_.each(options, function(val, key) {
 			if (val != 0)
 				if (key == 'klass')
@@ -302,7 +302,7 @@ var Workspace = Backbone.Router.extend({
 				else
 					filters[key] = val;
 		})
-		appView.collection.filters = filters;
+		_.extend(appView.collection.filters, filters);
 		var caseList = appView.collection.fetch({success: function(caseList) {
 
 			appView.render();
