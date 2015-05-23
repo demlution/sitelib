@@ -232,5 +232,7 @@
             </div>
         </div>
         {{ getBlock("scripts").add(["/vendor/jquery.js","/vendor/jquery.masonry.min.js","/scripts/scripts.js", "/scripts/ss-header.js"]).toHTML() }}
+        <script defer="defer" src="http://www.demlution.com/site_media/static/theme/Pinterest/js/jquery.isotope.min.js"></script>
+        {{ getBlock("scripts").add(["/scripts/mobilecase.js"]).toHTML() }}
     </body>
 </html>
