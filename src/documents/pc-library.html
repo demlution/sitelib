@@ -21,6 +21,7 @@ isPage: "true"
 
 
 <script type="text/template" id="color-list-tpl">
+    <b>按颜色：</b>
     <ul>
         <li <% if (0 == options.color) { %>
           class="active"
@@ -42,6 +43,7 @@ isPage: "true"
 
 
 <script type="text/template" id="category-list-tpl">
+    <b>按行业：</b>
     <ul>
         <li <% if (0 == options.category) { %>
           class="active"
@@ -63,10 +65,9 @@ isPage: "true"
   <div class="searchwrap">
     <div class="searchbox">
       <div class="searchli color-list clearfix" id="category-wrap">
-        <b>按行业：</b>
+        
       </div>
       <div class="searchli color-list clearfix" id="color-wrap">
-        <b>按颜色：</b>
       </div>
     </div>
   </div>
