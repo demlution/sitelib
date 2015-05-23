@@ -50,7 +50,12 @@ App.models.Klass = Backbone.Model.extend({
 App.collections.CaseCollection = Backbone.Tastypie.Collection.extend({
 	// model: App.models.Case,
 	urlRoot: API_ROOT + 'templatecase',
-	model: App.models.TemplateCase,
+	model: App.models.TemplateCase,	
+	filters: {
+		offset: 0,
+		limit: 200,
+		is_public:true
+	},
 })
 
 App.collections.ColorCollection = Backbone.Collection.extend({
@@ -186,14 +191,10 @@ App.views.CaseListView = Backbone.View.extend({
 		"click": "open"
 	},
 
-	filters: {
-		offset: 0,
-		limit: 100
-	},
 
 	initialize: function() {
 		this.isLoading = false;
-		this.collection = new App.collections.CaseCollection({limit:100});
+		this.collection = new App.collections.CaseCollection();
 		this.caseTemplate = $('#case-list-tpl').html();
 		//this.listenTo(this.collection, "change reset add remove all", this.layout);
 	},
@@ -294,7 +295,11 @@ var Workspace = Backbone.Router.extend({
 
 		_.extend(App.options, options);
 		appView.collection = new App.collections.CaseCollection([], options);
-		var filters = {limit:400};
+		var filters = {
+			limit:200,
+			is_public:true,
+			is_active:true
+		};
 		_.each(options, function(val, key) {
 			if (val != 0)
 				if (key == 'klass')
