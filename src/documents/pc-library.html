@@ -11,7 +11,9 @@ isPage: "true"
   <div class="item case-id-<%= tpl.get('id') %>">
       <a target="_blank" href="<%= tpl.get('link') %>" title="<%= tpl.get('name') %>">
       <div class="item-img"><img src="<%= tpl.get('image') %>"></div>
-      <div class="item-name">模板编号：<%= tpl.get('name') %><br />演示地址<font class="sont">>></font></div>
+      <div class="item-dec">这里是模板描述，此模板非常适合做婚纱摄影！！！</div>
+      <div style="display:none">演示地址<font class="sont">>></font></div>
+      <div class="item-name">模板编号：<%= tpl.get('name') %></div>
       </a>
   </div>
 <% }); %>
@@ -45,7 +47,7 @@ isPage: "true"
 
 
 <div class="wrapbg">
-  <div class="wrap clearfix">
+  <div class="clearfix">
   <div class="searchwrap">
     <div class="searchbox">
       <div class="searchli color-list clearfix" id="category-wrap">
