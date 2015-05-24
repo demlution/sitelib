@@ -83,7 +83,7 @@
             {{ document.content|safe }}
             {% endblock %}
         <div class="wj-fotbg">
-            <div class="fot-hep">
+            <div class="fot-hep" style="display:none">
                 <div class="fh-all">
                     <ul>
                         <li class="fh-about">
@@ -132,9 +132,6 @@
                             </dl>
                         </li>
                     </ul>
-                </div>
-                <div class="fot-phone">
-                    <img src="/images/fotphone.png" />
                 </div>
             </div>
             <div class="fot-cop">
@@ -231,8 +228,6 @@
                 <!--online_windows end-->
             </div>
         </div>
-        {{ getBlock("scripts").add(["/vendor/jquery.js","/vendor/jquery.masonry.min.js","/scripts/scripts.js", "/scripts/ss-header.js"]).toHTML() }}
-        <script defer="defer" src="http://www.demlution.com/site_media/static/theme/Pinterest/js/jquery.isotope.min.js"></script>
-        {{ getBlock("scripts").add(["/scripts/mobilecase.js"]).toHTML() }}
+        {{ getBlock("scripts").add(["/vendor/jquery.js","/vendor/jquery.masonry.min.js","/vendor/jquery.isotope.min.js","/scripts/scripts.js", "/scripts/ss-header.js,"/scripts/mobilecase.js"]).toHTML() }}
     </body>
 </html>
