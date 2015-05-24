@@ -7,7 +7,7 @@
         <meta content="{{ document.keywords }}" name="keywords">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="renderer" content="webkit">
-        {{ getBlock("styles").add(["/styles/dm-base.css"]).add(["/styles/wj-css.css"]).add(["/styles/style.css"]).toHTML() }}
+        {{ getBlock("styles").add(["/styles/dm-base.css"]).add(["/styles/wj-css.css"]).add(["/styles/style.css"]).add(["/styles/online.css"]).toHTML() }}
     </head>
 
     <body>
@@ -88,7 +88,7 @@
             {{ document.content|safe }}
             {% endblock %}
         <div class="wj-fotbg">
-            <div class="fot-hep">
+            <div class="fot-hep" style="display:none">
                 <div class="fh-all">
                     <ul>
                         <li class="fh-about">
@@ -138,9 +138,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="fot-phone">
-                    <img src="/images/fotphone.png" />
-                </div>
             </div>
             <div class="fot-cop">
                 <a target="_blank" href="http://www.demlution.com/about/about/">关于我们</a>-
@@ -152,7 +149,6 @@
                 <a target="_blank" href="http://www.demlution.com/about/contact/">联系我们</a>
                 <p class="black9">Copyright 2011-2012
                     <a href="http://www.demlution.com/">担路网</a>(Demlution.com) 版权所有 沪ICP备12018506号-1
-                    <SCRIPT src="{{ STATIC_URL }}extra/qqkf_6/q.js"></SCRIPT>
                     <script type="text/javascript">
                         var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
                         document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F75fb47e8b856d549e2e9b28533498cdb' type='text/javascript'%3E%3C/script%3E"));
@@ -162,7 +158,6 @@
         </div>
 
         </div>
-        <LINK href="{{ STATIC_URL }}extra/qqkf_6/online.css" type="text/css" rel="stylesheet">
         <div id="online_qq_layer">
             <div id="online_qq_tab">
                 <div class="online_icon">
@@ -236,8 +231,6 @@
                 <!--online_windows end-->
             </div>
         </div>
-        {{ getBlock("scripts").add(["/vendor/jquery.js","/vendor/jquery.masonry.min.js","/scripts/scripts.js", "/scripts/ss-header.js"]).toHTML() }}
-        <script defer="defer" src="http://www.demlution.com/site_media/static/theme/Pinterest/js/jquery.isotope.min.js"></script>
-        {{ getBlock("scripts").add(["/scripts/mobilecase.js"]).toHTML() }}
+        {{ getBlock("scripts").add(["/vendor/jquery.js","/vendor/masonry.pkgd.js","/vendor/jquery.isotope.min.js","/scripts/scripts.js", "/scripts/ss-header.js","/scripts/mobilecase.js","/scripts/q.js"]).toHTML() }}
     </body>
 </html>
