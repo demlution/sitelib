@@ -101,11 +101,6 @@ a:hover{text-decoration: underline;color:#ff8c05}
 /* @group basic layout */
 .content,.tip-cot,.header,.nav_c,.fot-hep,.fot-cop {margin-left:auto;margin-right:auto;width:1000px;}
 
-/* 左右结构布局 -*/
-.main{ float:left; width:100%; min-height:1px;}
-.main-wrap{ margin-left:220px; display:block; zoom:1; }
-.sidebar{ margin-left:-1000px; width:202px; float:left; display:block; zoom:1;}
-
 .col_main { width:740px; float:left;}
 .col_sub { width:250px; float:right;margin-left:10px;}
 

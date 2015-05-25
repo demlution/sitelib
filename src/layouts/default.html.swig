@@ -7,7 +7,7 @@
         <meta content="{{ document.keywords }}" name="keywords">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="renderer" content="webkit">
-        {{ getBlock("styles").add(["/styles/dm-base.css"]).add(["/styles/wj-css.css"]).add(["/styles/style.css"]).add(["/styles/online.css"]).toHTML() }}
+        {{ getBlock("styles").add(["/styles/dm-base.css"]).add(["/styles/wj-css.css"]).add(["/styles/style.css"]).add(["/styles/online.css"]).add(document.styles).toHTML() }}
     </head>
 
     <body>
@@ -46,10 +46,10 @@
                                 </li>
                                 -->
                                 <li>
-                                    <a href="/cpc.html" target="_blank" style="background:url(/site_media/static/websites/imgs/navbl.gif) no-repeat 0 2px; color:#007acf; text-decoration:none;"><span style="color:#FF7800;background:url(/site_media/static/websites/imgs/navbr.gif) no-repeat right 2px">担路云官网</span></a>
+                                    <a href="/cpc.html" target="_blank" class="ylileft"><span>担路云官网</span></a>
                                 </li>
                                 <li>
-                                    <a href="/cmall.html" target="_blank" style="background:url(/site_media/static/websites/imgs/navbl.gif) no-repeat 0 2px; color:#007acf; text-decoration:none;"><span style="color:#FF7800;background:url(/site_media/static/websites/imgs/navbr.gif) no-repeat right 2px">担路云商城</span></a>
+                                    <a href="/cmall.html" target="_blank" class="ylileft" ><span>担路云商城</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -75,6 +75,8 @@
                     </div>
                 </div>
             </div>
+
+            {% block focus_block %}
             <div class="wj-focus" id="flashBg">
                 <div class="f-txt">
                     <div class="hd">担路，一路担当</div>
@@ -84,9 +86,12 @@
                     <em>400-855-5051</em>
                 </div>
             </div> 
+            {% endblock %}
+
             {% block wrap_block %}
             {{ document.content|safe }}
             {% endblock %}
+        {% block foot_block %}
         <div class="wj-fotbg">
             <div class="fot-hep" style="display:none">
                 <div class="fh-all">
@@ -156,7 +161,7 @@
                 </p>
             </div>
         </div>
-
+        {% endblock %}
         </div>
         <div id="online_qq_layer">
             <div id="online_qq_tab">
@@ -232,7 +237,6 @@
             </div>
         </div>
         {{ getBlock("scripts").add(site.scripts).toHTML() }}
-        <script defer="defer" type="text/javascript" src="http://s2.d2scdn.com/static/js/jq-plug.js"></script>
         {{ getBlock("scripts").add(document.scripts).toHTML() }}
     </body>
 </html>

@@ -1,0 +1,1116 @@
+@charset "utf-8";
+
+/*--------------���õ�--------------*/
+img{border:0px;}
+.FloatLeft{ float:left;}
+ul,li{ list-style-type:none; list-style:none;}
+.PaddingLeft50{ padding-left:50px;}
+.PaddingTop { padding-top:15px;}
+.PaddingTop10 { padding-top:10px;}
+.margintop50 { margin-top:50px;}
+.PublicMenu{ width:1230px; margin:0 auto; }
+.PublicMenu1423{ width:1423px; margin:0 auto; }
+.PosRealit{ position:relative; }
+.ClearBoth{ clear:both;}
+.widthMAX{ width:100%;}
+.PaddingLeft15{ padding-left:15px;}
+.Bge8e8e8 { background-color:#e8e8e8;}
+.OverHid { overflow:hidden;}
+.Footer { padding:60px 0 40px;}
+.FloatRight { float:right; margin:0;}
+.FootLogo { text-align:right; overflow:hidden;}
+.FootMenu { text-align:right; line-height:22px; font-size:14px; overflow:hidden;}
+.Address { text-align:right; line-height:22px; padding-top:5px; overflow:hidden;}
+.TextAlign{ text-align:center;}
+.BottomPostion{ position:absolute; right:290px; bottom:200px;}
+.AppPostion{ position:absolute; right:230px; bottom:70px;}
+.WechatPostion{position:absolute; left:180px; bottom:140px;}
+.BottomPostion a{ margin-right:10px;}
+.AppPostion a{ margin-right:10px;}
+.WechatPostion a{ margin-right:10px;}
+.Font16_22 {font-size:16px; line-height:22px;}
+.Font18_24 { font-size:18px; line-height:24px;}
+.Font18_30 { font-size:18px; line-height:30px;}
+.Font36_45 { font-size:36px; line-height:45px;}
+.MarginTop50 { margin-top:50px;}
+.MarginTop { margin-top:15px;}
+.MarginBottom { margin-bottom:30px;}
+.C454545 { color:#454545;}
+.bg279BE5{ background-color:#279BE5;}
+.bgE1ECF7{ background-color:#E1ECF7;}
+.bgE9A900{  background-color:E9A900;}
+.SubcommImg{ text-align:center; margin:0 auto;}
+.Boder4AFFFF{ border-bottom:2px solid #4AFFFF;}
+.NicesSegmentsTitle{color:#fff; font-size:30px; font-weight:bolder; padding-left:20px;}
+.Boderbottom{border-bottom:1px solid #8FB931;}
+.HeadWx{ position:absolute; left:6px; top:18px; }
+.width1180{width:1230px; margin:0 auto;}
+.Footer { padding:60px 0 40px;}
+.FootMenu { text-align:right; line-height:22px; font-size:14px; overflow:hidden;}
+.FootMenu a { color:#1570a6; padding:0 15px;}
+.FootMenu a:link,.FootMenu a:visited { color:#1570a6;}
+.FootMenu a:hover { text-decoration:underline;}
+.Address { text-align:right; line-height:22px; padding-top:5px; overflow:hidden;kg}
+.FootLogo { text-align:right; overflow:hidden;}
+/* Foot Menu */
+.FootMenuPic { width:100%; min-width:1180px; padding-bottom:30px; overflow:hidden;}
+.FootMenuPic li { float:left; width:160px; padding:4px; height:60px;}
+.MarginBottom30{ margin-bottom:30px;}
+.UrlBtn { float:left; padding:0 20px; height:37px; line-height:37px; font-size:18px; text-align:center; overflow:hidden;}
+.UrlBtnApply { float:none; margin:10px auto 20px; width:210px;}
+
+/*--------------���õ�--------------*/
+#OrtherPageHead a{ color:#5D6061;font-size:15px;}
+#OrtherPageBanner{width:1423px; height:100%; margin:0 auto;}
+#OrtherPageBannerP{width:1423px; height:100%; margin:0 auto; background-color:Gray}
+.wechatBg{ background:url(../images/wechatBg.png) center no-repeat;}
+.wechat-personeBg{ background:url(../images/wechat-personeBg.jpg) center no-repeat;}
+.InternationalBg{background:url(../images/InternationalBg.png) center repeat;}
+.ContactUsBg{background:url(../images/ContactUsBg.png) center repeat;}
+.SubcommissionBg{background:url(../images/SubcommissionBg.png) center no-repeat;}
+.Nineapplications{background:url(../images/NineSegments.jpg) center no-repeat;}
+.FAQBg{background:url(../images/FAQImg.png) center no-repeat;}
+.LeftPadding{ padding-left:10px; padding-right:10px;}
+
+
+.PageCont { height:28px; width:100%; overflow:hidden;}
+.MaxPage { line-height:28px; height:28px; overflow:hidden; width:100%;}
+.MaxPage a { float:left; display:block; font-size:22px; padding:0 15px;}
+.MaxPage a:hover { color:#3877c7;}
+.MaxPage a.PagePrev1 { width:28px; height:28px; background:url(..../images/NewPrev1.jpg) no-repeat 15px top;}
+.MaxPage a.PagePrev1:hover { background:url(..../images/NewPrev2.jpg) no-repeat 15px top;}
+.MaxPage span.PagePrev1 { width:28px; height:28px; background:url(..../images/NewPrev1.jpg) no-repeat 15px top;}
+.MaxPage a.PageNext1 { width:28px; height:28px; background:url(..../images/NewNext1.jpg) no-repeat 15px top;}
+.MaxPage a.PageNext1:hover { background:url(..../images/NewNext2.jpg) no-repeat 15px top;}
+.MaxPage span.PageNext1 { width:28px; height:28px; background:url(..../images/NewNext1.jpg) no-repeat 15px top;}
+.MaxPage span { float:left; display:block; font-size:22px; padding:0 15px; color:#3877c7;}
+
+.BlueBtn { background-color:#007cc3; padding:0 15px; font-size:16px; line-height:36px; height:36px; overflow:hidden; border:0; color:#fff; cursor:pointer;}
+/* -------------------- font-size -------------------- */
+.Font58_68 { font-size:58px; line-height:65px;font-family:"Microsoft YaHei";}
+.Font50_60 { font-size:50px; line-height:55px;font-family:"Microsoft YaHei";}
+.Font50_65 { font-size:50px; line-height:65px;font-family:"Microsoft YaHei";}
+.Font48_60 { font-size:48px; line-height:60px;font-family:"Microsoft YaHei";}
+.Font46_60 { font-size:46px; line-height:60px;font-family:"Microsoft YaHei";}
+.Font40_50 { font-size:40px; line-height:45px;font-family:"Microsoft YaHei";}
+.Font36_60 { font-size:36px; line-height:60px;font-family:"Microsoft YaHei";}
+.Font36_45 { font-size:36px; line-height:45px;font-family:"Microsoft YaHei";}
+.Font30_60 { font-size:30px; line-height:60px;font-family:"Microsoft YaHei";}
+.Font28_45 { font-size:28px; line-height:45px;font-family:"Microsoft YaHei";}
+.Font28_36 { font-size:28px; line-height:36px;font-family:"Microsoft YaHei";}
+.Font24_36 { font-size:24px; line-height:36px;font-family:"Microsoft YaHei";}
+.Font25_35 { font-size:25px; line-height:35px;font-family:"Microsoft YaHei";}
+.Font20_30 { font-size:20px; line-height:30px;font-family:"Microsoft YaHei";}
+.Font18_60 { font-size:18px; line-height:60px;font-family:"Microsoft YaHei";}
+.Font18_30 { font-size:18px; line-height:30px;font-family:"Microsoft YaHei";}
+.Font18_24 { font-size:18px; line-height:24px;font-family:"Microsoft YaHei";}
+.Font16_35 { font-size:16px; line-height:35px;font-family:"Microsoft YaHei";}
+.Font16_35 a{ font-size:16px; line-height:35px;font-family:"Microsoft YaHei";}
+.Font14_30 { font-size:14px; line-height:30px;font-family:"Microsoft YaHei";}
+.Font14_22 { font-size:14px; line-height:22px;font-family:"Microsoft YaHei";}
+.Font14_22 a{ font-size:14px; line-height:22px; font-family:"Microsoft YaHei";}
+/* -------------------- color --------------------  */
+.Cwhite { color:white; }
+.Cred { color:red;}
+.Cpublic { color:#03f;}
+.C454545 { color:#454545;}
+.C6fba2c { color:#6fba2c;}
+.C007cc3 { color:#007cc3;}
+.C3877c7 { color:#3877c7;}
+.Ccf274b { color:#cf274b;}
+.C097cde { color:#097cde;}
+.C1570a6 { color:#1570a6;}
+.Cf75b42 { color:#f75b42;}
+.C52b529 { color:#52b529;}
+.C2e8bf0 { color:#2e8bf0;}
+.Ced1919 { color:#ed1919;}
+.Cf25a29 { color:#f25a29;}
+.C81b72f { color:#81b72f;}
+.C7b7b7b { color:#7b7b7b;}
+.Bg2e8bf0 { background-color:#2e8bf0;}
+.Bgefefef { background-color:#efefef;}
+.Bgd90073 { background-color:#d90073;}
+.Bg00a1f1 { background-color:#00a1f1;}
+.Bgfb0 { background-color:#fb0;}
+.Bg7cbb00 { background-color:#7cbb00;}
+.Bgf65314 { background-color:#f65314;}
+.Bg0cf { background-color:#0cf;}
+.Bg7db133 { background-color:#7db133;}
+.Bge8e8e8 { background-color:#e8e8e8;}
+.Bgf90 { background-color:#f90;}
+.Bg0ea0ed { background-color:#0ea0ed;}
+.Bg0bd531 { background-color:#0bd531;}
+.Bg1560a6 { background-color:#1560a6;}
+.Bg0d4d94 { background-color:#0d4d94;}
+.Bg9d9d9d { background-color:#9d9d9d;}
+.Bgf25a29 { background-color:#f25a29;}
+.Bg323232 { background-color:#323232;}
+.Bg0094a7 { background-color:#0094a7;}
+.Bgb11a41 { background-color:#b11a41;}
+.Bg090 { background-color:#090;}
+.Bg0058cc { background-color:#0058cc;}
+.Bg2e8bf0 { background-color:#2e8bf0;}
+.Bgc8200f { background-color:#c8200f;}
+.Bgd74f2a { background-color:#d74f2a;}
+.Bga400ac { background-color:#a400ac;}
+.Bg603dbb { background-color:#603dbb;}
+.Bg03d8ca { background-color:#03d8ca;}
+.Bgff6 { background-color:#ff6;}
+.Bg1570a6 { background-color:#1570a6;}
+.Bg397fc2 { background-color:#397fc2;}
+.Bgf18c38 { background-color:#f18c38;}
+.Bg61b42f { background-color:#61b42f;}
+.Bgcf274b { background-color:#cf274b;}
+.Bg86c028 { background-color:#86c028;}
+.Bgeb5803 { background-color:#eb5803;}
+.Bg1F96D2{background-color:#1F96D2;}
+.Bg333333{background-color:#333333;}
+.Bg009966{ background-color:#009966;}
+.BgE9A900{background-color:#E9A900;}
+.Bg263949{ background-color:#263949;}
+.BgFEAC31{ background-color:#FEAC31;}
+.BgF9FDFF{background:url(../images/we-charBg.jpg) center no-repeat; height:600px; width:100%; }
+/* -------------------- Basic Settings -------------------- */
+.FloatLeft{float:left; margin:0;}
+.FloatRight { float:right; margin:0;}
+.MarginTop { margin-top:15px;}
+.MarginTop10 { margin-top:10px;}
+.MarginTop50 { margin-top:50px;}
+.MarginTop100 { margin-top:100px;}
+.PaddingLeft { padding-left:15px;}
+.PaddingLeft35 { padding-left:35px;}
+.PaddingTop { padding-top:15px;}
+.PaddingUD50 { padding:50px 0;}
+.U30D50 { padding:30px 0 50px;}
+.AlignCenter { text-align:center;}
+.OverHid { overflow:hidden;}
+.BoldMax { font-weight:bold;}
+.clear{display:block; clear:both; overflow:hidden; height:0px; }
+.ellipsis{ display:block; overflow:hidden; text-align:left; -o-text-overflow:ellipsis; text-overflow:ellipsis; white-space: nowrap; }
+
+
+/*--------------���--------------*/
+#TopMain{ background-color:#5C6061; width:100%; height:60px;}
+#TopSearch{ float:right; width:690px; height:60px; padding-right:110px;}
+#SearchBack{background:url(../images/SearchBack.png) left no-repeat; padding-left:12px; margin-top:15px; float:left; width:190px; padding-right:15px; height:32px; }
+#CallMenu{ float:left;}
+#txtKeyword{height:27px; background-color:#F8F8F8; border:0px;margin-left:5px;}
+#kewSearchForm{ position:relative; margin-top:1px;}
+#btnSearch{background:url(../images/search.png) left no-repeat; width:25px; height:25px; border:0px; /*padding-bottom:7px;*/ position:absolute; right:5px; top:1.5px; }
+#TopMenuRight{float:left; padding-left:30px; padding-top:20px; font-size:15px; color:#fff; font-family:Microsoft YaHei; height:60px;}
+#TopMenuRight a{ padding-right:5px; padding-left:5px;}
+#TopMenuRight a:link{font-size:14px; color:#fff; font-family:Microsoft YaHei;}
+
+
+/*头部*/
+.wp-welcome {
+	width: 100%;
+	height: 35px;
+	background-color: #f5f5f5;
+	font-size: 12px;
+	line-height: 35px;
+}
+.wp-welcome-content, .wp-topnav-content, .wp-main, .wp-footer, .list-main {
+	width: 1000px;
+	margin: 0 auto;
+}
+.wp-hello {
+	float: left;
+}
+.wp-top-phone_login {
+	background: url(../images/top_phone.png) no-repeat 0 12px;
+	padding-left: 20px;
+	float: right;
+}
+.wp-top-phone_login a.wp-top-login{
+	padding-left: 15px;
+}
+.wp-top-phone_login a:hover {
+	text-decoration: underline;
+}
+.wp-topnav {
+	width: 100%;
+	height: 84px;
+	background-color: #292929;
+}
+
+/*--------------�������--------------*/
+
+#NavMain{ background-color:#fff; width:100%; height:100px;}
+#Logor{ width:300px; height:80px; padding-top:10px;}
+
+.header h1 { height:90px;}
+.logo { width:325px;height:90px; background:url(../images/logo.png) no-repeat 0 -15px; display:block; text-indent:-99999px; position:absolute;top:8px;left:-8px;}
+a.sublogo { position:absolute;top:40px;left:330px; display:block; font-size:24px; font-weight:bold; border-left:1px #ccc solid;padding:0 15px; color:#ea2701;}
+a.sublogo:hover { text-decoration:none;}
+
+/*解决方案-方案简介*/
+.System_TextBox{width:100%;overflow:hidden;margin-top:30px;}
+.System_TextBox_Title{width:100%;overflow:hidden;font-size:40px;line-height:60px;font-family:"兰亭黑-简","Microsoft Yahei",Arial,sans-serif;color:#1b1b1b;text-align:center;}
+.System_TextBox_SubTitle{width:100%;overflow:hidden;font-size:16px;color:#999;line-height:24px;text-align:center}
+.System_TextBox_SubTitle a {color:#e60012;}
+.a_Solution_ProjectBox{width:1000px;overflow:hidden;margin:50px auto 0;}
+.a_Solution_Project{width:auto;overflow:hidden;padding:0px 0px 50px 400px;background:url(../images/img_About.png) no-repeat 0px 20px;}
+.a_Solution_Project1{width:auto;overflow:hidden;padding:90px 0px 100px 570px;background:url(../images/img_system.png) no-repeat 0px 0px;}
+.a_Solution_TitleBox{width:100%;overflow:hidden;}
+.a_Solution_TitleBox_Chinese{width:auto;overflow:hidden;font-size:18px;color:#333;line-height:30px;}
+.a_Solution_TitleBox_English{width:auto;overflow:hidden;font-size:14px;color:#999;font-family:Arial;line-height:20px;}
+.a_Solution_Content{width:100%;overflow:hidden;font-size:14px;color:#888;margin-top:20px;line-height:30px;}
+.a_Solution_ValueBox{width:100%;overflow:hidden;margin-top:50px;}
+.Main_ButtonBox_One{width:100%;overflow:hidden;}
+.Main_ButtonBox_One a{display:block;width:150px;height:35px;line-height:35px;background:#e60012;color:#fff;font-size:16px;text-align:center;margin-top:20px;}
+
+/*--------------����Banner--------------*/
+#HeaderMain{   height:700px;background:url(../images/IndexBCBg.png) center no-repeat;  }
+#HeadBackground{width:1423px;height:700px;/*background:url(../images/IndexBCBg.png) center no-repeat;*/ margin:0 auto;}
+.HeadImg{ margin:0 auto; text-align:center;}
+.NewsMore{ position:absolute; bottom:0px; left:460px;background:url(../images/NewsMore.png) center no-repeat; width:320px; height:50px; color:#fff;}
+.NewsMore .TxtMore{ margin-top:20px;color:#fff;overflow: visible; font-size:20px;font-family:Microsoft YaHei; font-weight:bolder; letter-spacing:1px; padding-left:100px;line-height:50px; height:50px;}
+.NewsMore .ImgMore{width:62px; line-height:70px; height:70px; padding-left:5px; padding-top:5px;}
+
+/*--------------���ŷ���--------------*/
+#NewsMain{ background-color:#029875; width:100%; height:300px;}
+.NewsList{ float:left; width:370px; height:230px; margin-top:30px; margin-right:30px; border-right:1px dashed #81CCBA;}
+.NewsTitle{ padding-top:15px; color:#fff; font-size:15px; width:260px; float:left; }
+.NewsTitle a{color:#fff; font-size:15px;  float:left;}
+.NewsTitle a:link{color:#fff; font-size:15px;  float:left;}
+.NewsTitle a:hover{color:#A4D694; font-size:15px;  float:left;}
+.NewsTime{ float:left; width:90px;padding-top:15px; text-align:right; padding-right:5px; color:#A4D0C2;}
+.NewwShow{ padding-top:20px; color:#fff;width:350px;}
+.NewwShow a{ color:#fff; letter-spacing:2px;}
+.NewsDetail{ margin-top:10px; text-align:right;padding-right:50px;}
+
+
+/*--------------�ĺ�һ����--------------*/
+#FourBus{ background-color:#F1F0F0; width:100%; height:530px;}
+.FourTitle{ font-size:35px; color:#CC0033; text-align:center; padding-top:50px; font-weight:bolder; letter-spacing:1px;font-family:Microsoft YaHei;}
+.FourEnTitle{ font-size:15px; color:#7D7D7D; text-align:center; padding-top:15px;}
+
+/*--------------��ҵ��΢���̳�--------------*/
+#CompanyWx{background:url(../images/FourBackGround.png) center repeat; height:1013px; width:100%;}
+.CompanyWxTitle{ padding-top:80px; text-align:center; color:#F0C22F; font-size:70px; font-weight:bolder;font-family:Microsoft YaHei;letter-spacing:1px;}
+.CompanyTwo{text-align:center; color:#fff; font-size:30px; font-family:Microsoft YaHei;letter-spacing:1px; padding-top:40px; margin-bottom:50px;}
+.CompantMore{ text-align:center; margin-top:10px;}
+
+
+
+
+/*--------------���˰�΢���̳�--------------*/
+#PersonalWx{background:url(../images/PersonalWx.jpg) center repeat; height:700px;}
+.PersonalTitle{font-family:Microsoft YaHei; color:#fff; font-size:40px; font-weight:bolder; margin-top:300px;letter-spacing:1px; height:90px; line-height:90px; }
+.PersonalTitle a{font-family:Microsoft YaHei; color:#fff; font-size:40px; font-weight:bolder;letter-spacing:1px; height:90px; line-height:90px;}
+
+
+/*--------------���˰�΢���̳�--------------*/
+#InternationB2B{background:url(../images/zmj.png) center repeat; height:810px; width:100%;}
+
+
+/*--------------İ��ϵͳ--------------*/
+#Moker{ background:url(../images/MokerBack.png) center no-repeat; height:740px; width:100%;}
+#MokerIcon{ position:absolute; z-index:1002; left:520px; top:-100px;}
+.MokerBackGround{ width:1423px; height:740px; margin:0 auto;}
+.MokerTitle{font-size:40px; font-weight:bolder; padding-top:120px;letter-spacing:1px;font-family:Microsoft YaHei; color:#fff; text-align:center;}
+.MokerEnTitle{font-size:16px; padding-top:15px;color:#fff; text-align:center;}
+.MokerDescript{font-size:16px;  padding-top:15px;color:#fff; text-align:center;font-family:Microsoft YaHei; }
+.MokerImgThis{ text-align:center; width:1230px; height:495px; margin:0 auto; padding-top:55px;}
+
+
+/*--------------��óͨ--------------*/
+#ForeignTrade{ width:100%; background-color:#F2C230; height:490px;}
+.ForeignBg{ width:1230px; height:490px;background:url(../images/ForeignTradeBg.png) center no-repeat;}
+.ForeignTitle{ color:#fff;text-align:center;font-family:Microsoft YaHei;  padding-top:100px;font-weight:bolder;font-size:50px; letter-spacing:2px; }
+.Tms{ color:#fff; font-size:25px;font-weight:bolder;text-align:center; margin-top:70px; width:380px; height:60px; margin-left:420px; line-height:60px; background-color:#E32235;}
+.Medio{ font-size:20px;font-family:Microsoft YaHei;color:#615532;letter-spacing:2px; text-align:center; margin-top:50px;}
+.ForeignBgLink{text-align:center; margin-top:50px;}
+
+
+/*--------------��óͨ--------------*/
+#Expressprint{ width:100%; background-color:#00AF86; height:650px;}
+.ExpressprintTitle{ color:#fff;text-align:center;font-family:Microsoft YaHei;  padding-top:100px;font-weight:bolder;font-size:50px; letter-spacing:2px; }
+.ExpressprintDescript{font-size:18px;  padding-top:20px;color:#fff; text-align:center;font-family:Microsoft YaHei;letter-spacing:2px;  }
+.ExpressprintImg{text-align:center; width:1200px; height:470px; margin:0 auto;  padding-top:5px;}
+
+
+/*--------------΢���ֲ�--------------*/
+
+.ps_overlay{z-index:90;background:#111;width:100%;height:100%;position:fixed;top:0px;left:0px;opacity:0.5;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+/* Image container style */
+.ps_container{width:480px;height:350px;position:absolute;top:50%;margin-top:-175px;left:50%;margin-left:-240px;z-index:100;}
+.ps_container img{border:10px solid #fff;position:absolute;top:50%;left:50%;-moz-box-shadow:1px 1px 10px #000;-webkit-box-shadow:1px 1px 10px #000;box-shadow:1px 1px 10px #000;}
+a.ps_close{background:#000 url(..../images/close.png) no-repeat center center;cursor:pointer;width:56px;height:56px;position:fixed;right:10px;
+top:10px;z-index:1000;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;opacity:0.6;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);	
+}
+*html a.ps_close{position:absolute;top:expression(eval(document.documentElement.scrollTop));margin:10px 0 0 0;}
+a.ps_next_photo{position:absolute;top:50%;left:50%;width:56px;height:56px;margin:-28px 0 0 -28px;z-index:200;cursor:pointer;background:#000 url(../images/next_photo.png) no-repeat 50% 50%;opacity:0.6;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;}
+a.ps_next_photo:hover,a.ps_close:hover{opacity:0.8;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);	}
+.ps_slider{width:1230px;height:300px;position:relative;margin:50px auto 0px auto;}
+.ps_slider #ps_albums{width:1230px;height:332px;overflow:hidden;position:relative; margin-left:20px;}
+.ps_slider a.next,.ps_slider a.prev{position:absolute;background-position:center center;background-repeat:no-repeat;width:97px; height:97px;top:50%;margin-top:-10px;opacity:0.6;filter:alpha(opacity=60); -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;cursor:pointer;outline:none;}
+.ps_slider a.prev:hover,.ps_slider a.next:hover{opacity:0.9;filter:alpha(opacity=90);}
+.ps_slider a.disabled,.ps_slider a.disabled:hover{opacity:0.4;filter:alpha(opacity=40);cursor:default;}
+.ps_slider a.prev{left:-85px;background-image:url(../images/prevLeft.png);}
+.ps_slider a.next{right:-80px;;background-image:url(../images/NextRight.png);}
+.ps_slider .ps_album{opacity:0;filter:alpha(opacity=0);width:210px;height:320px;padding:5px;background-color:#fff;position:absolute;top:0px;text-align:center;cursor:pointer;padding-top:50px;}
+.ps_slider .ps_album:hover{/*background-color:#383838;*/}/*--�����¼�--*/
+.ps_slider .ps_album .ps_desc{display:block;color:#666;height:200px;margin-top:10px;text-align:left;line-height:20px;overflow:hidden;text-overflow:ellipsis;}
+.ps_slider .ps_album:hover .ps_desc{background-image:none;}
+.ps_slider .ps_album .ps_desc span{display:block;margin:0px 10px 10px 10px;padding-top:20px;}
+.ps_slider .ps_album .ps_desc h2{margin:10px 10px 0px 10px;text-align:left;padding-bottom:5px;font-weight:normal;color:#ddd;text-shadow:0px 0px 1px #fff;text-align:center;font-size:25px;font-weight:bolder;}
+.ps_desc span{ font-size:18px; font-family:Microsoft YaHei;}
+.ps_slider .loading{position:absolute;top:0px;left:0px;width:100%;height:330px;opacity:0.7;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);}
+
+
+
+/*--------------����ҳ��Banner--------------*/
+#OrtherPageHead{ width:100%; height:40px; background-color:#E5E5E5; }
+.OrtherPageSet{line-height:40px;color:#5D6061; font-size:15px;font-family:Microsoft YaHei;}
+
+
+
+
+/*--------------΢����ҵ��--------------*/
+#WhyNotDo{ height:635px; background-color:#F6F6F6;background:url(../images/whynotgg.png) center no-repeat; }
+.EngTitle{ color:#E03E25; font-size:40px; text-align:center; padding-top:100px; font-weight:bolder;}
+.WhyCompany{ font-weight:bolder; color:#232D36;font-family:Microsoft YaHei;text-align:center; margin-top:30px; font-size:35px;}
+.WhyEnCompany{text-align:center;margin-top:15px; color:#232D36; font-size:20px; font-weight:bolder;}
+.DetailCompany{ width:170px; height:300px; padding-left:55px;}
+.DetailCompany img{ padding-left:30px;}
+.DetailCompany p{ font-size:23px; color:#5E5E69; padding-top:15px; font-weight:bolder; padding-left:50px;}
+
+.DetailCompany div{  padding-top:20px; color:#333333;text-align:center; margin-left:10px;}
+
+#TwoWhyNot{ background-color:#E14F36; height:390px;}
+#FourBottom{ width:400px; height:8px; text-align:center; margin:0 auto; margin-top:20px;}
+#FourBottom p{color:#383433; letter-spacing:1px;font-family:Microsoft YaHei; font-size:15px;}
+.ChTwoWhyNot{ color:#fff; font-size:40px; text-align:center; padding-top:70px; font-weight:bolder;font-family:Microsoft YaHei;}
+.PlusAdd{text-align:center; margin:0 auto;  margin-top:35px; width:1200px; height:180px;}
+
+
+#IndustryDo{ height:1015px; background-color:#F6F6F6; width:100%; }
+.IndustryDoFour{ text-align:center; padding-top:50px;font-family:Microsoft YaHei;font-size:37px; color:#E03E25; font-weight:bolder;}
+.IndustryDoBottom{width:500px; height:8px; text-align:center; margin:0 auto; margin-top:18px;}
+.CnIndustryDo{ text-align:center; margin:0 auto; color:#333333; font-size:16px;font-family:Microsoft YaHei; letter-spacing:1px; margin-top:5px;}
+.EndIndustryDo{text-align:center; margin:0 auto; color:#333333;}
+
+
+#SixIndustry{ width:100%; background:url(../images/SixIndustryBg.jpg) center no-repeat; height:610px;}
+#SixIndustryMain{ width:100%; background:url(../images/SixIndustryBg.jpg) center no-repeat; width:1423px;height:610px; margin:0 auto;}
+
+
+#Specificfeatures{ width:100%; background-color:#fff; height:auto; }
+.SpecificfeaBottom{ margin-top:15px;}
+.Webyf{ letter-spacing:0px;font-family:Microsoft YaHei; color:#333333; font-size:20px;text-align:center; margin: 0 auto; margin-top:8px;}
+.EnWebyf{ color:#B8B8B8;text-align:center; margin:0 auto; margin-top:8px; font-size:14px;}
+.wxbkmain{ padding-top:50px; width:1100px; margin:0 auto; padding-left:150px;}
+.wxDetail{ width:190px; height:200px; float:left; margin:20px 120px 20px 20px; }
+.wxImg{ text-align:center;}
+.wxImgTitle{ height:35px; line-height:35px; margin:0 auto; text-align:center; width:190px; font-size:18px; font-weight:bolder;}
+.wxImgDesc{ text-align:center; color:#333333; font-size:12px;font-family:Microsoft YaHei;}
+#WxMore{ margin-top:80px;}
+#WxMore p{ font-size:20px; color:#666666; font-weight:bolder;}
+
+
+
+
+#Independent{ background-color:#E6E6E6; width:100%; height:630px;background:url(../images/shymbzs.png) center no-repeat;}
+#IndependentMain{background-color:#E6E6E6;height:630px;background:url(../images/shymbzs.png) center no-repeat; width:1400px; height:630px; margin:0 auto;}
+.IndependentTitle{ font-weight:bolder; color:#000;font-family:Microsoft YaHei;padding-top:50px; font-size:42px; }
+.ENIndependentTitle{ font-size:28px; color:#999999;padding-top:10px;font-weight:bolder;border-top:2px dashed #000; margin-top:20px;}
+#IndependentImg{ width:1400px; margin:0 auto; margin-top:50px;}
+.PageDetail{width:400px; float:left; padding-right:10px;  }
+.PageDetail img{  width:400px; height:370px; }
+.PageDetail p{ color:#424241; text-align:center; margin-top:20px; font-size:15px;font-family:Microsoft YaHei;font-weight:bolder;}
+
+#jdms{ height:800px; background-color:#FFFFFF; width:100%;}
+#jdmsMain{background:url(../images/micronetBack.png) center no-repeat; width:1400px; height:630px; margin:0 auto;}
+.jdmsIndustry{ text-align:center; padding-top:70px;font-family:Microsoft YaHei;font-size:40px; color:#E03E25; font-weight:bolder; letter-spacing:1px;}
+.jdmsEnIndustry{ color:#B8B8B8; font-size:15px; margin-top:20px; text-align:center;}
+.jdmsImg{ margin:0 auto; padding-top:30px; width:1423px;}
+
+#WhyQuestion{background:url(../images/RedBackG.png) center repeat; width:100%; height:215px;}
+.WhyQuestionTitle{text-align:center;font-family:Microsoft YaHei;font-size:40px; color:#fff; font-weight:bolder; padding-top:45px;}
+.WhyQuestionDesc{text-align:center; margin-top:20px;font-size:20px; color:#fff; font-weight:bolder;font-family:Microsoft YaHei;}
+.WhyQuestionImg{text-align:center; margin:0 auto; margin-top:15px;}
+
+#ProductPrice{width:100%; background-color:#fff;}
+.ProductPricTitle{ color:#E04E36; font-size:45px;background:url(../images/ImgPrice.png) center no-repeat; margin-top:80px; width:1200px; height:80px;line-height:80px; }
+
+
+#PersonalWxPage{ background-color:#fff; width:100%; height:auto; margin-top:30px;}
+.PersonalWxAsTitle{background:url(../images/bawxtitle.png) center repeat; height:60px; line-height:60px; text-align:center;font-family:Microsoft YaHei;font-size:40px;font-weight:bolder; color:#3C3C3C; margin:0 auto;   }
+#PersonalMain{ width:1200px; background-color:#fff; margin-top:100px;}
+.LeftImg{ width:760px; height:600px; float:left;}
+.LeftDesc{width:440px;height:600px; float:left;}
+.DescTitle{ border-left:2px solid #FA341E; margin-left:30px; margin-top:180px; margin-bottom:5px;}
+.DescLeftTitle{ border-left:2px solid #FA341E; margin-left:80px; margin-top:120px; margin-bottom:5px;}
+.DscTitle{ padding-left:10px; color:#FA341E; font-size:20px; font-weight:bolder;}
+.DscEngTitle{padding-left:10px; font-size:16px; }
+.DescP{background:url(../images/FiveStars.png) left no-repeat;margin-left:25px; padding-left:20px; color:#333333; font-size:15px;  }
+.LeftDescP{background:url(../images/FiveStars.png) left no-repeat;margin-left:75px; padding-left:20px; color:#333333; font-size:15px;  }
+
+
+#BuyProcess{ height:900px; width:100%; background-color:#F1F1F1; margin-top:50px;}
+#AppBuyProcess{ height:510px; width:100%; background-color:#F1F1F1; margin-top:50px;}
+.BuyProcessImg{ padding-top:120px;}
+.BuyTitle{ position:absolute; left:270px; top:-70px;}
+
+
+#PersonalAl{ height:630px; width:100%;background:url(../images/PersonalBBg.png) center repeat; }
+#PersonalAlTitle{background:url(../images/bawxtitle.png) center repeat; height:60px; line-height:60px; text-align:center;font-family:Microsoft YaHei;font-size:40px;font-weight:bolder; color:#fff; margin:0 auto;    }
+
+/* apply */
+.apply{width:1200px;margin:20px auto 0 auto;}
+.apply_array{border:#999999 8px solid;width:207px;float:left;height:370px;margin-right:30px;}
+.apply_array .vote{position:absolute;line-height:26px;margin-top:10px;padding-left:29px;width:83px;display:block;background:url(imgs/vote.gif) no-repeat 0px 0px;height:26px;color:#282828;margin-left:-6px;text-decoration:none;}
+.apply_last{margin-right:0px}
+.apply_img{text-align:center;width:207px;display:table-cell;background:#e2e2e2;height:370px;font-size:95px;vertical-align:middle}
+.apply_array a{text-decoration:underline}
+.apply_array a:hover{color:#e01111}
+.apply_info{text-align:center;padding:15px;}
+.apply_comment{text-align:center}
+.apply_info a{line-height:17px;font-weight:700}
+.apply_nav{position:relative;width:1000px;float:left;height:410px;overflow:hidden}
+.apply_w{position:absolute;margin-top:22px;width:1000px;float:left;left:0px}
+.apply .img_l{padding:122px 12px 0 12px;float:left;cursor:pointer;}
+.apply .img_r{padding:122px 12px 0 12px;float:left;cursor:pointer;}
+
+#WhyQuestionPr{ background-color:#4F4F4F; width:100%; height:200px;}
+
+
+#OverseasBusiness{ width:100%; height:750px; background-color:#F6F6F6;}
+.OverseasBackGround{ width:1200px; height:750px;background:url(../images/OverseasBBg.png) center no-repeat;}
+.OverseasCnTitle{ color:#272727; text-align:center; margin:0 auto;  padding-top:80px; font-size:42px; font-weight:bolder;}
+.OverseasEnTitle{color:#676565; text-align:center; margin:0 auto;margin-top:23px;font-size:18px; }
+.DetailOverseas{ width:215px; height:100%; padding-left:100px;}
+.DetailOverseas img{ padding-left:30px;}
+.DetailOverseas p{ font-size:18px; color:#5E5E69; padding-top:15px; font-weight:bolder; padding-left:50px;}
+
+.DetailOverseas div{  padding-top:20px; color:#333333; text-indent:2em;}
+
+#OverseasShow{ width:100%; height:870px; background-color:#fff;}
+.OverseasShowCnTitle{ color:#272727; text-align:center; margin:0 auto;  padding-top:50px; font-size:42px; font-weight:bolder;}
+.OverseasShowTitle{color:#676565; text-align:center; margin:0 auto;margin-top:23px;font-size:18px;  }
+.OverseasShowImg{ text-align:center; margin:0 auto; margin-top:15px;}
+.ImgShow{ margin:0 auto; width:1050px; height:630px; margin-top:30px; text-align:center;}
+
+#OverseasClass{ background-color:#070708; width:100%;}
+#OverseasMain{ width:100%; height:830px; background:url(../images/AdvantageBack.jpg) center no-repeat;}
+.OverseasMainCnTitle{color:#fff; text-align:center; margin:0 auto;  padding-top:60px; font-size:42px; font-weight:bolder;}
+.OverseasMainEnTitle{color:#fff; text-align:center; margin:0 auto;margin-top:23px;font-size:18px; }
+
+#Overseasstrength{background-color:#fff; width:100%; height:1290px;}
+.micronetYs{ font-size:18px; color:#FF978C; margin:0 auto; text-align:center; font-weight:bolder; margin-top:27px;}
+.WorldMap{ margin-top:50px; width:1200px; height:100%;}
+#OverseasQuestion{ background-color:#F2C230; height:180px;}
+.OverseassPicMain{width:1250px; margin:0 auto; margin-top:80px; }
+.OverseassPichE{ width:114px; height:120px;float:left; padding-right:20px; margin-bottom:20px; }
+.OverseassPichE p{ font-size:12px; text-align:center;}
+.OverseassPic{ width:114px; height:80px;}
+
+
+#MokerPageBanner{ width:100%; height:910px; background:url(../images/MokerPageBack.png) center repeat;}
+.DownLoadButtom{ position:absolute; bottom:150px; left:120px; width:370px; height:96px;}
+.MokerBottomPostion{position:absolute; bottom:-190px; width:1200px; height:96px;}
+.MokerPageBannerImg{ width:1200px; height:670px;}
+.MokerBottomPostion img{ padding-right:15px;}
+
+
+#MokerDescMain{ width:1200px;}
+#MokerDesc{ height:570px; width:100%; background-color:#EEEDED;}
+.MokerDescTitle{ font-size:50px; color:#2C2C2C; margin:0 auto; font-weight:bolder; text-align:center; padding-top:60px;}
+.MokerEnDescTitle{font-size:18px; color:#2C2C2C; margin:0 auto; text-align:center;  margin-top:23px;}
+.MokerDescDetail{ width:285px; height:300px; margin-right:15px;margin-top:80px; float:left; }
+.MokerDescDetailTilte{ text-align:center; color:#fff; padding-top:70px; font-size:30px; font-weight:bolder; margin-bottom:30px;}
+.MokerDescDetailDesc{ padding:30px 10px 10px 20px; color:#fff;}
+.MokerImg{ position:absolute; top:-50px; left:90px;}
+
+#MokerLineT{ width:100%; height:1050px; background-color:#F2C230;}
+.MokerLineTitle{ font-size:50px; color:#E12438; margin:0 auto; font-weight:bolder; text-align:center; padding-top:60px;}
+.MokerEnLineTitle{font-size:18px; color:#E12438; margin:0 auto; text-align:center;  margin-top:23px;margin-bottom:100px;}
+.MokerPcPic{ width:1200px; height:670px; margin:0 auto; text-align:center; margin-top:20px; margin-bottom:20px;}
+
+#MokerLjl{ background-color:#C1392B; width:100%; height:905px;}
+.MokerLjlTitle{font-size:50px; color:#fff; margin:0 auto; font-weight:bolder; text-align:center; padding-top:60px;}
+.MokerEnLjlTitle{font-size:18px; color:#fff; margin:0 auto; text-align:center; margin-top:23px;}
+.AboutLjlTitle{font-size:50px; color:#616161; margin:0 auto; font-weight:bolder; text-align:center; padding-top:60px;}
+.AboutEnLjlTitle{font-size:18px; color:#616161; margin:0 auto;text-align:center; margin-top:23px;}
+.MokerWebImg{ text-align:center; margin:0 auto; margin-top:50px; margin-bottom:25px;}
+#MokerWQuestion{ background-color:#434343;}
+
+#MokerGn{ width:1200px;}
+.MokerGnDetail{ width:300px; height:120px; float:left; margin-left:80px; margin-bottom:30px;}
+.MokerGnDetailImg{ height:60px; width:80px; float:left;}
+.MokerGnDetailRight{ width:220px; height:120px; float:left;}
+.MokerGnDetailTitle{ color:#694E00; font-size:25px; font-weight:bolder; padding-bottom:20px; padding-top:23px;}
+.MokerGnDetailDetail{color:#694E00;}
+
+
+#ForeigntradeQuestion{ width:100%; height:630px;}
+#ForeigntradeQuestionMain{ width:1200px; height:430px; margin-top:50px; margin-bottom:20px;}
+.ForeigntradeQuestionDetail{ width:290px; float:left; padding-right:10px;}
+.ForeigntradeQuestionTitle{ color:#171717; width:250px; padding-top:20px; padding-bottom:10px; font-size:14px; padding-left:10px; padding-right:10px;}
+.ForeigntradeQuestionLine{ text-align:left; margin-bottom:20px; padding-left:10px; padding-right:10px;}
+.ForeigntradeQuestionImg{ width:290px; height:286px;}
+.ForeigntradeQuestionTop{border:1px solid #939393;}
+
+#ForeigntradeWhyNot{ width:100%; background-color:#F2F2F2; height:580px;}
+.WhyNotDescTitle{font-size:14px; color:#333333; margin:0 auto; text-align:center; padding-top:18px; width:900px; padding-top:20px;}
+.ForeigntradeWhyNotImg{ margin-top:50px;}
+
+#Whichcontain{ height:430px; width:100%;background:url(../images/WhichcontainPic.png) center no-repeat; }
+.Whichcontain{height:430px; width:1423px; margin:0 auto;}
+
+#ForeigntradeShow{ width:100%; height:900px; background-color:#23BF7B;}
+.ForeigntradeShowTitle{ font-size:50px; color:#fff; margin:0 auto; font-weight:bolder; text-align:center; padding-top:60px;}
+.ForeigntradeEnShowTitle{font-size:18px; color:#fff; margin:0 auto; text-align:center;margin-top:23px; }
+.ForeigntradeShowImg{ margin:0 auto; text-align:center; margin-top:30px;}
+
+#ForeigntradeShowQuestion{ background-color:#434343;height:100px; width:100%;}
+.MoreProduct{ text-align:center; margin:0 auto; height:60px;padding-top:40px; line-height:60px;}
+.MoreProduct a{ color:#fff; font-size:30px; padding-top:30px; text-decoration:none; font-weight:bolder; line-height:30px;font-family:Microsoft YaHei;}
+.ProsJt{ position:absolute; bottom:28px; left:435px;}
+
+#MokerBaoh{ width:1100px; margin-top:50px; margin-left:100px;}
+.MokerBaohDet{ width:360px;float:left; padding-left:100px; padding-bottom:60px;}
+.MokerBaohImg{ float:left; width:78px; height:70px;}
+.MokerIsAs{float:left; width:282px;}
+.MokerBaohTitle{ font-size:20px; padding-top:10px; padding-left:20px; font-weight:bolder;}
+.MokerBaohContent{ color:#373838; padding-top:10px;padding-left:20px;}
+
+
+.SinglePrintBannerPostion{ position:absolute; right:150px; bottom:120px;}
+#PrintSystemWhy{ background-color:#333333; height:250px; background:url(../images/PrintSystemWhyBg.png) center no-repeat; width:1423px; margin:0 auto;}
+.PrintSystemWhyTitle{ font-size:45px; color:#fff;font-weight:bolder; text-align:center; padding-top:60px; padding-left:30px;}
+.PrintSystemContent{ padding-top:50px; color:#fff; text-align:center; font-size:20px; width:550px; margin:0 auto; font-weight:bolder; letter-spacing:2px;line-height:26px;}
+
+
+#SpecialExpress{ height:860px; background-color:#E9AD17; width:100%;}
+.SpecialExpressMain{ width:1230px; height:650px; margin:0 auto; padding-top:100px;}
+.SpecialExpressTitle{text-align:center;font-family:Microsoft YaHei;font-size:40px; color:#fff;  padding-top:60px; font-weight:bolder;}
+.SpecialExpressDesc{text-align:center; margin-top:20px;font-size:20px; color:#fff; font-weight:bolder;font-family:Microsoft YaHei;}
+.SpecialExpressDetail{ width:305px; height:250px; border-right:1px solid #F1CC6E; float:left; margin:0 auto;}
+.SpecialExpressImg{ width:250px; height:190px;}
+.SpecialExpressFont{ padding-left:20px; padding-right:20px; color:#fff; font-weight:bolder; font-size:15px;}
+
+#Showinterface{ height:820px; width:100%;}
+.SpecialExpressprintc{ margin-top:50px;}
+
+#Showinter2070{ height:2070px; width:100%; background-color:#D6303A;}
+.SpecialEnImg{ margin-top:70px;}
+
+#MocronetCompany{ width:1200px; margin:0 auto; margin-top:80px; background-color:#fff;}
+.Company{ margin-top:30px;}
+.CompanyTitle{ color:#1F96D2; font-size:27px; font-weight:bolder; padding-right:12px;}
+.CompanyTitleLine{ margin-bottom:20px;}
+.Company p{ font-size:13px;line-height:30px; color:#8C8C8C; margin-bottom:10px; margin-top:10px; width:1200px;}
+.CompanySpan{ font-size:15px; font-weight:bolder;}
+
+#Enterpriseculture{ width:100%; height:740px;  background-color:#E84C3D;}
+.Enterpriseculture{ margin:0 auto; width:1200px; height:740px;background-color:#E84C3D; }
+
+#mArchitecture{background:url(../images/Hxbm.png) center repeat; width:100%; height:760px;}
+.mArchitectureTitle{ color:#616161; font-size:50px; text-align:center; font-weight:bolder; padding-top:50px;}
+.mArchitectureEnTitle{ color:#616161; font-size:16px; text-align:center;  font-weight:bolder; padding-top:15px;}
+.mArchitectureImg{ margin:0 auto; text-align:center; padding-top:10px;}
+.CertificatesImg{ text-align:center; margin:0 auto; margin-top:30px;}
+
+#MicronetHistory{ height:2540px; width:100%; background-color:#fff;}
+
+#MicronetInternational{ height:1230px; width:100%;}
+.MicronetInternationalMain{ width:1200px; height:1130px; margin:0 auto;}
+.countriesImg{ margin-top:50px;}
+.MicronetInternationalBottom{ width:1200px; height:250px; margin:0 auto;}
+.InternationalDetail{ width:230px;height:250px; padding-right:75px; border-right:2px solid #ccc; padding-left:75px; margin-top:50px; float:left; }
+.InternationalImg{}
+.InternationalTitle{ text-align:center; color:#231F20; font-size:23px; font-weight:bolder; margin-bottom:15px;}
+.InternationalDetail p{ color:#231F20; text-align:center;}
+
+#Certificates{background:url(../images/CertificatesBg.png) center repeat; width:100%; height:1200px; }
+#ContactUsMain{ width:1200px; height:1000px; margin:0 auto; margin-top:60px;}
+.ContactUsTitle{ padding-left:20px; border-left:3px solid #592702; color:#592702; font-size:30px; font-weight:bolder; line-height:30px;font-family:Microsoft YaHei;}
+.Leavemessage{ font-size:14px; color:#878787; margin-top:20px;}
+.MessageMain{ width:1200px; height:410px; background-color:#EBEBEB; margin-top:30px;}
+.MessageDetail{ color:#7A7A7A; padding-top:30px; margin-left:40px; font-size:20px;}
+.MessageDetailInput{ width:230px; height:20px; margin-right:20px;}
+.MessageDetailInputcom{ width:360px; height:20px; margin-right:20px;}
+.MessageDetailArea{ width:1100px; height:180px; margin-right:20px;}
+.MessagContent{ font-size:18px;}
+.SubmitClass{ background:url(../images/SubImg.png) center no-repeat; width:120px; height:38px; border:0px;}
+.MessageSub{ text-align:right; margin-right:50px; margin-top:10px; border:0px;}
+.CompanyTitleAbout{ font-size:27px; color:#592702; margin-top:20px; font-family:Microsoft YaHei;}
+.ljbmProstion{ position:absolute; right:230px; bottom:160px;}
+.CaseProstion{ position:absolute; right:120px; bottom:230px;}
+
+#Pushoff{ width:100%; height:310px; background-color:#CA003D;}
+.PushoffTitle{  padding-top:50px; color:#fff; font-size:26px; font-weight:bolder;}
+.PushoffEnTitle{ padding-top:10px; color:#fff; font-size:14px; font-weight:bolder;}
+.PushoffDesc{ padding-top:30px; color:#fff; font-size:16px; font-weight:bolder; padding-right:50px;}
+.PushoffYellowDesc{ color:#F49520;padding-top:20px;font-size:18px; font-weight:bolder; padding-right:50px;}
+
+#GetQuestion{ width:100%; height:736px; background-color:#303030;}
+.GetQuestionMain{ width:1230px; height:736px;  background:url(../images/GetQuestionBg.png) center no-repeat; margin:0 auto;}
+.GetQuestionCnTitle{color:#fff; text-align:center; margin:0 auto;  padding-top:80px; font-size:42px; font-weight:bolder;}
+.GetQuestionImg{ margin:0 auto; text-align:center; margin-top:30px;}
+
+
+#EnjoyBussines{ width:1423px; height:550px; background-color:#E9A900; margin:0 auto;}
+.FourAdvantage{ margin:0 auto;margin-top:10px; }
+
+#Tencommission{ height:835px; width:100%; background-color:#4D9CD7;}
+.ProductPush{ padding-top:70px;}
+
+#Occurredcommission{ width:100%; height:1000px;}
+.OccurredcommissionTitle{ font-size:50px; color:#4D9CD7; margin:0 auto; font-weight:bolder; text-align:center; padding-top:60px;}
+.OccurredcommissionEnTitle{font-size:18px; color:#7F7F80; margin:0 auto;  text-align:center; margin-top:23px;}
+.Occurredcommissiontx{ margin:0 auto; text-align:center; margin-top:50px;}
+.Occurredcommissionp{ color:#4D9CD7;font-weight:bolder;font-size:35px;  margin-top:80px;}
+.OccurredcommissionpTitle{ color:#444547; font-weight:bolder; font-size:17px;}
+.OccurredcommissionpDesc{color:#5C5D5F;}
+
+
+#Sharepromote{ width:100%; height:750px; background-color:#666666;}
+#SharepromoteMain{ width:1230px; height:100%; margin-top:60px; }
+.ShareDetail{ width:232px; float:left; margin-right:10px; position:relative;}
+.ShareImg{width:232px; height:413px;}
+.ShareTitle{ text-align:center; margin-top:30px; font-size:14px; color:#fff; padding-left:10px; padding-right:10px; }
+.WtkBk{ padding-top:50px;}
+#WtkBkmain{width:100%; height:620px; background-color:#E9E402;}
+
+#BringWtkBk{ width:100%; height:575px; background-color:#ED5A36;}
+.NewsVipYh{ margin:0 auto; text-align:center; padding-top:15px;}
+.RightJt{ position:absolute; top:200px; right:-30px; z-index:2;}
+
+
+.Proxy_table{ color:#454545; font-size:25px; border:1px solid #e3e3e2;}
+.Proxy_table_frist{ height:48px; background:url(..../images/Proxy_table_bg2.jpg) repeat-x; border:none;}
+.Proxy_table tr td { font-size:16px; padding:15px 0 15px 15px;  color:#454545;border-left:1px solid #e3e3e2;}
+.Proxy_table p{ font-size:18px; padding:15px 0 15px 15px;color:#454545;}
+.Proxy_table .ProxyBg { background-color:#f8f8f8;}
+
+.Proxy_table_daili{ color:#454545; font-size:25px; border:1px solid #e3e3e2;}
+.Proxy_table_daili thead tr { background:url(..../images/Proxy_table_bg.jpg) repeat-x; line-height:18px;}
+.Proxy_table_daili tr td{ font-size:18px; padding:15px 0 15px 25px;}
+.Proxy_table_daili tbody tr td { border-left:1px solid #e3e3e2;}
+.Proxy_table_daili .ProxyBg { background-color:#f8f8f8;}
+
+.WeiXinCase{ width:1180px; overflow:hidden;}
+.WeiXinCase li{ float:left; width:50%; overflow:hidden; padding:20px 0;}
+.WeiXinCaseWidth{ width:350px; padding:20px 0 0 20px;}
+
+.WeiYiXinCase{ width:1230px; overflow:hidden; border-bottom:1px solid #cecece;}
+.WeiYiXinCase li{ float:left; width:205px; overflow:hidden; padding:20px 0;}
+.WeiYiXinCaseWidth{ width:350px; padding:0 0 0 20px;}
+
+
+.WeiXinCaseSmall{ width:1180px; overflow:hidden;}
+.WeiXinCaseSmall li{ float:left; width:20%; overflow:hidden;}
+.WeiXinCaseSmall li img{ margin:20px 10px; border:1px solid #ebebeb;}
+
+.WeiXinMoBan{ width:1180px; overflow:hidden;}
+.WeiXinMoBan li{ float:left; width:33%; overflow:hidden;}
+.WeiXinMoBan li img{margin:25px; border:1px solid #dedede;}
+
+
+#Singleproduct{ width:100%; height:1270px; background-color:#096AAD;}
+.SingleproductTitle{background:url(../images/LinetTitle.png) center no-repeat; height:150px; font-size:40px; color:#fff; font-weight:bolder; text-align:center; line-height:150px; padding-left:20px;}
+.SingleproductDetail{ width:1000px; height:100%; margin:0 auto; background-color:#3A88BD; margin-top:30px;}
+.SingleproductpTitle{ height:68px; line-height:68px; }
+.SingleproductDetail p{height:68px; line-height:68px; color:#fff; border-top:1px solid #307EB3;padding-left:20px; font-size:15px;}
+
+#RetailB2C{width:100%; height:1175px; background-color:#4D9CD7;}
+.BigWheel{ margin:0 auto; text-align:center; margin-top:20px;}
+.RetailB2CDetail{ width:1000px;  margin:0 auto; background-color:#71B0DF; margin-top:30px;}
+.RetailB2CLeft{height:68px; line-height:68px;color:#fff; padding-left:20px; font-size:15px;  width:449px; float:left;border-right:1px solid #61A0D0;border-bottom:1px solid #61A0D0;}
+.RetailB2CRight{height:68px; line-height:68px; color:#fff; padding-left:20px; font-size:15px; width:499px; float:left;border-bottom:1px solid #61A0D0;}
+
+#Wholesaleb2C{width:100%; height:1005px; background-color:#92BE33;}
+.Wholesaleb2CDetail{ width:1000px;  margin:0 auto; background-color:#85AE2A; margin-top:30px;}
+.Wholesaleb2CLeft{height:68px; line-height:68px;color:#fff; padding-left:20px; font-size:15px;  width:449px; float:left;border-right:1px solid #8FB931;}
+.Wholesaleb2CRight{height:68px; line-height:68px; color:#fff; padding-left:20px; font-size:15px; width:499px; float:left;border-bottom:1px solid #8FB931;}
+
+
+#Ghs{ background-color:#C35151; height:1520px; width:100%;}
+.GhsDetail{ width:1000px;  margin:0 auto; background-color:#A03D3D; margin-top:30px;}
+.GhsDetail1{ width:1000px;  margin:0 auto; background-color:#A03D3D; margin-top:30px;}
+.GhsTitle{ height:68px; line-height:68px; }
+.GhsDetail p{height:68px; line-height:30px; color:#fff; border-top:1px solid #B24747;padding-left:20px; font-size:15px;padding-right:15px;}
+.GhsDetail1 p{height:68px; line-height:68px; color:#fff; border-top:1px solid #B24747;padding-left:20px; font-size:15px;padding-right:15px;}
+
+.Lineheight{ line-height:68px;}
+
+
+#Morebusinesses{background-color:#B059A7; height:1570px; width:100%;}
+.MorebusinessesTitle{background:url(../images/LinetTitle.png) center no-repeat; height:150px; padding-left:15px; font-size:35px; color:#fff; font-weight:bolder; text-align:center; line-height:150px;}
+.MorebusinessesDetail{ width:985px;  margin:0 auto; background-color:#913E88; margin-top:30px; padding-right:15px;}
+.MorebusinessesGhsTitle{ height:68px; line-height:68px; border-bottom:1px solid #A14C98; }
+.MorebusinessesDetail p{height:68px; line-height:30px; color:#fff; padding-left:20px; font-size:15px;}
+
+#BusinessO2o{background-color:#E7AC34; height:1530px; width:100%;}
+.BusinessO2oDetail{ width:1000px;  margin:0 auto; background-color:#E09D2A; margin-top:30px;}
+.BusinessO2oTitle{ height:68px; line-height:68px; }
+.BusinessO2oDetail p{height:68px; line-height:68px; color:#fff; border-top:1px solid #E6A32F;padding-left:20px; font-size:15px;}
+
+#FyModel{background-color:#E1004A; height:1060px; width:100%;}
+
+
+#InterNationsEt{background-color:#3D75B3; height:1480px; width:100%;}
+.InterNationsEtDetail{ width:1000px;  margin:0 auto; background-color:#34649D; margin-top:30px;}
+.InterNationsEtTitle{ height:68px; line-height:68px; }
+.InterNationsEtDetail p{height:68px; line-height:68px; color:#fff; border-top:1px solid #3368A4;padding-left:20px; font-size:15px;}
+
+.InterNationsEtDetail1{ width:1000px;  margin:0 auto; background-color:#34649D; margin-top:30px;}
+.InterNationsEtTitle{ height:68px; line-height:68px; width:980px;border-bottom:1px solid #336AA8; }
+.InterNationsEtDetailLeft{height:68px; line-height:68px;color:#fff;  padding-left:20px; font-size:15px;  width:449px; float:left;border-right:1px solid #336AA8;border-bottom:1px solid #336AA8;}
+.InterNationsEtDetailRight{height:68px; line-height:68px; color:#fff;  padding-left:20px; font-size:15px; width:499px; float:left;border-bottom:1px solid #336AA8;}
+
+
+#Dockingsystem{background-color:#fff; height:1700px; width:100%;}
+.DockingsystemTitle{background:url(../images/LinetTitle2.png) center no-repeat; height:150px; font-size:40px; color:#FF3366; font-weight:bolder; text-align:center; line-height:150px;}
+.DockingsystemDetail{ width:1200px;  margin:0 auto; margin-top:50px;}
+.DockingsystemIsTitle{ height:68px;  color:#FF3366; font-size:30px; font-weight:bolder; line-height:68px; }
+.DockingsystemDetail p{height:35px;  color:#A8A8A8;padding-left:20px; font-size:15px;}
+
+
+
+/* Menu */
+.menu {height: 40px;width: 650px; padding-left:10px; margin-top:50px;}
+.menu li {padding-left:20px;position: relative;list-style: none;float: right;display: block;height: 40px;z-index:2;}
+/* Links */
+.menu li a {display: block;padding: 0 8px;margin: 6px 0;line-height: 28px;text-decoration: none;color:#5d6061; font-size:18px; font-family:Microsoft YaHei;}
+.menu li:first-child a {border-left: none;}
+.menu li:last-child a {border-right: none;}
+.menu li:hover > a {color: #09669D;}
+/* Sub Menu */
+.menu ul {position: absolute;top: 40px;left: 10px;opacity: 0;background: #F3F3F3;-webkit-border-radius: 0 0 5px 5px;-moz-border-radius: 0 0 5px 5px;border-radius: 0 0 5px 5px;-webkit-transition: opacity .25s ease .1s;-moz-transition: opacity .25s ease .1s;-o-transition: opacity .25s ease .1s;-ms-transition: opacity .25s ease .1s;transition: opacity .25s ease .1s;}
+.menu li:hover > ul {opacity: 1;}
+.menu ul li {height: 0;overflow: hidden;padding: 0;-webkit-transition: height .25s ease .1s;-moz-transition: height .25s ease .1s;-o-transition: height .25s ease .1s;-ms-transition: height .25s ease .1s;transition: height .25s ease .1s;}
+.menu li:hover > ul li {height: 36px;overflow: visible;padding: 0;}
+.menu ul li a {width: 120px;padding: 4px 0 4px 23px;margin: 0;border: none;border-bottom: 1px solid #E6E4E3;}
+.menu ul li:last-child a {border: none;}
+
+
+.IndexBannerTitle{ color:#09669D; font-size:54px; height:60px; line-height:60px; position:absolute; left:340px; top:35px; font-weight:bolder;}
+.IndexBannerEnTitle{ color:#9B9D9E; font-size:15px;height:20px; line-height:20px; position:absolute; left:360px; top:100px;}
+.CompanyLest{ font-size:25px; color:#fff;}
+.Companywz{ margin-left:120px;}
+.Companywz span{font-size:25px; color:#fff; height:72px; line-height:72px; padding-left:90px;}
+.CompanyLest img{ padding-left:115px;}
+.CompanyLest{ position:absolute; left:15px; top:210px;}
+.WechatPostionCn{ font-size:30px; font-weight:bolder; color:#fff; position:absolute; left:155px; top:160px; line-height:35px;}
+.WechatPostionCn1{ font-size:20px; font-weight:bolder; color:#fff; position:absolute; left:155px; top:200px; line-height:30px;}
+.WechatPostionCn2{ font-size:48px; font-weight:bolder; color:#fff; position:absolute; left:155px; top:230px; line-height:50px;}
+.WechatPostionCn3{ font-size:70px; font-weight:bolder; color:#fff; position:absolute; left:155px; top:300px; line-height:70px;}
+.WechatPostionEn{ font-size:30px; color:#666666; position:absolute; left:130px; top:260px; line-height:40px;}
+.MokerBannerTtile{ color:#fff; font-size:70px; font-weight:bolder;position:absolute; top:200px; left:5px; height:70px; line-height:70px;}
+.MokerBannerTtileIs{ background-color:#fff; width:630px; color:#EB6C5E; font-size:25px; font-weight:bolder; height:40px; line-height:40px;position:absolute; top:290px;left:5px; padding-left:10px; }
+.MokerBannerTtileThree{ width:630px; font-size:20px; color:#fff; height:20px; line-height:20px;position:absolute; top:350px;left:5px; }
+
+
+
+.SupplierIndustryShow{ width:1230px; margin:0 auto; text-align:center; height:750px; margin-top:50px;}
+.SupplierIndustryShowimg{ margin-left:25px; margin-bottom:30px;}
+.SupplierIndustryFirst{  margin-bottom:30px;}
+.ExpreBackGround{background:#00AF86; width:1423px; height:650px; margin:0 auto;}
+.ForeignTraderBackGround{background:#F2C230; width:1423px; height:490px; margin:0 auto;}
+.TopMainBackGround{background:#5C6061; width:1423px; height:60px; margin:0 auto;}
+.NavMainBackGround{background:#fff; width:1010px; height:100px; margin:0 auto; position:relative;}
+.NewsMainBackGround{background:#029875; width:1423px; height:300px; margin:0 auto;}
+.FourBusBackGround{background:#F1F0F0; width:1423px; height:530px; margin:0 auto;}
+.CompanyWxBackGround{background:url(../images/FourBackGround.png) center repeat; width:1423px; height:1013px; margin:0 auto;}
+.PersonalWxBackGround{background:url(../images/PersonalWx.jpg) center repeat; height:700px;width:1423px;margin:0 auto;}
+.InternationB2BBackGround{background:url(../images/zmj.png) center repeat; height:810px; width:1423px;margin:0 auto;}
+.FooterBackGround{background:#E8E8E8; width:1423px; height:334px; margin:0 auto;}
+.OrtherPageHeadBackGround{background:#E5E5E5; width:1423px; height:40px; margin:0 auto;}
+
+.WhyNotDoBackGround{ width:1423px; height:600px; margin:0 auto;}
+.ChTwoWhyNotBackGround{ background:#E14F36;width:1423px; height:390px;margin:0 auto;}
+.IndustryDoBackGround{background:#F6F6F6;width:1423px; height:1015px;margin:0 auto;}
+.SpecificfeaturesBackGround{ width:1423px; height:2200px;margin:0 auto;}
+.WhyQuestionBackGround{ width:1423px; height:215px;background:url(../images/RedBackG.png) center repeat; margin:0 auto;}
+.ProductPriceBackGround{width:1423px; margin:0 auto;}
+.wechat-personeBgBackGround{ width:1423px; height:600px; background:url(../images/wechat-personeBg.jpg) center no-repeat;}
+.PersonalWxPageBackGround{width:1423px; height:auto;margin:0 auto; }
+.AppBuyProcessBackGround{ height:510px; width:1423px; background-color:#F1F1F1;margin:0 auto; }
+.PersonalAlBackGround{ height:630px; width:1423px;background:url(../images/PersonalBBg.png) center repeat;margin:0 auto;}
+.WhyQuestionPrBackGround{ width:1423px; height:200px;background:#4F4F4F; margin:0 auto;}
+.OverseasBusinessBackGround{ width:1423px;height:750px; background-color:#F6F6F6;margin:0 auto;}
+.OverseasShowBackGround{ width:1423px; height:870px; background-color:#fff;margin:0 auto;}
+.OverseasMainBackGround{ width:1423px; height:830px; background:url(../images/AdvantageBack.jpg) center no-repeat;margin:0 auto;}
+.OverseasstrengthBackGround{background-color:#fff;  width:1423px; height:1290px;margin:0 auto;}
+.OverseasQuestionBackGround{ background-color:#F2C230; height:180px;width:1423px; margin:0 auto;}
+.ProductPriceBackGround{width:1423px; background-color:#fff;margin:0 auto;}
+.PushoffBackGround{width:1423px; height:310px; background-color:#CA003D;margin:0 auto;}
+.GetQuestionBackGround{ width:1423px; height:736px; background-color:#303030;margin:0 auto;}
+.ThreeenjoyBackGround{ width:1423px; height:471px;margin:0 auto;}
+.TencommissionBackGround{ height:835px; width:1423px; background-color:#4D9CD7;margin:0 auto;}
+.OccurredcommissionBackGround{ width:1423px;  height:1000px;margin:0 auto;}
+.SharepromoteBackGround{ width:1423px; height:750px; background-color:#666666;margin:0 auto;}
+.WtkBkmainBackGround{width:1423px; height:620px; background-color:#E9E402;margin:0 auto;}
+.BringWtkBkBackGround{width:1423px; height:575px; background-color:#ED5A36;margin:0 auto;}
+.ForeigntradeShowQuestionBackGround{ background-color:#434343; height:100px; width:1423px;margin:0 auto}
+.MokerPageBannerBackGround{ width:1423px; height:910px; background:url(../images/MokerPageBack.png) center repeat;margin:0 auto;}
+.MokerDescBackGround{ height:570px; width:1423px; background-color:#EEEDED;margin:0 auto;}
+.MokerLineTBackGround{ width:1423px; height:1050px; background-color:#F2C230;margin:0 auto;}
+.MokerSystemBackGround{width:1423px; height:830px;margin:0 auto;}
+.MokerLjl{ background-color:#C1392B; width:1423px; height:905px;margin:0 auto;}
+.MokerWQuestionBackGround{ background-color:#434343; width:1423px; height:169px;margin:0 auto;}
+.SpecialExpressBackGround{ height:860px; background-color:#E9AD17; width:1423px;margin:0 auto;}
+.ShowinterfaceBackGround{ height:820px; width:1423px;margin:0 auto;}
+.Showinter2070BackGround{ height:2070px; width:1423px;margin:0 auto; background-color:#D6303A;}
+.ForeigntradeQuestionBackGround{ width:1423px; height:630px;margin:0 auto;}
+.ForeigntradeWhyNotBackGround{ width:1423px; background-color:#F2F2F2; height:580px;margin:0 auto;}
+.ForeigntradeShowBackGround{ width:1423px; height:900px; background-color:#23BF7B;margin:0 auto;}
+.FAQBackGround{ width:1423px; margin:0 auto; height:1850px;}
+.ContactUsMainBackGround{ width:1423px; height:auto; margin:0 auto; }
+.MocronetCompanyBackGround{ width:1423px; margin:0 auto; background-color:#fff; margin-bottom:50px;}
+.SingleproductBackGround{ width:1423px; height:1270px; background-color:#096AAD;margin:0 auto;}
+.RetailB2CBackGround{width:1423px; height:1175px; background-color:#4D9CD7;margin:0 auto;}
+.MorebusinessesBackGround{background-color:#B059A7; height:1570px; width:1423px;margin:0 auto;}
+.BusinessO2oBackGround{background-color:#E7AC34; height:1530px; width:1423px;margin:0 auto;}
+.FyModelBackGround{background-color:#E1004A; height:1060px; width:1423px;margin:0 auto;}
+.InterNationsEtBackGround{background-color:#3D75B3; height:1480px; width:1423px;margin:0 auto;}
+.DockingsystemBackGround{background-color:#fff; height:1700px;  width:1423px;margin:0 auto;}
+.WhoyES{background-color:#92BE33; height:1005px;  width:1423px;margin:0 auto;}
+.GhsBackGround{ background-color:#C35151; height:1520px; width:1423px;margin:0 auto;}
+.EnterprisecultureBackGround{ width:1423px; height:740px;  background-color:#E84C3D;margin:0 auto;}
+.MicronetHistory{ height:2540px; width:1423px; background-color:#fff;margin:0 auto;}
+.mArchitectureBackGround{background:url(../images/Hxbm.png) center repeat; width:100%; height:760px;margin:0 auto;}
+.MicronetInternational{ height:1230px;  width:1423px;margin:0 auto;}
+.Certificates{background:url(../images/CertificatesBg.png) center repeat; width:1423px; height:1200px; margin:0 auto;}
+.mArchitecture{background:url(../images/Hxbm.png) center repeat;  width:1423px; height:760px;margin:0 auto;}
+
+#NiceFiveBack{background:url(../images/NiceFiveBack.png) center repeat;  width:100%; height:695px;}
+.NiceFiveBack{background:url(../images/NiceFiveBack.png) center repeat;  width:1423px; height:695px;margin:0 auto;}
+.NiceFiveTitle{ color:#fff; font-size:50px; text-align:center; padding-top:50px; font-weight:bolder;font-family:Microsoft YaHei; line-height:70px;}
+.NiceFiveEnTitle{ color:#fff; font-size:14px; text-align:center; padding-top:5px; font-weight:bolder;font-family:Microsoft YaHei; line-height:20px;}
+.NiceFiveImg{ margin-top:15px; text-align:center;}
+
+.KhTitle{ font-size:70px; font-weight:bolder; color:#fff; height:75px; line-height:75px;}
+.KhTitle1{ font-size:25px; color:#fff; height:30px; line-height:30px; margin-top:20px;}
+.KhDesc{ background:url(../images/BgCals.png) left no-repeat; padding-left:15px; color:#fff; margin-top:5px; font-size:15px;}
+
+
+.CaseTMain{ background-color:#F9F7F2; width:100%;}
+.BorderCase{background:url(../images/BgCaseBo.png) center repeat; height:10px; position:absolute; top:50px; width:100%;}
+.CaseMain{ width:1440px;background-color:#F9F7F2; margin:0 auto; padding-bottom:30px;}
+.BgCaseXw{background:url(../images/XunwenBg.png) center no-repeat; height:330px; width:100%;}
+.BgCaseXwMain{height:330px; width:1440px; margin:0 auto;}
+.BgtitleCa{ font-size:30px; color:#fff; text-align:center; padding-top:170px;}
+#CaseTitle{ text-align:center; font-size:50px; color:#263949; margin:0 auto; border:0px; z-index:2; height:42px; background-color:#F9F7F2; line-height:40px;  width:200px; margin:0 auto; }
+.ImgCaseMain{ margin:0 auto; width:270px; float:left; margin-bottom:30px; margin-right:36px;}
+.ImgeCase{ border:2px solid #D7D7D7; margin-top:20px;}
+.ImgeDesc{  background-color:#E7E8E8; color:#A6A6A6; height:80px; padding-top:17px; padding:10px 10px;}
+.CaseMainB{background:url(../images/CaseTitleBg.jpg) center no-repeat;}
+
+.TemplatesBannerPostion{ position:absolute; left:200px; top:210px; width:402px; height:163px;}
+.TemplatesTitle{ font-size:70px; color:#fff; font-weight:bolder; height:70px; line-height:70px;}
+.TemplatesDescp{background:url(../images/Templatesul.png) left no-repeat; font-size:20px; color:#fff; padding-left:20px; margin-top:13px;}
+
+#SingleTempl{ width:100%; height:830px; background-color:#0391C1;}
+.SingleTempl{width:1423px; height:830px; background-color:#0391C1; margin:0 auto;}
+.SingleTemplTitle{text-align:center;font-family:Microsoft YaHei;font-size:40px; color:#fff; font-weight:bolder; padding-top:60px; margin-bottom:30px;}
+.PersonalizedBusinessTitle{text-align:center;font-family:Microsoft YaHei;font-size:40px; color:#000; font-weight:bolder; padding-top:60px; margin-bottom:30px;}
+
+#Multiproduct{ width:100%; height:830px; background-color:#A6CE39;}
+.Multiproduct{width:1423px; height:830px; background-color:#A6CE39; margin:0 auto;}
+
+#Platformtype{ width:100%; height:850px; background-color:#151D32;}
+.Platformtype{width:1423px; height:850px; background-color:#151D32; margin:0 auto;}
+
+#PersonalizedBusiness{ width:100%; height:850px; background-color:#E9E9E9;}
+.PersonalizedBusiness{width:1423px; height:850px; background-color:#E9E9E9; margin:0 auto;}
+
+#Coolstyle{ width:100%; height:850px; background-color:#6D3221;}
+.Coolstyle{width:1423px; height:850px; background-color:#6D3221; margin:0 auto;}
+
+#MobileModel{ width:100%; height:750px; background-color:#2B2B2B;}
+.MobileModel{width:1423px; height:750px; background-color:#2B2B2B; margin:0 auto;}
+
+.imgModel{ margin-top:70px;}
+.imgModel img{ float: left; padding-left:50px;}
+
+
+#MobileModelTwo{ width:100%; height:750px; background-color:#F5AB43;}
+.MobileModelTwo{width:1423px; height:750px; background-color:#F5AB43; margin:0 auto;}
+
+#MobileModelThree{ width:100%; height:750px; background-color:#E9E9E9;}
+.MobileModelThree{width:1423px; height:750px; background-color:#E9E9E9; margin:0 auto;}
+
+#TempFooter{ width:100%; height:220px;background:url(../images/TempFooterBg.jpg) center no-repeat;}
+.TempFooter{width:1423px; height:220px;background:url(../images/TempFooterBg.jpg) center no-repeat; margin:0 auto;}
+.TempFootertitle{ font-size:30px; color:#4B4B4C; text-align:center; padding-top:50px;}
+
+#TempFoot{width:100%; height:280px; background-color:#fff;}
+.TempFoot{width:1423px; height:280px; background-color:#fff; margin:0 auto;}
+
+.Index13w{ position:absolute; top:230px; right:50px;}
+.Index13w p{ font-size:13px; color:#E45641; font-weight:bolder; padding-left:16px;}
+.IndexYl{ position:absolute; top:320px; right:50px;}
+
+#content{width:410px;margin:40px auto 0 auto;padding:0 60px 30px 60px;border:solid 1px #cbcbcb;background:#fafafa;-moz-box-shadow:0px 0px 10px #cbcbcb;-webkit-box-shadow:0px 0px 10px #cbcbcb;}
+hr{border:none;height:1px;line-height:1px;background:#E5E5E5;margin-bottom:20px;padding:0;}
+#content p{margin:0;padding:7px 0;}
+#content a img{border:1px solid #BBB;padding:2px;margin:10px 20px 10px 0;vertical-align:top;}
+#content a img.last{margin-right:0;}
+#content ul{margin-bottom:24px;padding-left:30px;}
+
+#wechatDetailCase{ width:100%;background-color:#fff; height:270px;  }
+.wechatDetailCase{ width:1160px; background-color:#fff; height:270px; margin:0 auto; }
+.wechatDetailCase div{ float:left; width:230px; overflow:hidden; height:270px; }
+.wechatDetailCaseWidth{ width:350px; padding:0 0 0 20px;}
+.width1160{ width:1160px;}
+
+
+
+/* detail-frame */
+.detail-frame{display:none;}
+.arrow-left{position:absolute;width:6px;height:9px;top:30px;left:0;margin-left:-6px;}
+.arrow-right{position:absolute;width:6px;height:9px;top:30px;left:320px;}
+.detail-tip{position:absolute;width:250px;border:1px solid #ddd; background-color:#323232;}
+.detail-tip span{font-size:20px;line-height:30px; color:#fff;}
+.detail-tip p{margin:10px 0 0 0;font-size:17px; line-height:24px;color:#fff;}
+
+.FivDecs{ margin-top:5px; }
+
+.Bg71B0DF{ background-color:#71B0DF;}
+.Boder61A0D0{ border:0px; border-top:1px solod #61A0D0;}
+.Bg85AE2A{ background-color:#85AE2A;}
+.BgC35151{ background-color:#C35151;}
+.BgA03D3D{ background-color:#A03D3D;}
+.Bg913E88{ background-color:#913E88;}
+.Bg34649D{ background-color:#34649D;}
+.BgE09D2A{ background-color:#E09D2A;}
+.Bg3A88BD{ background-color:#3A88BD;}
+.Bg4F81BC{ background-color:#4F81BC;}
+
+.SolutionsGs{ width:1000px; margin:0 auto; margin-top:30px;}
+.SolutionsGsTitle{ height:68px; line-height:68px; }
+.SolutionsGs p{height:68px; line-height:38px; color:#fff;padding-left:20px; font-size:15px;}
+
+
+.BoderLefte3e3e2{border-left:1px solid #e3e3e2;border-bottom-width: 0px;}
+
+#Pay7EBB3F{ background:url(../images/Pay7EBB3F.jpg) center no-repeat; width:100%; height:695px; }
+.Pay7EBB3F{ background:url(../images/Pay7EBB3F.jpg) center no-repeat; width:1420px; height:695px; margin:0 auto;}
+#PayEC5F41{  background-color:#EC5F41; width:100%; height:695px; }
+.PayEC5F41{background-color:#EC5F41; width:1420px; height:695px; margin:0 auto;}
+
+/* banner */
+.banner{height:430px;overflow:hidden;}
+.banner .d1{width:100%;height:430px;display:block;position:absolute;left:0px;top:0px;}
+.banner .d2{width:100%;height:30px;clear:both;position:absolute;z-index:100;left:0px;top:400px;}
+.banner .d2 ul{float:left;position:absolute;left:50%;top:0;margin:0 0 0 -10px;display:inline;}
+.banner .d2 li{width:17px;height:15px;overflow:hidden;cursor:pointer;background:url(../images/img1.png) no-repeat center;float:left;margin:0 3px;display:inline;}
+.banner .d2 li.nuw{background:url(../images/img1_1.png) no-repeat center;}
+
+
+.WechatSegOne{  background-color:#F0C55C; width:100%; height:600px;}
+.WechatSegOneDec{ position:absolute; right:130px; top:195px;}
+.WechatSegOneDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px; margin-top:5px;}
+.WechatSegOneDec .WO2{ color:#fff; font-size:30px;font-family:Microsoft YaHei; height:30px; line-height:30px; margin-top:5px; font-weight:bolder;}
+.WechatSegOneDec .WO3{ color:#fff; font-size:24px;font-family:Microsoft YaHei; height:35px; line-height:30px; width:600px; margin-top:5px; height:35px;}
+
+.WechatSegTwo{  background-color:#177DB0; width:100%; height:600px;}
+.WechatSegTwoDec{ position:absolute; left:200px; top:250px;}
+.WechatSegTwoDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px;  font-weight:bolder;}
+.WechatSegTwoDec .WO2{ color:#fff; font-size:24px;font-family:Microsoft YaHei; height:35px; line-height:30px; width:600px; margin-top:5px; height:35px;}
+
+.WechatSegthree{  background-color:#65CB78; width:100%; height:600px;}
+.WechatSegthreeDec{ position:absolute; right:130px; top:235px;}
+.WechatSegthreeDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px;  font-weight:bolder;}
+.WechatSegthreeDec .WO2{ color:#fff; font-size:24px;font-family:Microsoft YaHei; height:35px; line-height:30px; width:570px; margin-top:8px; height:35px; letter-spacing:1.5px;}
+
+.WechatSegFour{  background-color:#F46A6A; width:100%; height:600px;}
+.WechatSegFourDec{ position:absolute; left:170px; top:110px;}
+.WechatSegFourDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px;  font-weight:bolder;}
+.WechatSegFourDec .WO2{ color:#fff; font-size:18px;font-family:Microsoft YaHei; line-height:25px;  font-weight:bolder; margin-top:10px;}
+.WechatSegFourDec .WO3{ color:#fff; font-size:14px;font-family:Microsoft YaHei; line-height:20px; margin-bottom:20px;  width:500px; letter-spacing:-1px;}
+
+
+.WechatSegFive {background-color:#54C6EA; width:100%; height:600px;}
+.WechatSegFiveDec{ position:absolute; right:130px; top:235px;}
+.WechatSegFiveDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px;  font-weight:bolder;}
+.WechatSegFiveDec .WO2{ color:#fff; font-size:24px;font-family:Microsoft YaHei; height:35px; line-height:30px; width:570px; margin-top:8px; height:35px; letter-spacing:1.5px;}
+
+.WechatSegSix {background-color:#A1C85E; width:100%; height:600px;}
+.WechatSegSixDec{ position:absolute; left:120px; top:118px;}
+.WechatSegSixDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px;  font-weight:bolder;}
+.WechatSegSixDec .WO2{ color:#fff; font-size:24px;font-family:Microsoft YaHei; height:35px; line-height:30px; width:550px; margin-top:8px; height:35px; letter-spacing:1.5px; margin-bottom:45px;}
+.WechatSegSixDec .WO2 span{ letter-spacing:1.5px; margin-bottom:45px; color:#fff; font-size:16px;font-family:Microsoft YaHei; height:35px; line-height:30px;}
+
+.WechatSegSeven {background-color:#827BDA; width:100%; height:600px;}
+.WechatSegSevenDec{ position:absolute; left:120px; top:205px;}
+.WechatSegSevenDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px; margin-top:5px; font-weight:bolder;}
+.WechatSegSevenDec .WO2{ color:#fff; font-size:30px;font-family:Microsoft YaHei; height:30px; line-height:30px; margin-top:5px; font-weight:bolder;}
+.WechatSegSevenDec .WO3{ color:#fff; font-size:24px;font-family:Microsoft YaHei; height:35px; line-height:30px; width:600px; margin-top:5px; height:35px;}
+
+.WechatSegEight {background-color:#009966; width:100%; height:600px;}
+.WechatSegEightDec{ position:absolute; right:100px; top:170px;}
+.WechatSegEightDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px; margin-top:5px; font-weight:bolder;}
+.WechatSegEightDec .WO2{ color:#fff; font-size:30px;font-family:Microsoft YaHei; height:30px; line-height:30px; margin-top:5px; font-weight:bolder;}
+.WechatSegEightDec .WO3{ color:#fff; font-size:24px;font-family:Microsoft YaHei; height:35px; line-height:35px; width:580px; margin-top:12px; height:35px;}
+
+.WechatSegNine {background-color:#EE9B35; width:100%; height:600px;}
+.WechatSegNineDec{ position:absolute; left:120px; top:185px;}
+.WechatSegNineDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px;  font-weight:bolder;}
+.WechatSegNineDec .WO2{ color:#fff; font-size:30px;font-family:Microsoft YaHei; height:30px; line-height:30px; margin-top:5px; font-weight:bolder;}
+.WechatSegNineDec .WO3{ color:#fff; font-size:24px;font-family:Microsoft YaHei; height:35px; line-height:35px; width:560px; margin-top:12px; height:35px; margin-bottom:35px;}
+
+.WechatSegTen {background-color:#ACAAAA; width:100%; height:600px;}
+.WechatSegTenDec{ position:absolute; right:120px; top:145px;}
+.WechatSegTenDec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px;font-weight:bolder;}
+.WechatSegTenDec .WO2{ color:#fff; font-size:28px;font-family:Microsoft YaHei; height:30px; line-height:30px; margin-top:8px; font-weight:bolder;letter-spacing:-1px;}
+.WechatSegTenDec .WO3{ color:#fff; font-size:22px;font-family:Microsoft YaHei; height:17px; padding-left:20px; line-height:17px; margin-top:15px; letter-spacing:-1px; background:url(../images/WxWchar.png) no-repeat left;}
+
+
+.WeChar11 {background-color:#C85E5E; width:100%; height:600px;}
+.WeChar11Dec{ position:absolute; right:130px; top:145px;}
+.WeChar11Dec .WO1{ color:#fff; font-size:48px;font-family:Microsoft YaHei; line-height:48px; height:48px;  font-weight:bolder;}
+.WeChar11Dec .WO2{ color:#fff; font-size:24px;font-family:Microsoft YaHei; line-height:35px; width:480px; margin-top:30px; width:530px;}
+
+#ThirdPartyDemo{ background-color:#fff; width:100%; height:1075px; margin-top:30px;}
+.ThirdPartyDemo{width:1423px; height:1075px;margin:0 auto; }
+.ThirdPartyDemoImg { margin-top:30px;}
+.AppDemoImg{ margin-top:30px; text-align:center;}
+.WeCharljkt{ text-align:center; padding-top:79px;}
+.InternationalPostion{ position:absolute; top:150px; right:200px;}
+.InternationalPostion .p1{ color:#fff; font-size:95px; font-weight:bolder; line-height:100px; height:100px;}
+.InternationalPostion .p2{ color:#fff; font-size:48px; font-weight:bolder; line-height:50px;height:50px; margin-top:10px;}
+.InternationalPostion .p3{ color:#09669D; font-size:45px; padding-left:12px; font-weight:bolder; line-height:50px;height:50px; width:470px; background-color:#fff; margin-top:10px;}
+
+
+.PhoneAppPostion{ position:absolute; top:165px; right:200px;}
+.PhoneAppPostion .p1{ color:#fff; font-size:50px; font-weight:bolder; line-height:60px; height:60px;}
+.PhoneAppPostion .p2{ color:#fff; font-size:14px; line-height:50px;height:20px; }
+
+.MlcPostion{ position:absolute; top:100px; right:100px;}
+.MlcPostion .p1{ color:#E10044; font-size:110px; font-weight:bolder; line-height:120px; height:120px;}
+.MlcPostion .p2{ color:#fff; font-size:42px; line-height:70px;height:70px; font-weight:bolder; padding-left:20px; background:url(../images/MlcPostionp2Bg.png) no-repeat left; width:555px; margin-top:8px;}
+.MlcPostion .p3{ color:#717171; font-size:22px; line-height:30px;height:30px; padding-left:30px; margin-top:3px; }
+.WeiYiXinCasePosRealit{ position:absolute; bottom:70px; left:23px;}
+.WeiYiXinCasePosRealit .p1{ font-size:15px; text-align:center; margin-bottom:10px;}
+.WeiYiXinCasePosRealit .p2 a{ font-size:12px;}
+
+#ylxgJpg{ width:626px; height:620px; margin:0 auto;}
+.ylxgJpgPosRealit{position:absolute; bottom:35px; left:270px;}
+.ylxgJpgPosRealit .p1{ font-size:14px;  font-weight:bolder; color:#fff; text-align:center; }
+.ylxgJpgPosRealit .p2 a{ font-size:12px; color:#fff; margin:0px; padding:0px;  }
+.FAQBackBottom{ width:1423px; margin:0 auto; height:auto;}
+
+.AboutUScontDiv{ width:1200px; height:564px;}
+.AboutUScontDiv div{ font-size:13px;line-height:30px; color:#8C8C8C; margin-bottom:10px; margin-top:10px; width:100%;}
+.U30D50 { padding:30px 0 50px;}
+.NewsContNes{ width:1230px; margin:0 auto;}
+
+.CollegePagingHead { text-align:center; font-family:"Microsoft YaHei"; line-height:2em; }
+.CollegePagingCont { font:14px/24px "Microsoft YaHei";}
+.CollegeListHead { width:915px; padding-left:15px; overflow:hidden; border-bottom:1px solid #dedede; font:24px/60px "Microsoft YaHei"; height:60px;}
+.CollegeListContent { float:right; width:930px; overflow:hidden;}
+.CollegeListCont { float:right; width:900px; padding-left:30px; padding-top:20px;}
+.CollegeListCont ul li { font:14px/30px "Microsoft YaHei"; display:block; overflow:hidden;}
+.CollegeListCont ul li a { float:left; width:700px;}
+.CollegeListCont ul li span { float:right; width:100px;}
+.CollegePagingHead h3{text-align:center; font-family:"Microsoft YaHei"; line-height:2em; font-size:24px; font-weight:bolder;}
+.CollegePagingHead p{width:100%; overflow:hidden; text-align:center; padding:0 0 15px; font-size:14px; line-height:30px; border-bottom:1px solid #e5e5e5;}
+.PrevNext dd a{ font-size:18px; line-height:30px; font-family:"Microsoft YaHei";  color:#1a1a1a;}
+#AboutReadMicro li a{font-size:18px; line-height:30px; font-family:"Microsoft YaHei";  color:#1a1a1a;}
