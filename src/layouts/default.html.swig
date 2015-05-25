@@ -231,8 +231,8 @@
                 <!--online_windows end-->
             </div>
         </div>
-        {{ getBlock("scripts").add(["/vendor/jquery.js"]).toHTML() }}
+        {{ getBlock("scripts").add(site.scripts).toHTML() }}
         <script defer="defer" type="text/javascript" src="http://s2.d2scdn.com/static/js/jq-plug.js"></script>
-        {{ getBlock("scripts").add(["/vendor/masonry.pkgd.js","/vendor/jquery.isotope.min.js","/scripts/scripts.js", "/scripts/ss-header.js","/scripts/mobilecase.js","/scripts/q.js"]).toHTML() }}
+        {{ getBlock("scripts").add(document.scripts).toHTML() }}
     </body>
 </html>
