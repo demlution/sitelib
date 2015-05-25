@@ -46,10 +46,10 @@
                                 </li>
                                 -->
                                 <li>
-                                    <a href="http://static.demlution.com/" target="_blank" style="background:url(/site_media/static/websites/imgs/navbl.gif) no-repeat 0 2px; color:#007acf; text-decoration:none;"><span style="color:#FF7800;background:url(/site_media/static/websites/imgs/navbr.gif) no-repeat right 2px">担路云官网</span></a>
+                                    <a href="/cpc.html" target="_blank" style="background:url(/site_media/static/websites/imgs/navbl.gif) no-repeat 0 2px; color:#007acf; text-decoration:none;"><span style="color:#FF7800;background:url(/site_media/static/websites/imgs/navbr.gif) no-repeat right 2px">担路云官网</span></a>
                                 </li>
                                 <li>
-                                    <a href="http://static.danlu.net/mall.html" target="_blank" style="background:url(/site_media/static/websites/imgs/navbl.gif) no-repeat 0 2px; color:#007acf; text-decoration:none;"><span style="color:#FF7800;background:url(/site_media/static/websites/imgs/navbr.gif) no-repeat right 2px">担路云商城</span></a>
+                                    <a href="/cmall.html" target="_blank" style="background:url(/site_media/static/websites/imgs/navbl.gif) no-repeat 0 2px; color:#007acf; text-decoration:none;"><span style="color:#FF7800;background:url(/site_media/static/websites/imgs/navbr.gif) no-repeat right 2px">担路云商城</span></a>
                                 </li>
                             </ul>
                         </div>
