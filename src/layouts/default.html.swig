@@ -22,7 +22,7 @@
 
                             <ul>
                                 <li>
-                                    <a href="/index.html"><span>网站首页</span></a>
+                                    <a href="/index.html"><span>概览</span></a>
                                 </li>
                                 <!--
                                 <li>
