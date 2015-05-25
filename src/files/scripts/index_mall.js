@@ -190,8 +190,6 @@ $$('.index-nav-body-item').addEvent('mouseleave',function(){
             });
             return false;
         });
-
-var static_url = "";
  (function(){
         
         var layer = $("#video_layer");
