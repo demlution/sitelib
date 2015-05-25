@@ -296,7 +296,7 @@ var Workspace = Backbone.Router.extend({
 		_.extend(App.options, options);
 		appView.collection = new App.collections.CaseCollection([], options);
 		var filters = {
-			limit:200,
+			limit:100,
 			is_public:true,
 			is_active:true
 		};
