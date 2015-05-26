@@ -8,10 +8,16 @@
         <h1>
             <a href="/pc-library.html" class="cy-logo">手机创意库</a>
         </h1>
-        <div class="s-left">
-        <form id="search-form" action="#">
-            <input class="s-txt" type="text" name="query" value="" placeholder="模板编号">
-            <input class="s-btn" type="submit" value=""></form>
+        <div class="cy-nav">
+            <ul>
+            <li><a href="/pc-library.html#/t/k1"><span>普通类</span></a></li>
+            <li><a href="/pc-library.html#/t/k2"><span>精品类</span></a></li>
+            <li><a href="/pc-library.html#/t/k3"><span>商城类</span></a></li>
+            <li><a href="/pc-library.html#/t/k4"><span>平台类</span></a></li>
+            <li><a href="/pc-library.html#/t/k5"><span>论坛类</span></a></li>
+            <li><a href="/pc-library.html#/t/k10"><span>定制型</span></a></li>
+            <li><a class="on" href="/mobile-case.html"><span>手机类</span></a></li>
+            </ul>
         </div>
     </div>
 </div>

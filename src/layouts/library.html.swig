@@ -30,6 +30,7 @@
             <li><a href="#/t/k4"><span>平台类</span></a></li>
             <li><a href="#/t/k5"><span>论坛类</span></a></li>
             <li><a href="#/t/k10"><span>定制型</span></a></li>
+            <li><a href="/mobile-case.html"><span>手机类</span></a></li>
             </ul>
         </div>
     </div>

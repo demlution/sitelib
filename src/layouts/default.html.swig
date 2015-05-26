@@ -46,9 +46,9 @@
                                 <li>
                                     <a href="/400tel.html"><span>企业400</span></a>
                                 </li>
-                                <li>
+                                <!--<li>
                                     <a href="/article.html"><span>新闻中心</span></a>
-                                </li>
+                                </li>-->
                             </ul>
                         </div>
                     </div>
