@@ -16,7 +16,7 @@
             <li><a href="/pc-library.html#/t/k4"><span>平台类</span></a></li>
             <li><a href="/pc-library.html#/t/k5"><span>论坛类</span></a></li>
             <li><a href="/pc-library.html#/t/k10"><span>定制型</span></a></li>
-            <li><a class="on" href="/mobile-case.html"><span>手机类</span></a></li>
+            <li class="on"><a href="/mobile-case.html"><span>手机类</span></a></li>
             </ul>
         </div>
     </div>

@@ -69,7 +69,8 @@
                         <a href="http://www.demlution.com/account/login/" target="_blank">登录</a>
                         <span class="topRegLink">|</span>
                         <a title="免费网站注册" href="http://www.demlution.com/account/signup/" target="_blank">注册</a>
-                        <a hidefocus="true" title="关注担路网官方微博，了解最新动态" target="_blank" href="http://weibo.com/demlution">担路微博</a>
+                        <a hidefocus="true" title="关注担路网官方微博，了解最新动态" target="_blank" href="http://weibo.com/demlution">
+                        <img src="../images/wb.png" width="18"> 担路微博</a>
                     </div>
                 </div>
             </div>
