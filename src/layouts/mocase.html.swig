@@ -1,8 +1,8 @@
 {% extends "default.html.swig" %}
 
-
 {% block bodyclass_block %}{% endblock %}
 {% block top_block %}
+<div class="tipcolor"><div class="tipc"><div class="tipc1"></div><div class="tipc2"></div><div class="tipc3"></div><div class="tipc4"></div></div></div>
 <div class="cy-header">
     <div class="cy-hcot">
         <h1>

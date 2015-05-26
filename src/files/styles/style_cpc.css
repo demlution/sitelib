@@ -289,11 +289,11 @@ a.sublogo:hover { text-decoration:none;}
 
 /*---------- footer -------------*/
 .foot-btn-pg { height:425px; background:#2c7ec2 url(../images/bg7.gif) center 0 no-repeat;}
-	.foot-btn-pg h2 { text-align:center; font-size:45px; font-family:"微软雅黑"; color:#FFF; font-weight:bold; padding-top:110px; margin-bottom:35px}
-	.foot-btn-pg ul { margin:0 auto 80px auto; width:980px; overflow:hidden}
-	.foot-btn-pg li { float:left; width:164px; height:28px;  margin-left:40px}
-	.foot-btn-pg li b { display:inline-block; width:29px; height:28px; vertical-align:middle}
-	.foot-btn-pg li span {display:inline-block; width:135px; height:28px; vertical-align:middle;background:url(../images/bg8.gif); font-weight:bold; color:#FFF; line-height:28px; text-align:center}
+.foot-btn-pg h2 { text-align:center; font-size:45px; font-family:"微软雅黑"; color:#FFF; font-weight:bold; padding-top:110px; margin-bottom:35px}
+.foot-btn-pg ul { margin:0 auto 80px auto; width:980px; overflow:hidden}
+.foot-btn-pg li { float:left; width:164px; height:28px;  margin-left:40px}
+.foot-btn-pg li b { display:inline-block; width:29px; height:28px; vertical-align:middle}
+.foot-btn-pg li span {display:inline-block; width:135px; height:28px; vertical-align:middle;background:url(../images/bg8.gif); font-weight:bold; color:#FFF; line-height:28px; text-align:center}
 .fbp { width:800px; margin:0 auto; padding-top:150px;}
 .fbp-txt { text-align:center; color:#fff; font-size:16px; padding-top:50px;}
 .fbp-txt a { color:#fff;}
@@ -306,8 +306,32 @@ a.sublogo:hover { text-decoration:none;}
 .foot-btn-pg .abtn2 {background:url(../images/bai_24.jpg); float:right;}
 .foot-btn-pg .abtn2 span{background:url(../images/bai_24.jpg)}
 .foot-pg { height:30px; background:#1f5481}
-	.foot-pg div { width:1200px; line-height:30px; margin:auto; color:#6388a7; position:relative}
-	.foot-pg div a { color:#6388a7}
-	.foot-pg div a:hover { color:#d2dde6}
-	.foot-pg div span { float:right}
-	.foot-top-pg { position:absolute; width:156px; height:45px; background:url(../images/bg9.gif);  left:50%; bottom:0; margin-left:-78px}
+.foot-pg div { width:1200px; line-height:30px; margin:auto; color:#6388a7; position:relative}
+.foot-pg div a { color:#6388a7}
+.foot-pg div a:hover { color:#d2dde6}
+.foot-pg div span { float:right}
+.foot-top-pg { position:absolute; width:156px; height:45px; background:url(../images/bg9.gif);  left:50%; bottom:0; margin-left:-78px}
+
+.pg_backbg {background-color: #000;}
+.fixed-nav {border-top:4px solid #ddd;background: #fff;}
+.fixed-nav{position:fixed;left:50%;margin-left:520px;top:453px;border-bottom:1px solid #D4D4D4;border-right:1px solid #D4D4D4;border-left:1px solid #D4D4D4;line-height:33px;font-size:12px;width:90px;text-align:center;z-index:10000;}
+.fixed-nav li{vertical-align:middle;height:33px;position:relative;border-top:1px solid #eee;margin-top:-1px}
+.fixed-nav li:first-of-type{border-top:0 none}
+.fixed-nav li i{display:none}
+.fixed-nav li a{color:#007acf;display:inline-block;height:33px;width:100%}
+.fixed-nav li a:hover{text-decoration:none;color:#007acf}
+.fixed-nav li:hover{/*background:#fbddea*/}
+.fixed-nav li.selected,.fixed-nav li.selected:hover{background:#f80;}
+.fixed-nav li.selected a {color:#fff;}
+.fixed-nav li.tomorrow a{color:#4AB479}
+.fixed-nav li.tomorrow:hover{background:#d2fbe4}
+.fixed-nav li.selected.tomorrow,.fixed-nav li.selected.tomorrow:hover{background:#a7f5ca; }
+.fixed-nav li.selected:after,.fixed-nav li.selected:before{content:'.';font:0/0 a;position:absolute;display:block}
+.fixed-nav li.selected:before{width:6px;height:32px;background:#f80;top:0;right:-6px}
+.fixed-nav li.selected:after{top:32px;right:-5px;width:0;height:0;margin-left:1px;border-width:2px;border-color:#f80 transparent transparent #f80;border-style:solid dashed dashed solid}
+.fixed-nav li.selected.tomorrow:before{background:#fff}
+.fixed-nav li.selected.tomorrow:after{border-color:#fff transparent transparent #fff}
+.fixed-nav li.toHome{height:60px;background:#007acf;border-top:0 none;color: #fff;}
+.fixed-nav li.toHome a{color: #fff;}
+.fixed-nav li.toHome s{display:block;width:21px;height:20px;margin:0 auto;background:url(../images/arrow.jpg) 0 0 no-repeat}
+.fixed-nav li.toHome i{position:absolute;width:95px;height:31px;display:block;bottom:-30px;left:-1px}

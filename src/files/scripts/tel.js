@@ -20,3 +20,7 @@ $(document).ready(function(){
 	});
 	
 });
+
+$(function(){
+	$(".wj-navcot li").eq(5).addClass("on")
+})

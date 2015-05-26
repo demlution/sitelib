@@ -13,7 +13,7 @@
     <body>
         <div {% block bodyclass_block %}class="wj-body"{% endblock %}>
         {% block top_block %}
-            <div class="wj-header">
+            <div class="wj-header" id="tophome">
                 <div class="wj-hcot">
                     <h1>
                         <a href="/" class="wj-logo">担路网-网站建设</a>
@@ -32,10 +32,10 @@
                                 -->
                                 <!-- <li><a href="/case/2/"><span>代理专区</span></a></li>-->
                                 <li>
-                                    <a href="/cpc.html"><span>担路云官网</span></a>
+                                    <a href="/cpc.html"><span>云官网</span></a>
                                 </li>
                                 <li>
-                                    <a href="/cmall.html" ><span>担路云商城</span></a>
+                                    <a href="/cmall.html" ><span>云商城</span></a>
                                 </li>
                                 <li>
                                     <a href="/zeus5.html"><span>会员系统</span></a>
