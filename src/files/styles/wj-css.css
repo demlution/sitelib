@@ -58,7 +58,7 @@
 
 .box {width:1200px;margin:0 auto;}
 .box .hd {padding: 30px 0;text-align: center;font-size: 32px;}
-.box1 {padding:20px 0;}
+.box1 {padding:40px 0 60px;}
 .box1 .bd{}
 .box1 .bd li{width: 400px;float: left;text-align: center;}
 .box1 .bd li h3 {font-size: 18px;line-height: 40px;font-weight: normal;color:#007acf;}
@@ -97,6 +97,7 @@
 .box3 .bd li h3 {font-size: 18px;line-height: 40px;}
 .box3 .bd li .dec {line-height: 24px;}
 
+.box4 {padding:40px 0;}
 .box4 .bd {padding:0 0 50px 0;text-align: center;}
 .box4 .bd li {border-radius: 20px;border: 1px #ddd solid;width:250px;margin-left:20px;text-align: center;padding:50px;line-height: 24px;font-size: 14px;display: inline-block;}
 .box4 .bd li h3 {font-size: 18px;line-height: 40px;}
@@ -298,12 +299,28 @@
 /* footer
 --------------------------------------------------------------------------------------------------*/
 .wj-fotbg {margin-top:0;background:#fafafa}
-.fot-hep { height:200px; width:1200px; position:relative; background:url(../images/logo_black.gif) no-repeat 10px 30px;}
-.fot-phone { position:absolute;top:10px;right:10px;}
-.fh-all {padding:20px 0 0 10px;}
-.fh-all li { float:left; width:110px;padding:0 0 0 50px; color:#999999}
-.fh-all li a {color:#999999}
-.fh-all li.fh-cotact {width:330px}
-.fh-all li dt { font-weight:bold;color:#fff; font-size:14px; line-height:30px;}
-.fh-all li dd { line-height:24px;}
-.fot-cop { text-align:center;padding:45px 0 10px 0;line-height:22px; border:0;}
+.wfot-help { height:262px; background:#fafafa;width:100%;}
+.wfot-bot { background:#007acf; text-align:center;width:100%;}
+.fh-all {padding:60px 0 0 0px; width:1200px; margin:0 auto;}
+.fh-all li { float:left; width:120px;padding:0 0 0 50px;}
+.fh-all li.fh-site { padding:0 0 0 20px;}
+.fh-all li.fh-cotact {width:300px}
+.fh-all li dt { font-weight:bold;color:#999; padding-left:32px; line-height:40px; font-size:18px;}
+.fh-all .fh-site dt { background-position:0 5px;}
+.fh-all .fh-about dt { background-position:0 -43px;}
+.fh-all .fh-member dt { background-position:-5px -94px;}
+.fh-all .fh-cotact dt { background-position:0 -144px;}
+.fh-all li dd { padding-left:32px;}
+.fh-all li dd a { font-size:14px;}
+.fh-all .fh-ico { width:270px;}
+.fh-ico .i1{ font-size:36px;}
+.fh-ico .i2 { font-size:18px; line-height:24px; margin-top:20px;font-size: 18px;font-weight: bold;color:#999;}
+.fh-ico .i2 b { font-family:Georgia, "Times New Roman", Times, serif; font-size:24px;}
+.fh-ico a {}
+.fh-ico a:hover .icon-weibo { color:#007acf; text-decoration:none;}
+.fh-ico a:hover .icon-comments-alt { color:#007acf; text-decoration:none;}
+.a-wx { position:relative;}
+.w-weixin { display:none; position:absolute; left:0;top:50px;}
+.a-wx:hover .w-weixin { display:block;}
+.wfot-bot { color:#fff; padding-top:30px;}
+.wfot-copy a { color:#fff; font-size:14px;}

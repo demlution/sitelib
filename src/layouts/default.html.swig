@@ -7,6 +7,7 @@
         <meta content="{{ document.keywords }}" name="keywords">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="renderer" content="webkit">
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=1200px, user-scalable=yes">
         {{ getBlock("styles").add(["/styles/dm-base.css"]).add(["/styles/wj-css.css"]).add(["/styles/style.css"]).add(["/styles/online.css"]).add(document.styles).toHTML() }}
     </head>
 
@@ -92,57 +93,52 @@
             {% endblock %}
         {% block foot_block %}
         <div class="wj-fotbg">
-            <div class="fot-hep" style="display:none">
-                <div class="fh-all">
-                    <ul>
-                        <li class="fh-about">
-                            <dl>
-                                <dt>了解担路</dt>
-                                <dd>
-                                    <a target="_blank" href="http://www.demlution.com/about/about/">关于我们</a>
-                                </dd>
-                                <dd>
-                                    <a target="_blank" href="http://www.demlution.com/about/hr/">人才招聘</a>
-                                </dd>
-                                <dd>
-                                    <a target="_blank" href="http://www.demlution.com/about/terms/">担路协议</a>
-                                </dd>
-                                <dd>
-                                    <a target="_blank" href="http://www.demlution.com/about/terms2/">隐私条款</a>
-                                </dd>
-                            </dl>
-                        </li>
-                        <li class="fh-member">
-                            <dl>
-                                <dt>用户中心</dt>
-                                <dd>
-                                    <a target="_blank" href="http://www.demlution.com/account/signup/">立即注册</a>
-                                </dd>
-                                <dd>
-                                    <a target="_blank" href="http://www.demlution.com/help/topic/store-home/">常见问题</a>
-                                </dd>
-                                <dd>
-                                    <a target="_blank" href="http://www.demlution.com/help/topic/member-home/">新手上路</a>
-                                </dd>
-                                <dd>
-                                    <a target="_blank" href="http://www.demlution.com/about/jifen/">积分评价</a>
-                                </dd>
-                            </dl>
-                        </li>
-                        <li class="fh-cotact">
-                            <dl>
-                                <dt>服务支持</dt>
-                                <dd>
-                                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1439391305&site=qq&menu=yes">在线沟通>></a>(9:00-22:00 非工作日9:00-20:00)</dd>
-                                <dd>售后专线：021-39517056(24小时服务热线)</dd>
-                                <dd>客服邮箱：
-                                    <a target="_blank" href="mailto:lx@demlution.com">lx@demlution.com</a>
-                                </dd>
-                            </dl>
-                        </li>
-                    </ul>
-                </div>
+            <div class="wfot-help">
+            <div class="fh-all clearfix">
+                <ul>
+                <li class="fh-site">
+                    <dl>
+                    <dt>旗下网站</dt>
+                    <dd><a target="_blank" href="http://www.demlution.com/index.html">担路平台</a></dd>
+                    <dd><a target="_blank" href="http://www.danlu.net/">担路产品</a></dd>
+                    <dd><a target="_blank" href="http://www.demlution.com/about/help/">担路帮助</a></dd>
+                    <dd><a target="_blank" href="http://www.danlu.net/agent/">加盟代理</a></dd>
+                    </dl>
+                </li>
+                <li class="fh-about">
+                    <dl>
+                    <dt>了解担路</dt>
+                    <dd><a target="_blank" href="/about/about/">关于我们</a></dd>
+                    <dd><a target="_blank" href="/about/hr/">人才招聘</a></dd>
+                    <dd><a target="_blank" href="/about/terms/">担路协议</a></dd>
+                    <dd><a target="_blank" href="/about/terms2/">隐私条款</a></dd>
+                    </dl>
+                </li>
+                <li class="fh-member">
+                    <dl>
+                    <dt>用户中心</dt>
+                    <dd><a target="_blank" href="/account/signup/">立即注册</a></dd>
+                    <dd><a target="_blank" href="http://www.demlution.com/help/topic/store-home/">常见问题</a></dd>
+                    <dd><a target="_blank" href="http://www.demlution.com/help/topic/member-home/">新手上路</a></dd>
+                    <dd><a target="_blank" href="/about/jifen/">积分评价</a></dd>
+                    </dl>
+                </li>
+                <li class="fh-cotact">
+                    <dl>
+                    <dt>服务支持</dt>
+                    <dd><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2212867435&site=qq&menu=yes">在线沟通>></a>(9:00-22:00 非工作日9:00-20:00)</dd>
+                    <dd>售后专线：021-39517056(24小时服务热线)</dd>
+                    <dd>客服邮箱：<a target="_blank" href="mailto:lx@demlution.com">lx@demlution.com</a></dd>
+                    </dl>
+                </li>
+                <li class="fh-ico">
+                    <div class="i1"><a target="_blank" href="http://weibo.com/demlution"><div class="icon-weibo"></div></a>&nbsp;
+                    <a target="_blank" class="a-wx" href="javascript:void(0)"><div class="icon-comments-alt"></div><div class="w-weixin"><img src="../images/w-wx.jpg" /></div></a></div>
+                    <div class="i2">热线电话：<b>400-855-5051</b></div>
+                </li>
+                </ul>
             </div>
+        </div>
             <div class="fot-cop">
                 <a target="_blank" href="http://www.demlution.com/about/about/">关于我们</a>-
                 <a target="_blank" href="http://www.demlution.com/about/biz/">商家合作</a>-
