@@ -11,7 +11,8 @@
     </head>
 
     <body>
-        <div class="wj-body">
+        <div {% block bodyclass_block %}class="wj-body"{% endblock %}>
+        {% block top_block %}
             <div class="wj-header">
                 <div class="wj-hcot">
                     <h1>
@@ -29,10 +30,13 @@
                                     <a href="/pc.html"><span>PC网站</span></a>
                                 </li>
                                 -->
-                                <!-- <li><a href="/case/2/"><span>代理专区</span></a></li>
+                                <!-- <li><a href="/case/2/"><span>代理专区</span></a></li>-->
                                 <li>
-                                    <a href="/mobile.html"><span>手机网站</span></a>
-                                </li>-->
+                                    <a href="/cpc.html"><span>担路云官网</span></a>
+                                </li>
+                                <li>
+                                    <a href="/cmall.html" ><span>担路云商城</span></a>
+                                </li>
                                 <li>
                                     <a href="/zeus5.html"><span>会员系统</span></a>
                                 </li>
@@ -43,10 +47,7 @@
                                     <a href="/400tel.html"><span>企业400</span></a>
                                 </li>
                                 <li>
-                                    <a href="/cpc.html"><span>担路云官网</span></a>
-                                </li>
-                                <li>
-                                    <a href="/cmall.html" ><span>担路云商城</span></a>
+                                    <a href="/article.html"><span>新闻中心</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -72,7 +73,7 @@
                     </div>
                 </div>
             </div>
-
+{% endblock %}
             {% block focus_block %}
             <div class="wj-focus" id="flashBg">
                 <div class="f-txt">
