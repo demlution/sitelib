@@ -19,7 +19,7 @@
                 <div class="head_left">
                         <a title="担路首页" href="http://www.demlution.com/" target="_blank">担路首页</a>
                         <span class="topRegLink">|</span>
-                        <a href="/agent.html"><span>担路平台</span></a>
+                        <a href="http://www.demlution.com/index.html"><span>担路平台</span></a>
                         <span class="topRegLink">|</span>
                         <a href="http://www.demlution.com/about/about/" target="_blank"><span>担路介绍</span></a>
                         <span class="topRegLink">|</span>
