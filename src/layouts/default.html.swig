@@ -73,7 +73,7 @@
                                     <a href="/400tel.html"><span>企业400</span></a>
                                 </li>
                                 <li>
-                                    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1439391305&amp;site=qq&amp;menu=yes"><span>产品咨询</span></a>
+                                    <a href="#"><span>产品资讯</span></a>
                                 </li>
                                 <!--
                                 <li>
@@ -93,7 +93,7 @@
             <div class="wj-focus" id="flashBg">
                 <div class="f-txt">
                     <div class="hd">担路，一路担当</div>
-                    <div class="bd">我们致力于客户挖掘、网络信息展示、客户关系维护，为您打造高性价比的一体化互联网解决方案！</div>
+                    <div class="bd">我们致力于互联网信息展示、客户挖掘转化、客户关系维护，为您打造高性价比的一体化互联网解决方案！</div>
                 </div>
                 <div class="f-phone">热线电话：
                     <em>400-855-5051</em>
@@ -108,6 +108,22 @@
         {% block foot_block %}
         <div class="wj-fotbg">
             <div class="wfot-help">
+                <div class="wfot-ad">
+                <ul class="feature clearfix">
+                    <li class="fe-1">
+                                <b class="ico">近万客户见证</b>
+                            </li>
+                    <li class="fe-2">
+                                <b class="ico">7x8小时售后服务</b>
+                            </li>
+                    <li class="fe-3">
+                                <b class="ico">免费的产品培训</b>
+                            </li>
+                    <li class="fe-4">
+                                <b class="ico">基于SAAS的云架构</b>
+                            </li>
+                </ul>
+                </div>
             <div class="fh-all clearfix">
                 <ul>
                 <li class="fh-site">
@@ -247,5 +263,7 @@
         </div>
         {{ getBlock("scripts").add(site.scripts).toHTML() }}
         {{ getBlock("scripts").add(document.scripts).toHTML() }}
+        
+<link rel="stylesheet" type="text/css" href="http://s2.d2scdn.com/static/mobile_theme/style1/font-awesome/css/font-awesome.css" media="all" />
     </body>
 </html>

@@ -99,7 +99,7 @@ a:hover{text-decoration: underline;color:#ff8c05}
 
 /* 基础布局组 */
 /* @group basic layout */
-.content,.tip-cot,.header,.nav_c,.fot-hep,.fot-cop {margin-left:auto;margin-right:auto;width:1000px;}
+.content,.tip-cot,.header,.nav_c,.fot-hep{margin-left:auto;margin-right:auto;width:1000px;}
 
 .col_main { width:740px; float:left;}
 .col_sub { width:250px; float:right;margin-left:10px;}

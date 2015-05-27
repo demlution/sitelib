@@ -314,7 +314,7 @@ a.sublogo:hover { text-decoration:none;}
 
 .pg_backbg {background-color: #000;}
 .fixed-nav {border-top:4px solid #ddd;background: #fff;}
-.fixed-nav{position:fixed;left:50%;margin-left:520px;top:453px;border-bottom:1px solid #D4D4D4;border-right:1px solid #D4D4D4;border-left:1px solid #D4D4D4;line-height:33px;font-size:12px;width:90px;text-align:center;z-index:10000;}
+.fixed-nav{position:fixed;left:50%;margin-left:550px;top:453px;border-bottom:1px solid #D4D4D4;border-right:1px solid #D4D4D4;border-left:1px solid #D4D4D4;line-height:33px;font-size:12px;width:90px;text-align:center;z-index:10000;}
 .fixed-nav li{vertical-align:middle;height:33px;position:relative;border-top:1px solid #eee;margin-top:-1px}
 .fixed-nav li:first-of-type{border-top:0 none}
 .fixed-nav li i{display:none}
