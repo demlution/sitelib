@@ -2,10 +2,33 @@
 /* 网建首页
 --------------------------------------------------------------------------------------------------*/
 .wj-body { }
-.wj-header { background:url(../images/wj-mbg.gif) repeat-x center 0 #fff;border-bottom:1px #ddd solid; }
-.wj-hcot {height:147px;position:relative; width:1200px;margin:0 auto;}
-.wj-logo { position:absolute;left:-5px;top:42px; display:block; text-indent:-9999px; height:100px; width:400px;background:url(../images/logo.png) no-repeat 0 center;}
-.wj-nav { position:absolute;right:0; bottom:0; width:870px; height:44px;padding:0 0 0 10px;_width:850px;}
+
+.wj-tip{ height:48px; border-bottom:1px solid #e7e7e7;background: #fff;}
+.wj-tip ins{ display:none;}
+.wj-tipcot {width:1200px;margin:0 auto;}
+.head_left{ float:left; padding-top:15px; display:block;}
+.head_left span {padding:0 5px;}
+.head_left li{ float:left;}
+.head_left li a{ display:block; height:13px;}
+
+
+.head_right{ float:right; padding-top:15px; display:block;}
+.head_right li{ float:left; padding-left:15px;}
+.head_right li a{ display:block; background:url(../images/bg06.png) no-repeat left top; height:18px;}
+.head_right li a:hover{ background-position:left bottom;}
+.head_right li.li01 a{ width:18px;}
+.head_right li.li02 a{ width:20px; background-position:-45px top;}
+.head_right li.li02 a:hover{ background-position:-45px bottom;}
+.head_right li.li03 a{ width:19px; background-position:right top;}
+.head_right li.li03 a:hover{ background-position:right bottom;}
+
+.head_tel {float:right; padding-top:15px;}
+.head_tel span {padding:0 5px;}
+
+.wj-header { border-bottom:1px #ddd solid;background: #fff; }
+.wj-hcot {height:100px;position:relative; width:1200px;margin:0 auto;}
+.wj-logo { position:absolute;left:-5px;top:5px; display:block; text-indent:-9999px; height:100px; width:400px;background:url(../images/logo.png) no-repeat 0 center;}
+.wj-nav { position:absolute;right:0; top:35px; width:870px; height:44px;padding:0 0 0 10px;_width:850px;}
 .wj-nav .wj-navcot {height:33px;line-height:30px; float:right;}
 .wj-nav li { float:left;padding:0 8px; font-size:16px;_width:130px; }
 .wj-nav li a {color:#444; display:block; line-height:35px;padding:0 0px 10px 15px; font-size:16px;}

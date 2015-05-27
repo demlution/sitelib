@@ -14,6 +14,34 @@
     <body>
         <div {% block bodyclass_block %}class="wj-body"{% endblock %}>
         {% block top_block %}
+            <div class="wj-tip">
+                <div class="wj-tipcot">
+                <div class="head_left">
+                        <a title="担路首页" href="http://www.demlution.com/" target="_blank">担路首页</a>
+                        <span class="topRegLink">|</span>
+                        <a href="/agent.html"><span>担路平台</span></a>
+                        <span class="topRegLink">|</span>
+                        <a href="http://www.demlution.com/about/about/" target="_blank"><span>担路介绍</span></a>
+                        <span class="topRegLink">|</span>
+                        <a href="http://www.demlution.com/about/help/" target="_blank"><span>担路帮助</span></a>
+                </div>
+                <ul class="head_right">
+                <li class="li01"><a target="_blank" class="qqtc" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1439391305&amp;site=qq&amp;menu=yes"><ins>QQ联系</ins></a></li>
+                <li class="li02"><a target="_blank" title="微信" href="/weixin.html"><ins>微信联系</ins></a></li>
+                <li class="li03"><a title="官方微博" target="_blank" href="http://weibo.com/demlution"><ins>官方微博</ins></a></li>
+                </ul>
+                <div class="head_tel">
+                    <span>服务热线：
+                        <font class="num">400-855-5051</font>
+                    </span>
+                    <span class="topRegLink">|</span>
+                    <a href="http://www.demlution.com/account/login/" target="_blank">登录</a>
+                    <span class="topRegLink">|</span>
+                    <a title="免费网站注册" href="http://www.demlution.com/account/signup/" target="_blank">注册</a>
+                </div>
+                </div>
+                <!--Center -->
+            </div>
             <div class="wj-header" id="tophome">
                 <div class="wj-hcot">
                     <h1>
@@ -56,26 +84,6 @@
                                 </li>-->
                             </ul>
                         </div>
-                    </div>
-                    <div class="wj-wel">
-                        <a title="担路首页" href="http://www.demlution.com/" target="_blank">担路首页</a>
-                        <span class="topRegLink">|</span>
-                        <a href="/agent.html"><span>担路平台</span></a>
-                        <span class="topRegLink">|</span>
-                        <a href="http://www.demlution.com/about/about/" target="_blank"><span>担路介绍</span></a>
-                        <span class="topRegLink">|</span>
-                        <a href="http://www.demlution.com/about/help/" target="_blank"><span>担路帮助</span></a>
-                    </div>
-                    <div class="hotline">
-                        <span>服务热线：
-                            <font class="num">400-855-5051</font>
-                        </span>
-                        <span class="topRegLink">|</span>
-                        <a href="http://www.demlution.com/account/login/" target="_blank">登录</a>
-                        <span class="topRegLink">|</span>
-                        <a title="免费网站注册" href="http://www.demlution.com/account/signup/" target="_blank">注册</a>
-                        <a hidefocus="true" title="关注担路网官方微博，了解最新动态" target="_blank" href="http://weibo.com/demlution">
-                        <img src="../images/wb.png" width="18"> 担路微博</a>
                     </div>
                 </div>
             </div>
