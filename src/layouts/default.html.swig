@@ -102,25 +102,25 @@
                     <dd><a target="_blank" href="http://www.demlution.com/index.html">担路平台</a></dd>
                     <dd><a target="_blank" href="http://www.danlu.net/">担路产品</a></dd>
                     <dd><a target="_blank" href="http://www.demlution.com/about/help/">担路帮助</a></dd>
-                    <dd><a target="_blank" href="http://www.danlu.net/agent/">加盟代理</a></dd>
+                    <dd><a target="_blank" href="http://www.danlu.net/agent.html">加盟代理</a></dd>
                     </dl>
                 </li>
                 <li class="fh-about">
                     <dl>
                     <dt>了解担路</dt>
-                    <dd><a target="_blank" href="/about/about/">关于我们</a></dd>
-                    <dd><a target="_blank" href="/about/hr/">人才招聘</a></dd>
-                    <dd><a target="_blank" href="/about/terms/">担路协议</a></dd>
-                    <dd><a target="_blank" href="/about/terms2/">隐私条款</a></dd>
+                    <dd><a target="_blank" href="http://www.demlution.com/about/about/">关于我们</a></dd>
+                    <dd><a target="_blank" href="http://www.demlution.com/about/hr/">人才招聘</a></dd>
+                    <dd><a target="_blank" href="http://www.demlution.com/about/terms/">担路协议</a></dd>
+                    <dd><a target="_blank" href="http://www.demlution.com/about/terms2/">隐私条款</a></dd>
                     </dl>
                 </li>
                 <li class="fh-member">
                     <dl>
                     <dt>用户中心</dt>
-                    <dd><a target="_blank" href="/account/signup/">立即注册</a></dd>
+                    <dd><a target="_blank" href="http://www.demlution.com/account/signup/">立即注册</a></dd>
                     <dd><a target="_blank" href="http://www.demlution.com/help/topic/store-home/">常见问题</a></dd>
                     <dd><a target="_blank" href="http://www.demlution.com/help/topic/member-home/">新手上路</a></dd>
-                    <dd><a target="_blank" href="/about/jifen/">积分评价</a></dd>
+                    <dd><a target="_blank" href="http://www.demlution.com/about/jifen/">积分评价</a></dd>
                     </dl>
                 </li>
                 <li class="fh-cotact">
