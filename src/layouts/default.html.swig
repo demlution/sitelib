@@ -42,12 +42,16 @@
                                     <a href="/zeus5.html"><span>会员系统</span></a>
                                 </li>
                                 <li>
+                                    <a href="/400tel.html"><span>企业400</span></a>
+                                </li>
+                                <li>
+                                    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1439391305&amp;site=qq&amp;menu=yes"><span>产品咨询</span></a>
+                                </li>
+                                <!--
+                                <li>
                                     <a href="/marketing.html"><span>网络推广</span></a>
                                 </li>
                                 <li>
-                                    <a href="/400tel.html"><span>企业400</span></a>
-                                </li>
-                                <!--<li>
                                     <a href="/article.html"><span>新闻中心</span></a>
                                 </li>-->
                             </ul>
