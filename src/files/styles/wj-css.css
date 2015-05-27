@@ -338,7 +338,7 @@
 .wj-fotbg {margin-top:0;background:#fafafa}
 .wfot-help { background:#fafafa;width:100%;}
 .wfot-bot { background:#007acf; text-align:center;width:100%;}
-.fh-all {padding:20px 0 20px 0px; width:1200px; margin:0 auto;}
+.fh-all {padding:20px 0 20px 0px; width:1200px; margin:0 auto;border-top: 1px #f0f0f0 solid;}
 .fh-all li { float:left; width:120px;padding:0 0 0 50px;}
 .fh-all li.fh-site { padding:0 0 0 20px;}
 .fh-all li.fh-cotact {width:300px}

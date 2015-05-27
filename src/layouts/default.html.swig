@@ -148,8 +148,8 @@
                     <dl>
                     <dt>用户中心</dt>
                     <dd><a target="_blank" href="http://www.demlution.com/account/signup/">立即注册</a></dd>
-                    <dd><a target="_blank" href="http://www.demlution.com/help/topic/store-home/">常见问题</a></dd>
-                    <dd><a target="_blank" href="http://www.demlution.com/help/topic/member-home/">新手上路</a></dd>
+                    <dd><a target="_blank" href="#">常见问题</a></dd>
+                    <dd><a target="_blank" href="#">新手上路</a></dd>
                     <dd><a target="_blank" href="http://www.demlution.com/about/jifen/">积分评价</a></dd>
                     </dl>
                 </li>
@@ -163,7 +163,7 @@
                 </li>
                 <li class="fh-ico">
                     <div class="i1"><a target="_blank" href="http://weibo.com/demlution"><div class="icon-weibo"></div></a>&nbsp;
-                    <a target="_blank" class="a-wx" href="javascript:void(0)"><div class="icon-comments-alt"></div><div class="w-weixin"><img src="../images/w-wx.jpg" /></div></a></div>
+                    <a target="_blank" class="a-wx" href="/weixin.html"><div class="icon-comments-alt"></div></a></div>
                     <div class="i2">热线电话：<b>400-855-5051</b></div>
                 </li>
                 </ul>
