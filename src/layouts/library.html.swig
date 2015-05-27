@@ -24,13 +24,13 @@
         </div>
         <div class="cy-nav">
             <ul>
-            <li><a href="#/t/k1" class="on"><span>普通类</span></a></li>
-            <li><a href="#/t/k2"><span>精品类</span></a></li>
-            <li><a href="#/t/k3"><span>商城类</span></a></li>
-            <li><a href="#/t/k4"><span>平台类</span></a></li>
-            <li><a href="#/t/k5"><span>论坛类</span></a></li>
-            <li><a href="#/t/k10"><span>定制型</span></a></li>
-            <li><a href="/mobile-case.html"><span>手机类</span></a></li>
+            <li><a href="#/t/k1" class="on"><span>PC普通</span></a></li>
+            <li><a href="#/t/k2"><span>PC精品</span></a></li>
+            <li><a href="#/t/k3"><span>PC商城</span></a></li>
+            <!--<li><a href="#/t/k4"><span>平台类</span></a></li>
+            <li><a href="#/t/k5"><span>论坛类</span></a></li>-->
+            <li><a href="#/t/k10"><span>定制</span></a></li>
+            <li><a href="/mobile-case.html"><span>手机模板</span></a></li>
             </ul>
         </div>
     </div>

@@ -22,5 +22,5 @@ $(document).ready(function(){
 });
 
 $(function(){
-	$(".wj-navcot li").eq(5).addClass("on")
+	$(".wj-navcot li").eq(4).addClass("on")
 })
