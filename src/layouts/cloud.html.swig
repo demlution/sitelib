@@ -3,5 +3,3 @@
 
 {% block focus_block %}
 {% endblock %}
-{% block foot_block %}
-{% endblock %}

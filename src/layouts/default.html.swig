@@ -81,6 +81,7 @@
             </div>
 {% endblock %}
             {% block focus_block %}
+            <div class="wj-focusbg">
             <div class="wj-focus" id="flashBg">
                 <div class="f-txt">
                     <div class="hd">担路，一路担当</div>
@@ -89,7 +90,8 @@
                 <div class="f-phone">热线电话：
                     <em>400-855-5051</em>
                 </div>
-            </div> 
+            </div>
+            </div>
             {% endblock %}
 
             {% block wrap_block %}

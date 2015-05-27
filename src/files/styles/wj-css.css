@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* 网建首页
 --------------------------------------------------------------------------------------------------*/
-.wj-body { background:url(../images/wj-mbg.gif) repeat-x center 0 #fff;}
-.wj-header { }
+.wj-body { }
+.wj-header { background:url(../images/wj-mbg.gif) repeat-x center 0 #fff;border-bottom:1px #ddd solid; }
 .wj-hcot {height:147px;position:relative; width:1200px;margin:0 auto;}
 .wj-logo { position:absolute;left:-5px;top:42px; display:block; text-indent:-9999px; height:100px; width:400px;background:url(../images/logo.png) no-repeat 0 center;}
 .wj-nav { position:absolute;right:0; bottom:0; width:870px; height:44px;padding:0 0 0 10px;_width:850px;}
@@ -62,7 +62,7 @@
 .box1 .bd{}
 .box1 .bd li{width: 400px;float: left;text-align: center;}
 .box1 .bd li h3 {font-size: 18px;line-height: 40px;font-weight: normal;color:#007acf;}
-.box1 .bd li .dec {padding:10px 30px;line-height: 30px;font-size: 14px;color: #666;}
+.box1 .bd li .dec {padding:10px 30px;line-height: 24px;font-size: 14px;color: #666;}
 
 .box2{background: #fafafa;}
 .btn-lottery{height:40px;padding:0 20px;line-height:40px;margin-left:25px;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;font-size:18px;display:inline-block;background-color:#fff;color:#72757c;border:1px #d8d8d8 solid;}
@@ -169,7 +169,7 @@
 .si-sc h3 { font-size:24px; font-weight:normal; color:#333333; margin-bottom:15px;}
 .si-sc .hd { width:204px; text-align:center;}
 .si-sc .bd { float:left; width:900px; padding:10px 0 10px 40px; font-size:14px; line-height:24px;}
-.nrbox{ margin-bottom:20px;}
+.nrbox{ margin-bottom:20px; margin-top: 30px;}
 .nrbox .nrboxtitle{ font-size:14px; color:#2781cc; height:30px; line-height:30px; display:block; margin-bottom:8px; background:url(../images//l_line.gif) no-repeat 0 8px; padding-left:12px;}
 .nrbox p{ line-height:26px; color:#555;}
 .youshilist li p{ font-size:13px;}
@@ -203,6 +203,7 @@
 .font30 { font-size: 30px;}
 .fbold { font-weight: bold; }
 
+.wj-focusbg {background:url(../images/wj-mbg.gif) repeat-x center -147px #fff;}
 .wj-focus { text-align:center;border-right:0;border-left:0;height:260px;/*background:url(../images/focus.png) no-repeat center bottom;*/ width:1200px; margin:0 auto; position:relative;}
 .f-txt { color:#fff; font-size:24px; padding:40px 0 0 20px; text-align:left;}
 .f-txt .hd {  font-weight:noraml;margin-top:20px;font-size: 32px;}
