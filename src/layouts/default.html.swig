@@ -73,7 +73,7 @@
                                     <a href="/400tel.html"><span>企业400</span></a>
                                 </li>
                                 <li>
-                                    <a href="#"><span>产品资讯</span></a>
+                                    <a href="/article/"><span>产品资讯</span></a>
                                 </li>
                                 <!--
                                 <li>
