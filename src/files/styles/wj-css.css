@@ -68,7 +68,7 @@
 .btn-lottery{height:40px;padding:0 20px;line-height:40px;margin-left:25px;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;font-size:18px;display:inline-block;background-color:#fff;color:#72757c;border:1px #d8d8d8 solid;}
 .btn-lottery:hover{background-color:#0b7ce5;border:none;color:#fff;}
 .solution-info{height:auto!important;width: 1200px;margin: 0 auto;}
-.solution-info .solu-nav{width:400px;height:424px;margin:0px 10px 30px 50px;position:relative;display:inline-block;}
+.solution-info .solu-nav{width:400px;height:424px;margin:-50px 10px 30px 60px;position:relative;display:inline-block;}
 .solution-info .solu-nav .title{position:absolute;left:130px;top:240px;font-size:20px;}
 .solution-info .dot1,.solution-info .dot2,.solution-info .dot3,.solution-info .dot4,.solution-info .dot5,.solution-info .dot6,.solution-info .dot-gray,.solution-info .dot-white1,.solution-info .dot-white2{background:url("../images/index-solu.png");background-position:0px 0px;width:122px;height:106px;display:block;position:absolute;top:140px;left:8px;z-index:1;}.solution-info .dot1:hover,.solution-info .dot2:hover,.solution-info .dot3:hover,.solution-info .dot4:hover,.solution-info .dot5:hover,.solution-info .dot6:hover,.solution-info .dot-gray:hover,.solution-info .dot-white1:hover,.solution-info .dot-white2:hover{background-position:0px -212px;}
 .solution-info .dot2{background-position:-122px 0px;top:78px;left:107px;}.solution-info .dot2:hover{background-position:-122px -212px;}

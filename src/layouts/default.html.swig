@@ -130,7 +130,7 @@
                 <li class="fh-cotact">
                     <dl>
                     <dt>服务支持</dt>
-                    <dd><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2212867435&site=qq&menu=yes">在线沟通>></a>(9:00-22:00 非工作日9:00-20:00)</dd>
+                    <dd><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1439391305&site=qq&menu=yes">在线沟通>></a>(9:00-22:00 非工作日9:00-20:00)</dd>
                     <dd>售后专线：021-39517056(24小时服务热线)</dd>
                     <dd>客服邮箱：<a target="_blank" href="mailto:lx@demlution.com">lx@demlution.com</a></dd>
                     </dl>
