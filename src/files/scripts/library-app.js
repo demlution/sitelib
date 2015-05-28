@@ -55,7 +55,7 @@ App.collections.CaseCollection = Backbone.Tastypie.Collection.extend({
 		offset: 0,
 		limit: 200,
 		is_public:true
-	},
+	}
 })
 
 App.collections.ColorCollection = Backbone.Collection.extend({
