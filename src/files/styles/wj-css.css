@@ -339,7 +339,7 @@
 .wfot-help { background:#fafafa;width:100%;}
 .wfot-bot { background:#007acf; text-align:center;width:100%;}
 .fh-all {padding:20px 0 20px 0px; width:1200px; margin:0 auto;border-top: 1px #E5E5E5 solid;}
-.fh-all li { float:left; width:120px;padding:0 0 0 50px;}
+.fh-all li { float:left; width:130px;padding:0 0 0 50px;}
 .fh-all li.fh-site { padding:0 0 0 20px;}
 .fh-all li.fh-cotact {width:300px}
 .fh-all li dt { font-weight:bold;color:#999; padding-left:32px; line-height:40px; font-size:18px;}
