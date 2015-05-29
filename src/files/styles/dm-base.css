@@ -250,7 +250,7 @@ textarea.txt {vertical-align:top; border:1px #ccc solid;}
 .fh-all li { float:left; width:110px;padding:0 0 0 50px;}
 .fh-all li.fh-cotact {width:330px}
 .fh-all li dt { font-weight:bold;color:#444;}
-.fot-cop { text-align:center;padding:15px 0 10px 0; border-top:1px #f0f0f0 solid;line-height:22px;}
+.fot-cop { text-align:center;padding:15px 0 10px 0; border-top:1px #E5E5E5 solid;line-height:22px;}
 
 .fot-safe {margin: 0 auto;padding: 10px 0;width: 980px; text-align:center;}
 .fot-safe a {background:url(../images/fotsafe.gif) no-repeat 0 0;display: inline-block;margin: 0 10px;vertical-align: middle;}
