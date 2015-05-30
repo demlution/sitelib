@@ -120,7 +120,7 @@
                                 <b class="ico">免费的产品培训</b>
                             </li>
                     <li class="fe-4">
-                                <b class="ico">基于SAAS的云架构</b>
+                                <b class="ico">基于SaaS的云架构</b>
                             </li>
                 </ul>
                 </div>
@@ -129,28 +129,28 @@
                 <li class="fh-site">
                     <dl>
                     <dt>旗下网站</dt>
+                    <dd><a target="_blank" href="http://www.demlution.com/">担路首页</a></dd>
                     <dd><a target="_blank" href="http://www.demlution.com/index.html">担路平台</a></dd>
                     <dd><a target="_blank" href="http://www.danlu.net/">担路产品</a></dd>
                     <dd><a target="_blank" href="http://www.demlution.com/about/help/">担路帮助</a></dd>
-                    <dd><a target="_blank" href="http://www.danlu.net/agent.html">加盟代理</a></dd>
                     </dl>
                 </li>
                 <li class="fh-about">
                     <dl>
                     <dt>了解担路</dt>
-                    <dd><a target="_blank" href="http://www.demlution.com/about/about/">关于我们</a></dd>
-                    <dd><a target="_blank" href="http://www.demlution.com/about/hr/">人才招聘</a></dd>
-                    <dd><a target="_blank" href="http://www.demlution.com/about/terms/">担路协议</a></dd>
-                    <dd><a target="_blank" href="http://www.demlution.com/about/terms2/">隐私条款</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/about.html">关于我们</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/culture.html">文化宗旨</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/contact.html">联系我们</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/hr.html">担路招聘</a></dd>
                     </dl>
                 </li>
                 <li class="fh-member">
                     <dl>
-                    <dt>用户中心</dt>
-                    <dd><a target="_blank" href="http://www.demlution.com/account/signup/">立即注册</a></dd>
-                    <dd><a target="_blank" href="#">常见问题</a></dd>
-                    <dd><a target="_blank" href="#">新手上路</a></dd>
-                    <dd><a target="_blank" href="http://www.demlution.com/about/jifen/">积分评价</a></dd>
+                    <dt>用户与企业</dt>
+                    <dd><a target="_blank" href="http://about.demlution.com/protocol.html">用户协议</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/terms.html">隐私条款</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/biz">商家合作</a></dd>
+                    <dd><a target="_blank" href="http://www.danlu.net/agent.html">代理加盟</a></dd>
                     </dl>
                 </li>
                 <li class="fh-cotact">
@@ -163,13 +163,13 @@
                 </li>
                 <li class="fh-ico">
                     <div class="i1"><a target="_blank" href="http://weibo.com/demlution"><div class="icon-weibo"></div></a>&nbsp;
-                    <a target="_blank" class="a-wx" href="/weixin.html"><div class="icon-comments-alt"></div></a></div>
+                    <a target="_blank" class="a-wx" href="http://www.danlu.net/weixin.html"><div class="icon-comments-alt"></div></a></div>
                     <div class="i2">热线电话：<b>400-855-5051</b></div>
                 </li>
-                </ul>
-            </div>
+                </ul>            </div>
         </div>
             <div class="fot-cop">
+
                 <p class="black9">Copyright 2011-2015
                     <a href="http://www.demlution.com/">担路网</a>(Demlution.com) 版权所有 沪ICP备12018506号-1
                     <script type="text/javascript">

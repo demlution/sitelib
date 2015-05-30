@@ -37,7 +37,7 @@
 </div>
 
 	{{ document.content|safe }}
-	{{ getBlock("scripts").add(["/vendor/jquery.js", "/vendor/masonry.pkgd.js", "/vendor/underscore.js", "/vendor/backbone.js", "/vendor/backbone.fetch-cache.js", "/vendor/backbone-tastypie.js", "/scripts/library-app.js", "/scripts/scripts.js"]).toHTML() }}
+	{{ getBlock("scripts").add(["/vendor/jquery.js", "/vendor/json2.js", "/vendor/masonry.pkgd.js", "/vendor/underscore.js", "/vendor/backbone.js", "/vendor/backbone.fetch-cache.js", "/vendor/backbone-tastypie.js", "/scripts/library-app.js", "/scripts/scripts.js"]).toHTML() }}
 </body>
 
 </html>
