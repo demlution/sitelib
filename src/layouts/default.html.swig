@@ -21,7 +21,7 @@
                         <span class="topRegLink">|</span>
                         <a href="http://www.demlution.com/index.html"><span>担路平台</span></a>
                         <span class="topRegLink">|</span>
-                        <a href="http://www.demlution.com/about/about/" target="_blank"><span>担路介绍</span></a>
+                        <a href="http://about.demlution.com/" target="_blank"><span>担路介绍</span></a>
                         <span class="topRegLink">|</span>
                         <a href="http://www.demlution.com/about/help/" target="_blank"><span>担路帮助</span></a>
                 </div>
