@@ -217,6 +217,18 @@
 .youshtext .ystextlist{ width:1140px; left:20px; top:10px; position:absolute;}
 .youshtext .ystextlist p{ height:85px;}
 
+/* banner */
+.banner{height:430px;overflow:hidden;}
+.banner .d1{width:100%;height:430px;display:block;position:absolute;left:0px;top:0px;}
+.banner .d2{width:100%;height:30px;clear:both;position:absolute;z-index:100;left:0px;top:400px;}
+.banner .d2 ul{float:left;position:absolute;left:50%;top:0;margin:0 0 0 -50px;display:inline;}
+.banner .d2 li{width:17px;height:15px;overflow:hidden;cursor:pointer;background:url(../images/img1.png) no-repeat center;float:left;margin:0 3px;display:inline;}
+.banner .d2 li.nuw{background:url(../images/img1_1.png) no-repeat center;}
+.PosRealit{ position:relative; }
+.ClearBoth{ clear:both;}
+.widthMAX{ width:100%;}
+.PaddingLeft15{ padding-left:15px;}
+
 /* 营销 */
 .ma-sc { border-bottom:1px #ddd dashed;padding:30px 0;}
 .ma-sc h3 { font-size:24px; font-weight:normal; color:#333333; margin-bottom:15px;}
