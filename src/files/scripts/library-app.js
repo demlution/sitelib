@@ -22,7 +22,7 @@ App.paginationTemplate = '\
                 <% for (var i=pager.start; i < pager.end; i++) { %> \
                     <li<% if (meta.offset / meta.limit == i - 1) { %> class="active"<% } %>><a href="<%= getPageUrl(i) %>" class="page-<%= meta.total_count %>" data-offset="<%= meta.limit * i  %>"><%= i %></a></li> \
                 <% } %> \
-                <li<% if (meta.next == null) { %> class="disabled"<% } %>><a href="<%= getPageUrl(Math.ceil(meta.total_count/meta.limit)-1) %>" class="next-<%= meta.total_count %>">»</a></li> \
+                <li<% if (meta.next == null) { %> class="disabled"<% } %>><a href="<%= getPageUrl(Math.ceil(meta.total_count/meta.limit)) %>" class="next-<%= meta.total_count %>">»</a></li> \
             </ul> \
         </div> \
     ';
