@@ -170,14 +170,7 @@
             </div>
         </div>
             <div class="fot-cop">
-                <a target="_blank" href="http://www.demlution.com/about/about/">关于我们</a>-
-                <a target="_blank" href="http://www.demlution.com/about/biz/">商家合作</a>-
-                <a target="_blank" href="http://www.demlution.com/about/terms/">用户协议</a>-
-                <a target="_blank" href="http://www.demlution.com/about/terms2/">隐私条款</a>-
-                <a target="_blank" href="http://www.demlution.com/about/hr/">诚聘英才</a>-
-                <a target="_blank" href="http://www.demlution.com/about/jifen/">积分评价系统</a>-
-                <a target="_blank" href="http://www.demlution.com/about/contact/">联系我们</a>
-                <p class="black9">Copyright 2011-2012
+                <p class="black9">Copyright 2011-2015
                     <a href="http://www.demlution.com/">担路网</a>(Demlution.com) 版权所有 沪ICP备12018506号-1
                     <script type="text/javascript">
                         var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
