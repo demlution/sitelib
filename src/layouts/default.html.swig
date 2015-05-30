@@ -125,7 +125,7 @@
                 </ul>
                 </div>
             <div class="fh-all clearfix">
-                <ul>
+               <ul>
                 <li class="fh-site">
                     <dl>
                     <dt>旗下网站</dt>
@@ -149,8 +149,8 @@
                     <dt>用户与企业</dt>
                     <dd><a target="_blank" href="http://about.demlution.com/protocol.html">用户协议</a></dd>
                     <dd><a target="_blank" href="http://about.demlution.com/terms.html">隐私条款</a></dd>
-                    <dd><a target="_blank" href="http://about.demlution.com/biz">商家合作</a></dd>
-                    <dd><a target="_blank" href="http://www.danlu.net/agent.html">代理加盟</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/biz.html">商家合作</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/agent.html">代理加盟</a></dd>
                     </dl>
                 </li>
                 <li class="fh-cotact">
@@ -166,10 +166,10 @@
                     <a target="_blank" class="a-wx" href="http://www.danlu.net/weixin.html"><div class="icon-comments-alt"></div></a></div>
                     <div class="i2">热线电话：<b>400-855-5051</b></div>
                 </li>
-                </ul>            </div>
+                </ul>
+               </div>
         </div>
             <div class="fot-cop">
-
                 <p class="black9">Copyright 2011-2015
                     <a href="http://www.demlution.com/">担路网</a>(Demlution.com) 版权所有 沪ICP备12018506号-1
                     <script type="text/javascript">
