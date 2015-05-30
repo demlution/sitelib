@@ -20,7 +20,7 @@ App.paginationTemplate = '\
             <ul> \
                 <li<% if (meta.previous == null) { %> class="disabled"<% } %>><a href="<%= getPageUrl(1) %>" class="previous-<%= meta.total_count %>">«</a></li> \
                 <% for (var i=pager.start; i < pager.end; i++) { %> \
-                    <li<% if (meta.offset / meta.limit == i) { %> class="active"<% } %>><a href="<%= getPageUrl(i) %>" class="page-<%= meta.total_count %>" data-offset="<%= meta.limit * i  %>"><%= i %></a></li> \
+                    <li<% if (meta.offset / meta.limit == i - 1) { %> class="active"<% } %>><a href="<%= getPageUrl(i) %>" class="page-<%= meta.total_count %>" data-offset="<%= meta.limit * i  %>"><%= i %></a></li> \
                 <% } %> \
                 <li<% if (meta.next == null) { %> class="disabled"<% } %>><a href="<%= getPageUrl(Math.ceil(meta.total_count/meta.limit)-1) %>" class="next-<%= meta.total_count %>">»</a></li> \
             </ul> \
@@ -229,7 +229,7 @@ App.views.CaseListView = Backbone.View.extend({
 		pager.first = 1;
 		pager.last = meta.total_count / meta.limit;
 		pager.start = meta.offset / meta.limit > 4 ? (meta.offset / meta.limit - 4) : 1;
-		pager.end = meta.total_count / meta.limit - meta.offset / meta.limit > 4 ? (meta.offset / meta.limit + 4) : (meta.total_count / meta.limit);
+		pager.end = meta.total_count / meta.limit - meta.offset / meta.limit > 4 ? (meta.offset / meta.limit + 4) : (meta.total_count / meta.limit + 1);
 		var pageHtml = pageTemplate({meta:that.collection.meta, getPageUrl:that.getPageUrl, pager:pager});
 		$('#pagination-wrap').html(pageHtml);
 		setTimeout(function(){
@@ -289,14 +289,14 @@ var Workspace = Backbone.Router.extend({
 		if (code)
 			options.code = code;
 		if (page)
-			options.offset = page * 100;
+			options.offset = (page - 1) * App.options.limit;
 		else
 			options.offset = 0;
 
 		_.extend(App.options, options);
 		appView.collection = new App.collections.CaseCollection([], options);
 		var filters = {
-			limit:100,
+			limit:App.options.limit,
 			is_public:true,
 			is_active:true
 		};
