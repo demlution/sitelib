@@ -174,7 +174,7 @@ App.views.CategoryView = Backbone.View.extend({
 
 	render: function() {
 		var that = this;
-		this.categoryCollection.fetch({cache:true, success: function(categoryList) {
+		this.categoryCollection.fetch({cache:true, data:{limit:0}, success: function(categoryList) {
 			var categoryList = that.categoryCollection.models;
 			var template = _.template($('#category-list-tpl').html());
 			var categoryHtml = template({categoryList: categoryList, options: App.options, _:_});
