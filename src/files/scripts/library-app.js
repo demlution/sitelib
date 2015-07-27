@@ -6,7 +6,7 @@ App = {
 		klass:0,
 		category:0,
 		color:0,
-		limit:100,
+		limit:60,
 		offset:0
 	},
 	dog: {
@@ -50,7 +50,7 @@ App.models.Klass = Backbone.Model.extend({
 App.collections.CaseCollection = Backbone.Tastypie.Collection.extend({
 	// model: App.models.Case,
 	urlRoot: API_ROOT + 'templatecase',
-	model: App.models.TemplateCase,	
+	model: App.models.TemplateCase,
 	filters: {
 		offset: 0,
 		limit: 200,
@@ -273,8 +273,8 @@ var Workspace = Backbone.Router.extend({
 	routes: {
 		"": "list",
 		"t/search/:query": "search",
- 
-		"t(/k:klass)(/c:category)(/o:color)(/p/:page)": "list",   
+
+		"t(/k:klass)(/c:category)(/o:color)(/p/:page)": "list",
 	},
 
 	index: function() {
