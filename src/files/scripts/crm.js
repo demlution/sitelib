@@ -1,4 +1,3 @@
-// JavaScript Document
 function banner(){	
 	var bn_id = 0;
 	var bn_id2= 1;
@@ -56,28 +55,28 @@ function banner(){
 		$("#banner_id").hide();
 	}
 }
-banner();
-$(document).ready(function(){
-	
-	$('.youshilist > li').each(function(i){						
-		$(this).hover(function(){
-			$('.yshover').stop().animate({left: i*150},300);
-			$('.ystextlist').stop().animate({top:i*-85+10},200);
-		});						
-	});
-	
-	$('.youshilist > li').hover(function(){	
-		$(this).css({color:'#4093d8',cursor:'pointer'})
-			},function(){
-		$(this).css({color:''})
-	});
+banner(); 
 
-	$('.youshtext > p').each(function(i){
-		$(this).css({top: i*50+15});								  
-	});
-	
-});
-
+ $(function(){
+           $(window).scroll(function(){
+               var scrollTop = $(document).scrollTop();
+               var contentItems = $(".block_item");
+               var currentItem = "";
+               contentItems.each(function(){
+                   var contentItem = $(this);
+                   var offsetTop = contentItem.offset().top;
+                   if(scrollTop > offsetTop-200){//此处的200视具体情况自行设定，因为如果不减去一个数值，在刚好滚动到一个div的边缘时，菜单的选中状态会出错，比如，页面刚好滚动到第一个div的底部的时候，页面已经显示出第二个div，而菜单中还是第一个选项处于选中状态
+                       currentItem = "#" + contentItem.attr("id");
+                   }
+               });
+               if(currentItem&&currentItem!=$("#j-menu").find(".selected").attr("href")){
+                   $("#j-menu").find(".selected").removeClass("selected");
+                   $("#j-menu").find("[href=" + currentItem + "]").parent("li").addClass("selected");
+               }
+           });
+       });
 $(function(){
-	$(".wj-navcot li").eq(5).addClass("on")
+	$(".wj-navcot li").eq(4).addClass("on")
 })
+
+$("#crm-channel").actabctl({menu:'.crumb-l', content: '.crumbbox',selectedCss: "current", evt:1});

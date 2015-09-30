@@ -200,6 +200,61 @@
 .zeus5-sc .hd { width:530px;}
 .zeus5-sc .bd { float:left; width:630px; padding:40px 0 0 40px; font-size:14px; line-height:24px;}
 
+/* CRM */
+.crumb{z-index:3; height:58px; background-color:#f5f5f5;width:100%;padding-top: 30px;}
+.crumb-l{ float:left; width:150px; height:45px; margin-top:13px; margin-right:10px;font-size:14px;line-height:45px; text-align:center; background-color:#fff;}
+.crumb-l a{display:block;color:#fff; font-size:18px; font-family:"Microsoft YaHei";line-height:45px;background:#007acf; display:block;line-height:45px;}
+.crumb .current{ background:#fff; display:block;line-height:45px;}
+.crumb .current a{background:#fff; color:#444;text-decoration: none;}
+.crumb .current a:hover{background:#FFF; color:#444444;text-decoration: none;}
+.crumb-l a:hover {text-decoration: none;}
+.crumb-r{ float:right; line-height:55px;color:#2769c8; margin-top:10px;}
+.crumb-r a{ margin:0 15px; font-size:12px;color:#2769c8;}
+.crumb-r a:hover{color:#2769c8;text-decoration: none;}
+.crumbbox {}
+.crumbbox .rr {text-align: center}
+.mod dl{ display:inline; float:left; width:260px; padding:15px 30px 15px; margin-right:23px; background-color:#fff; border-bottom:3px solid #e8e8e8;}
+.mod dl dt{ margin-bottom:5px; font-size:17px; color:#272727;}
+.mod dl dd{ font-size:12px; line-height:20px; color:#8e8d8d;}
+.mod dl{ height:108px; margin-bottom:10px;}
+.mod3 .w1000,
+.mod4 .w1000,
+.mod5 .w1000{ overflow:hidden; border-bottom:1px solid #d3d3d3;}
+.mod3 h2{ margin-top:42px; margin-bottom:19px;}
+.mod3 ul,
+.mod4 ul,
+.mod5 ul{ margin-left:54px; border-left:3px solid #dadada;}
+.mod3 ul li,
+.mod4 ul li,
+.mod5 ul li{ position:relative; width:1050px; padding-top:36px; padding-bottom:26px; margin-left:83px; border-bottom:1px dashed #aeaeae;}
+.mod .first{ padding-top:0;}
+.mod .mask{ position:absolute; left:-140px; top:36px; z-index:1; width:111px; height:100%; background-color:#f5f5f5;}
+.iconp{ position:absolute; left:-140px; top:0; z-index:2; width:111px; height:41px; padding-top:70px; margin-top:36px; font-size:14px; color:#2e2e2e; text-align:center; background:url(../images/icon-all.png) no-repeat;}
+.mod .first .iconp{ margin-top:0;}
+.iconp-1{ background-position:0 0;}
+.iconp-2{ background-position:-113px 0;}
+.iconp-3{ background-position:-226px 0;}
+.iconp-4{ background-position:-339px 0;}
+.iconp-5{ background-position:-452px 0;}
+.iconp-6{ background-position:-565px 0;}
+.iconp-7{ background-position:-678px 0;}
+.iconp-8{ background-position:-791px 0;}
+.iconp-9{ background-position:-904px 0;}
+.iconp-10{ background-position:-1017px 0;}
+.iconp-11{ background-position:-1130px 0;}
+.iconp-12{ background-position:-1243px 0;}
+.iconp-13{ background-position:-1356px 0;}
+.iconp-14{ background-position:-1469px 0;}
+.iconp-15{ background-position:-1582px 0;}
+.iconp-16{ background-position:-1695px 0;}
+.iconp-17{ background-position:-1808px 0;}
+.iconp-18{ background-position:-1921px 0;}
+
+.mod4 h2,
+.mod5 h2{ margin-top:37px; margin-bottom:19px;}
+.mod5{ border-bottom:0 none;}
+
+
 /* 400 */
 .si-sc { border-bottom:1px #ddd dashed;padding:30px 0;}
 .si-sc h3 { font-size:24px; font-weight:normal; color:#333333; margin-bottom:15px;}

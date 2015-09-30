@@ -6,7 +6,7 @@ App = {
 		klass:0,
 		category:0,
 		color:0,
-		limit:60,
+		limit:100,
 		offset:0
 	},
 	dog: {
@@ -50,7 +50,7 @@ App.models.Klass = Backbone.Model.extend({
 App.collections.CaseCollection = Backbone.Tastypie.Collection.extend({
 	// model: App.models.Case,
 	urlRoot: API_ROOT + 'templatecase',
-	model: App.models.TemplateCase,
+	model: App.models.TemplateCase,	
 	filters: {
 		offset: 0,
 		limit: 200,
@@ -174,7 +174,7 @@ App.views.CategoryView = Backbone.View.extend({
 
 	render: function() {
 		var that = this;
-		this.categoryCollection.fetch({cache:true, data:{limit:0}, success: function(categoryList) {
+		this.categoryCollection.fetch({cache:true, success: function(categoryList) {
 			var categoryList = that.categoryCollection.models;
 			var template = _.template($('#category-list-tpl').html());
 			var categoryHtml = template({categoryList: categoryList, options: App.options, _:_});
@@ -273,8 +273,8 @@ var Workspace = Backbone.Router.extend({
 	routes: {
 		"": "list",
 		"t/search/:query": "search",
-
-		"t(/k:klass)(/c:category)(/o:color)(/p/:page)": "list",
+ 
+		"t(/k:klass)(/c:category)(/o:color)(/p/:page)": "list",   
 	},
 
 	index: function() {

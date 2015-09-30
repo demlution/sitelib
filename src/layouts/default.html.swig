@@ -21,7 +21,7 @@
                         <span class="topRegLink">|</span>
                         <a href="http://www.demlution.com/index.html"><span>担路平台</span></a>
                         <span class="topRegLink">|</span>
-                        <a href="http://about.demlution.com/" target="_blank"><span>担路介绍</span></a>
+                        <a href="http://www.demlution.com/about/about/" target="_blank"><span>担路介绍</span></a>
                         <span class="topRegLink">|</span>
                         <a href="http://www.demlution.com/about/help/" target="_blank"><span>担路帮助</span></a>
                 </div>
@@ -68,6 +68,9 @@
                                 </li>
                                 <li>
                                     <a href="/zeus5.html"><span>会员系统</span></a>
+                                </li>
+                                <li>
+                                    <a href="/crm.html"><span>CRM</span></a>
                                 </li>
                                 <li>
                                     <a href="/400tel.html"><span>企业400</span></a>
