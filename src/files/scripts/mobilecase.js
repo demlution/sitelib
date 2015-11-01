@@ -64,9 +64,9 @@ $.Isotope.prototype._masonryColumnShiftResizeChanged = function() {
 };
 
 $.Isotope.prototype.shiftColumnOfItem = function( itemElem, callback ) {
-    
+
     var columnIndex = $.data( itemElem, 'masonryColumnIndex' );
-    
+
     // don't proceed if no columnIndex
     if ( !isFinite(columnIndex) ) {
   return;
@@ -139,7 +139,7 @@ $(function(){
   // $('#cat-nav a').css({color: '#444'});
   // $(this).css({color: '#C90000', background: '#fff'});
     });
-    
+
     // $(window).resize(function() {
     //  w1 = 1200;//$('#container').innerWidth();
     //  width = Math.floor(w1/220) * 220 ;
