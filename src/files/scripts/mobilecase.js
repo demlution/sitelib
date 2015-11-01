@@ -147,6 +147,12 @@ $(function(){
     // });
 });
 
+function bindPreview(){
+  $('.preview-btn').click(function() {
+    var link = $(this).attr('data-link')
+    window.open(link,"我的微官网", "height=650,width=400,top=0,left=" + (window.innerWidth - 400)/2 + ",toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no");
+  });
+}
 
 function loadMore() {
     if($('body').height() - 300 <= ($(window).innerHeight() + $(window).scrollTop()) && !window._over){
@@ -162,7 +168,7 @@ function loadMore() {
         items += '<div class="item"><a href=#"' + obj.link + '">' +
       '<img width="200" src="' + obj.image + '"/>' +
       '<div class="qrlayout">' +
-      '<div class="qrcode"><img width=120 src="http://www.demlution.com/store/qrcode/?data=' + obj.link + '&width=120&border=2" /></div></div>' +
+      '<div class="qrcode"><img width=120 src="http://www.demlution.com/store/qrcode/?data=' + obj.link + '&width=120&border=2" /><span data-link="' + obj.link + '" class="preview-btn">预览</span></div></div>' +
       '<span>风格' + obj.code + '</span></a>' +
       '</div>';
     });
@@ -196,4 +202,6 @@ function loadMore() {
 
         }
     }
+
+    bindPreview()
 }
