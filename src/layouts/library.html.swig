@@ -26,6 +26,7 @@
             <ul>
             <li><a href="#/t/k1" class="on"><span>PC普通</span></a></li>
             <li><a href="#/t/k2"><span>PC精品</span></a></li>
+            <li><a href="#/t/k15"><span>PC尊豪</span></a></li>
             <li><a href="#/t/k3"><span>PC商城</span></a></li>
             <!--<li><a href="#/t/k4"><span>平台类</span></a></li>
             <li><a href="#/t/k5"><span>论坛类</span></a></li>-->
