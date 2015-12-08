@@ -14,8 +14,13 @@ scripts: ["/vendor/masonry.pkgd.js","/scripts/scripts5.js"]
       <div class="item-img"><img src="<%= tpl.get('image') %>"></div>
       <div class="item-dec"><%= tpl.get('description') %></div>
       <div style="display:none">演示地址<font class="sont">>></font></div>
-      <div class="item-attr"><b>类别</b>：<%= tpl.get('klass_name') %> <br><b>色系</b>：<%= tpl.get('color_name') %> <br><b>行业</b>：<%= tpl.get('category_name') %> </div>
-      <div class="item-list-link"><a target="_blank" class="tooltip" title="请使用editor账号登陆担路网后再点击查看" href="http://www.demlution.com/company/?theme=<%= tpl.get('code') %>">点击查看使用的网站</a></div>
+      <div class="item-attr">
+        <b>类别</b>：<span style="color:orange;"><%= tpl.get('klass_name') %></span> <br>
+        <b>色系</b>：<span style="color:black;"><%= tpl.get('color_name') %> </span><br>
+        <b>行业</b>：<span style="color:#007ACF;"><%= tpl.get('category_name') %> </span>
+       </div>
+      <div class="item-list-link"><a target="_blank" class="tooltip" title="请使用editor账号登陆担路网后再点击查看" 
+        href="http://www.demlution.com/company/?theme=<%= tpl.get('code') %>"><img height="16" src="/images/hand_up_48.png" />点击查看使用的网站</a></div>
       <div class="item-name">模板编号：<%= tpl.get('name') %></div>
       </a>
   </div>
