@@ -180,6 +180,10 @@
 .img-items .item a:hover {text-decoration: none;}
 .img-items .item .item-img{display:block; margin-bottom:5px;}
 .img-items .item .item-dec, .img-items .item .item-attr, .img-items .item .item-list-link{padding:2px 10px;line-height: 20px;color:#777;}
+.img-items .item .item-dec {color:#444444; padding-bottom: 5px; font-weight: bold;}
+.img-items .item .item-attr b {color: #444444;}
+.img-items .item .item-list-link {font-style: italic;}
+
 .img-items .item .item-img img {width: 200px;}
 .img-items .item:hover .item-img img{opacity:.9;}
 .img-items .item .item-name {text-align:center;color: #9E7E6B;border-top: 1px solid #F2F2F2;background: #FAFAFA;position: relative;line-height: 24px;}
