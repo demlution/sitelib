@@ -2,9 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>{{ document.title }}-{{ site.title }}</title>
-        <meta content="担路网(Demlution.com)是一家满足于个性化需求的服务平台,用户免费发布需求,商家提供解决方案,我们倡导需求引导消费的生活模式,同时为中小商家提供一站式门户搭建,包括网站制作,网站推广,品牌建设.{{ document.description }}" name="description">
-        <meta content="担路网, 个性化需求, 定制化服务, 商家建站,网站制作,上海网站制作, 松江网站制作,上海最便宜的网站制作,网络推广,网站优化{{ document.keywords }}" name="keywords">
+        <title>{{ getPreparedTitle() }}</title>
+	<meta content="{{ getPreparedDescription() }}" name="description"/>
+        <meta content="{{ getPreparedKeywords()  }}" name="keywords">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="renderer" content="webkit">
         <meta name="viewport" content="target-densitydpi=device-dpi, width=1200px, user-scalable=yes">
