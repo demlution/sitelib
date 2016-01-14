@@ -46,6 +46,9 @@ App.models.Klass = Backbone.Model.extend({
 	urlRoot: API_ROOT + 'templateclass'
 })
 
+App.models.Prop = Backbone.Model.extend({
+	urlRoot: API_ROOT + 'templateproperty'
+})
 
 App.collections.CaseCollection = Backbone.Tastypie.Collection.extend({
 	// model: App.models.Case,
@@ -80,6 +83,16 @@ App.collections.KlassCollection = Backbone.Collection.extend({
 	// model: App.models.Case,
 	url: API_ROOT + 'templateclass',
 	model: App.models.Klass,
+	parse: function(response) {
+		return response.objects;
+	}
+})
+
+
+App.collections.PropCollection = Backbone.Collection.extend({
+	// model: App.models.Case,
+	url: API_ROOT + 'templateproperty',
+	model: App.models.Prop,
 	parse: function(response) {
 		return response.objects;
 	}
@@ -182,7 +195,31 @@ App.views.CategoryView = Backbone.View.extend({
 		}});
 		return this;
 	}
-})
+});
+
+App.views.PropView = Backbone.View.extend({
+	el: '#prop-wrap',
+	events: {
+		"click": "open"
+	},
+
+	initialize: function() {
+		this.isLoading = false;
+		this.propCollection = new App.collections.PropCollection();
+	},
+
+	render: function() {
+		var that = this;
+		this.propCollection.fetch({cache:true, success: function(propList) {
+			var propList = that.propCollection.models;
+			var template = _.template($('#prop-list-tpl').html());
+			var propHtml = template({propList: propList, options: App.options, _:_});
+			$(that.$el).html($(propHtml));
+		}});
+		return this;
+	}
+});
+
 
 App.views.CaseListView = Backbone.View.extend({
 	el: '#item-wrap',
@@ -258,6 +295,8 @@ App.views.CaseListView = Backbone.View.extend({
 var klassView = new App.views.KlassView();
 var colorView = new App.views.ColorView();
 var categoryView = new App.views.CategoryView();
+var propView = new App.views.PropView();
+
 var appView = new App.views.CaseListView();
 
 //colorView.render();
@@ -274,20 +313,24 @@ var Workspace = Backbone.Router.extend({
 		"": "list",
 		"t/search/:query": "search",
 
-		"t(/k:klass)(/c:category)(/o:color)(/p/:page)": "list",
+		"t(/k:klass)(/c:category)(/o:color)(/r:prop)(/p/:page)": "list",
 	},
 
 	index: function() {
 		appView.render();
 	},
 
-	list: function(klass, category, color, page, code) {
+	list: function(klass, category, color, prop, page, code) {
 		var options = {}
 		options.klass = parseInt(klass||0);
 		options.category = parseInt(category||0);
 		options.color = parseInt(color||0);
+		options.prop = parseInt(prop||0);
+
 		if (code)
 			options.code = code;
+		if (prop)
+			options.prop = prop;
 		if (page)
 			options.offset = (page - 1) * App.options.limit;
 		else
@@ -314,6 +357,7 @@ var Workspace = Backbone.Router.extend({
 			colorView.render();
 			categoryView.render();
 			klassView.render();
+			propView.render();
 		}});
 		appView.collection.on('reset', function() {
 			$('#item-wrap').masonry();

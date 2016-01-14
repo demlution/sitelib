@@ -5,7 +5,7 @@
 
 .wj-tip{ height:48px; border-bottom:1px solid #e7e7e7;background: #fff;}
 .wj-tip ins{ display:none;}
-.wj-tipcot {width:1200px;margin:0 auto;}
+.wj-tipcot {width:1160px;margin:0 auto;}
 .head_left{ float:left; padding-top:15px; display:block;}
 .head_left span {padding:0 5px;}
 .head_left li{ float:left;}
@@ -27,7 +27,7 @@
 
 .wj-header { border-bottom:1px #ddd solid;background: #fff; }
 .wj-hcot {height:100px;position:relative; width:1200px;margin:0 auto;}
-.wj-logo { position:absolute;left:-5px;top:0px; display:block; text-indent:-9999px; height:100px; width:400px;background:url(http://s2.d2scdn.com/static/img/nlogo.png) no-repeat 0 center;}
+.wj-logo { position:absolute;left:20px;top:0px; display:block; text-indent:-9999px; height:100px; width:400px;background:url(http://s2.d2scdn.com/static/img/dlogo.png) no-repeat 0 center;}
 .wj-nav { position:absolute;right:0; top:35px; width:870px; height:44px;padding:0 0 0 10px;_width:850px;}
 .wj-nav .wj-navcot {height:33px;line-height:30px; float:right;}
 .wj-nav li { float:left;padding:0 8px; font-size:16px;_width:130px; }
@@ -315,7 +315,7 @@
 .f-txt { color:#fff; font-size:20px; padding:40px 0 0 20px; text-align:left;}
 .f-txt .hd {  font-weight:noraml;margin-top:20px;font-size: 32px;}
 .f-txt .bd { margin-top:10px;}
-.f-phone { position:absolute; bottom:10px; right:0; font-size:18px; color:#fff;}
+.f-phone { position:absolute; bottom:10px; right:20px; font-size:18px; color:#fff;}
 .f-phone em { font-size:24px; font-style:normal;}
 
 .wj-left { float:left; width:180px;}
