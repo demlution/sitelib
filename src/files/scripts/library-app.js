@@ -365,7 +365,7 @@ var Workspace = Backbone.Router.extend({
 	},
 
 	search: function(query) {
-		this.list(0, 0, 0, 0, query);
+		this.list(0, 0, 0, 0, 0, query);
 	}
 });
 
